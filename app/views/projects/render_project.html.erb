@@ -1,4 +1,39 @@
-<% @projects.each do |project| %>
-    <td><%= project.name %></td>
-    <td><%= project.description %></td>
-<% end %>
+<!-- Background photo -->
+<img id="background-art" src="http://i65.tinypic.com/2q3xiye.jpg" alt="Image and video hosting by TinyPic">
+
+<!--============================== Contact info ==================================-->
+<!-- linkedin logo link -->
+<%= link_to (image_tag 'http://i66.tinypic.com/k3p160.jpg'), 'https://www.linkedin.com/in/guido-maximiliano-enrique/', class: 'linkedin-link' %>
+
+<!-- Google logo link -->
+<!-- <img id="google-link" src="http://i68.tinypic.com/e0gti.jpg" alt="Image and video hosting by TinyPic"> -->
+<%= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', class: 'google-link' %>
+
+<!-- Twitter logo link -->
+<%= link_to (image_tag 'http://i67.tinypic.com/2v0ok5z.jpg'), 'https://twitter.com/maxstang21', class: 'twitter-link' %>
+
+<!-- GitHub logo link -->
+<%= link_to (image_tag 'http://i67.tinypic.com/rjmj3a.jpg'), 'https://github.com/enriqueguido', class: 'github-link' %>
+
+<!-- Phone logo link -->
+<!-- <img id="phone-link" src="http://i64.tinypic.com/2h6x00x.jpg" alt="Image and video hosting by TinyPic"> -->
+<%= link_to (image_tag 'http://i64.tinypic.com/2h6x00x.jpg'), '', class: 'phone-link', :onclick => "window.open(this.'phone', 'height=600, width=600');return false;" %>
+
+
+<!--============================ Info about me ====================================-->
+<div class="bio">
+  I'am Max, a <strong>Full Stack</strong> web developer <br>
+  commited to excellence <br> &amp; inspired by challenges.
+</div>
+
+<div class="space-bar">
+</div>
+
+<!-- Directions to see my work -->
+<div class="directions">
+  Click anywhere on the page to see my work.
+</div>
+
+
+<!--=================================== Profile photo =============================-->
+  <img id="profile-photo" src="http://i63.tinypic.com/syqez8.jpg" alt="Image and video hosting by TinyPic">

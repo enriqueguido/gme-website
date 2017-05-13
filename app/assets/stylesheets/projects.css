@@ -1,0 +1,78 @@
+#profile-photo {
+  /*position: absolute;*/
+  margin-top: 4%;
+  margin-left: 55%;
+  height: 800px;
+  width: 800px;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  overflow: hidden;
+  position: fixed;
+  display: block;
+}
+.linkedin-link {
+  position: absolute;
+  margin-top: 20%;
+  margin-left: .5%;
+}
+
+.google-link {
+  position: absolute;
+  margin-top: 23%;
+  margin-left: .5%;
+}
+
+.twitter-link {
+  position: absolute;
+  margin-top: 26%;
+  margin-left: .5%;
+}
+
+.github-link {
+  position: absolute;
+  margin-top: 29%;
+  margin-left: .5%;
+}
+
+.phone-link {
+  position: absolute;
+  margin-top: 32%;
+  margin-left: .5%;
+}
+
+.bio {
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 15%;
+  margin-bottom: 0%;
+  font-size: 40px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+.directions {
+  position: absolute;
+  margin-top: 23%;
+  margin-left: 25%;
+  margin-bottom: 0%;
+  font-size: 20px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-align: center;
+}
+
+.space-bar {
+  background-color: #D15CEA;
+  width: 250px;
+  height: 3px;
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 30%;
+}
+
+#background-art {
+  position: fixed;
+  display: block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
