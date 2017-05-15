@@ -61,7 +61,11 @@ class ProjectsController < ApplicationController
     end
   end
 
-  def render_project
+  def project_description
+    @projects = Project.all
+  end
+
+  def project_home
     @projects = Project.all
   end
 

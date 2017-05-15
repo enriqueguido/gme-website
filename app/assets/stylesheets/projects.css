@@ -10,35 +10,41 @@
   overflow: hidden;
   position: fixed;
   display: block;
+  /*cursor:url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
 }
 .linkedin-link {
   position: absolute;
   margin-top: 20%;
   margin-left: .5%;
+  cursor: pointer;
 }
 
 .google-link {
   position: absolute;
   margin-top: 23%;
   margin-left: .5%;
+  cursor: pointer;
 }
 
 .twitter-link {
   position: absolute;
   margin-top: 26%;
   margin-left: .5%;
+  cursor: pointer;
 }
 
 .github-link {
   position: absolute;
   margin-top: 29%;
   margin-left: .5%;
+  cursor: pointer;
 }
 
 .phone-link {
   position: absolute;
   margin-top: 32%;
   margin-left: .5%;
+  cursor: pointer;
 }
 
 .bio {
@@ -49,6 +55,7 @@
   font-size: 40px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
+  cursor:url(http://i63.tinypic.com/2lsznkm.jpg), auto;
 }
 
 .directions {
@@ -75,4 +82,10 @@
   display: block;
   background-repeat: no-repeat;
   overflow: hidden;
+}
+
+a {
+  cursor:url(http://i63.tinypic.com/2lsznkm.jpg), auto;
+  width: 100px;
+  height: 100px;
 }

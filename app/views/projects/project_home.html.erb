@@ -1,3 +1,6 @@
+<!--============================ Make page clickable ============================-->
+<a> <%= link_to project_description_path do %>
+
 <!-- Background photo -->
 <img id="background-art" src="http://i65.tinypic.com/2q3xiye.jpg" alt="Image and video hosting by TinyPic">
 
@@ -19,6 +22,7 @@
 <!-- <img id="phone-link" src="http://i64.tinypic.com/2h6x00x.jpg" alt="Image and video hosting by TinyPic"> -->
 <%= link_to (image_tag 'http://i64.tinypic.com/2h6x00x.jpg'), '', class: 'phone-link', :popup => true %>
 
+
 <!--============================ Info about me ====================================-->
 <div class="bio">
   I'am Max, a <strong>Full Stack</strong> web developer <br>
@@ -36,3 +40,6 @@
 
 <!--=================================== Profile photo =============================-->
   <img id="profile-photo" src="http://i63.tinypic.com/syqez8.jpg" alt="Image and video hosting by TinyPic">
+
+  <% end %>
+</a>
