@@ -61,8 +61,16 @@ class ProjectsController < ApplicationController
     end
   end
 
-  def project_description
-    @projects = Project.all
+  def project3_description
+    @project = Project.find(3)
+  end
+
+  def project2_description
+    @project = Project.find(2)
+  end
+
+  def project1_description
+    @project = Project.find(1)
   end
 
   def project_home

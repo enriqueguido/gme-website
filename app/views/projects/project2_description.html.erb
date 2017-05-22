@@ -1,0 +1,10 @@
+<%# @projects.each do |project| %>
+  <%#= project.name %>
+  <%#= project.description %>
+<%# end %>
+
+<a> <%= link_to root_path do %>
+  <%= @project.name %>
+  <%= @project.description %>
+  <% end %>
+</a>
