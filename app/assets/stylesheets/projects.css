@@ -1,3 +1,5 @@
+/*============================================== Home Page ==============================================*/
+
 #profile-photo {
   /*position: absolute;*/
   margin-top: 4%;
@@ -10,40 +12,40 @@
   overflow: hidden;
   position: fixed;
   display: block;
-  /*cursor:url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
 }
 .linkedin-link {
   position: absolute;
   margin-top: 20%;
-  margin-left: .5%;
+  margin-left: 0;
   cursor: pointer;
 }
 
 .google-link {
   position: absolute;
   margin-top: 23%;
-  margin-left: .5%;
+  margin-left: 0;
   cursor: pointer;
 }
 
 .twitter-link {
   position: absolute;
   margin-top: 26%;
-  margin-left: .5%;
+  margin-left: 0;
   cursor: pointer;
 }
 
 .github-link {
   position: absolute;
   margin-top: 29%;
-  margin-left: .5%;
+  margin-left: 0;
   cursor: pointer;
 }
 
 .phone-link {
   position: absolute;
   margin-top: 32%;
-  margin-left: .5%;
+  margin-left: 0;
   cursor: pointer;
 }
 
@@ -55,7 +57,7 @@
   font-size: 40px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
-  cursor:url(http://i63.tinypic.com/2lsznkm.jpg), auto;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
 }
 
 .directions {
@@ -85,7 +87,68 @@
 }
 
 a {
-  cursor:url(http://i63.tinypic.com/2lsznkm.jpg), auto;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
   width: 100px;
   height: 100px;
+  text-decoration: none;
+}
+
+/*============================================== Project 1 ==============================================*/
+
+.project1-name {
+  position: absolute;
+  top: 200px;
+  margin-left: 71%;
+  font-size: 55px;
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+
+.project1-description {
+  position: absolute;
+  top: 300px;
+  margin-left: 63%;
+  margin-right: 6%;
+  /*margin-bottom: 0%;*/
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light";
+  text-align: center;
+  color: black;
+}
+
+#project1-background-art {
+  height: 100%;
+  width: 70%;
+  margin-right: 20%;
+  position: absolute;
+  display: inline-block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#wobblee-home-pg {
+  position: absolute;
+  top: 340px;
+  margin-left: 20%;
+  height: 440px;
+  width: 260px;
+}
+
+#wobblee-signup {
+  position: absolute;
+  top: 40px;
+  margin-left: 43%;
+  height: 390px;
+  width: 230px;
+  opacity: 0.9;
+}
+
+#wobblee-bubble-pg {
+  position: absolute;
+  top: 120px;
+  margin-left: 115px;
+  height: 390px;
+  width: 230px;
+  opacity: 0.7;
 }
