@@ -1,5 +1,6 @@
 /*============================================== Home Page ==============================================*/
 
+Profile photo
 #profile-photo {
   /*position: absolute;*/
   margin-top: 4%;
@@ -14,6 +15,9 @@
   display: block;
   cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
 }
+
+/*============================================== Contact info ==============================================*/
+
 .linkedin-link {
   position: absolute;
   margin-top: 20%;
@@ -49,6 +53,8 @@
   cursor: pointer;
 }
 
+/*============================================== Info about me ==============================================*/
+
 .bio {
   position: absolute;
   margin-top: 7%;
@@ -79,12 +85,16 @@
   margin-left: 30%;
 }
 
+/*============================================== Background photo ==============================================*/
+
 #background-art {
   position: fixed;
   display: block;
   background-repeat: no-repeat;
   overflow: hidden;
 }
+
+/*============================================== Make Page Clickable ==============================================*/
 
 a {
   cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
@@ -94,6 +104,8 @@ a {
 }
 
 /*============================================== Project 1 ==============================================*/
+
+/*============================================== Project Name & Description ==============================================*/
 
 .project1-name {
   position: absolute;
@@ -117,6 +129,8 @@ a {
   color: black;
 }
 
+/*============================================== Background Image ==============================================*/
+
 #project1-background-art {
   height: 100%;
   width: 70%;
@@ -126,6 +140,8 @@ a {
   background-repeat: no-repeat;
   overflow: hidden;
 }
+
+/*============================================== App Photos ==============================================*/
 
 #wobblee-home-pg {
   position: absolute;
@@ -152,3 +168,5 @@ a {
   width: 230px;
   opacity: 0.7;
 }
+
+/*============================================== GitHub Button ==============================================*/
