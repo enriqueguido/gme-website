@@ -1,10 +1,75 @@
-<%# @projects.each do |project| %>
-  <%#= project.name %>
-  <%#= project.description %>
-<%# end %>
+<!-- ======================================= Make Page Clickable ===================================================== -->
 
 <a> <%= link_to project3_description_path do %>
-  <%= @project.name %>
-  <%= @project.description %>
+
+<!-- ======================================= Project 2 Background ===================================================== -->
+
+  <div class="project2-background">
+    <img id="project2-background-art" src="http://i350.photobucket.com/albums/q404/enriqueguido/project2_background_zpscjgs3voy.png" alt="Image and video hosting by PhotoBucket">
+  </div>
+
+  <!-- ======================================= See More/Git Button ===================================================== -->
+
+  <div class="git-button-prjt2">
+    <!-- <strong> -->
+      <%= link_to 'See More', 'https://github.com/enriqueguido/with_me', class: "git-button-link-prjt2" %>
+    <!-- </strong> -->
+  </div>
+
+<!-- ======================================= Phone ===================================================== -->
+
+  <a> <%= link_to project3_description_path do %>
+    <div class="phone">
+      <img id="phone-image" src="http://i350.photobucket.com/albums/q404/enriqueguido/project2_phone_zpskdra8m9r.png" alt="Image and video hosting by PhotoBucket">
+    </div>
+    <% end %>
+  </a>
+
+<!-- ======================================= App Photo ===================================================== -->
+
+  <a> <%= link_to project3_description_path do %>
+    <div class="app-login">
+      <img id="app-login-screen" src="http://i350.photobucket.com/albums/q404/enriqueguido/Screen%20Shot%202017-05-26%20at%2011.44.07%20AM_zpsue8drfuo.png" alt="Image and video hosting by PhotoBucket">
+    </div>
+    <% end %>
+  </a>
+
+<!-- ======================================= Project Name & Description ===================================================== -->
+  <a> <%= link_to project3_description_path do %>
+    <div class="project2-name">
+        GoWithMe
+    </div>
+    <% end %>
+  </a>
+
+  <a> <%= link_to project3_description_path do %>
+    <div class="project2-description">
+    GoWithMe was designed as a mobile application. Built on Ruby
+    on Rails, the Eventbrite API lets the user find events and
+    communicate through the application to find other users to
+    go with to the event. Hosted on Heroku the application uses
+    Postgres for its database and Facebook OAuth was utilized
+    to facilitate a faster sign-up/sign-in process for the user.
+    The frontend was created with HTML, CSS, and Bootstrap.
+    All design mock- ups and wireframes were created using
+    Adobe Photoshop and Illustrator.
+    </div>
+    <% end %>
+  </a>
+
+<!-- ======================================= Home Logo Button ===================================================== -->
+  <div class="logo-link-to-prjt2">
+    <%= link_to root_path do %>
+    <div class="logo-prjt2">
+      <img id="logo-img-prjt2" src="http://i67.tinypic.com/10dcpl0.jpg" alt="Image and video hosting by TinyPic">
+    </div>
+    <% end %>
+  </div>
+
+
+
+
+
+
   <% end %>
 </a>

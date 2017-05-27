@@ -1,8 +1,6 @@
 /*============================================== Home Page ==============================================*/
 
-Profile photo
 #profile-photo {
-  /*position: absolute;*/
   margin-top: 4%;
   margin-left: 55%;
   height: 800px;
@@ -27,29 +25,33 @@ Profile photo
 
 .google-link {
   position: absolute;
-  margin-top: 23%;
+  margin-top: 22.81%;
   margin-left: 0;
   cursor: pointer;
 }
 
 .twitter-link {
   position: absolute;
-  margin-top: 26%;
+  margin-top: 25.5%;
   margin-left: 0;
   cursor: pointer;
 }
 
 .github-link {
   position: absolute;
-  margin-top: 29%;
+  margin-top: 28.25%;
   margin-left: 0;
   cursor: pointer;
 }
 
 .phone-link {
   position: absolute;
-  margin-top: 32%;
+  margin-top: 31%;
   margin-left: 0;
+  cursor: pointer;
+}
+
+.contact-logos {
   cursor: pointer;
 }
 
@@ -104,13 +106,14 @@ a {
 }
 
 /*============================================== Project 1 ==============================================*/
+/*=======================================================================================================*/
 
 /*============================================== Project Name & Description ==============================================*/
 
 .project1-name {
   position: absolute;
   top: 200px;
-  margin-left: 71%;
+  margin-left: 71.5%;
   font-size: 55px;
   font-family: sans-serif;
   text-align: center;
@@ -145,28 +148,245 @@ a {
 
 #wobblee-home-pg {
   position: absolute;
-  top: 340px;
-  margin-left: 20%;
-  height: 440px;
-  width: 260px;
+  top: 220px;
+  margin-left: 19%;
+  height: 490px;
+  width: 280px;
 }
 
 #wobblee-signup {
   position: absolute;
-  top: 40px;
-  margin-left: 43%;
-  height: 390px;
-  width: 230px;
-  opacity: 0.9;
-}
-
-#wobblee-bubble-pg {
-  position: absolute;
-  top: 120px;
-  margin-left: 115px;
-  height: 390px;
-  width: 230px;
+  top: 50px;
+  margin-left: 6%;
+  height: 470px;
+  width: 270px;
   opacity: 0.7;
 }
 
+#wobblee-bubble-pg {
+  position: fixed;
+  top: 420px;
+  margin-left: 35%;
+  height: 470px;
+  width: 270px;
+  opacity: 0.6;
+  overflow: hidden;
+  display: block;
+}
+
 /*============================================== GitHub Button ==============================================*/
+
+.git-button {
+  position: absolute;
+  top: 630px;
+  margin-left: 70%;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light";
+  font-size: 20px;
+  /*border: 2px solid blue;*/
+  padding: 10px 90px 10px 90px;
+  background-color: #325eea;
+  border-radius: 5px;
+}
+
+.git-button-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+/*============================================== Home Logo Button ==============================================*/
+
+#logo-img {
+  position: relative;
+  margin-left: 90%;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.logo-link-to {
+  cursor: pointer;
+}
+
+/*=================================================== Project 2 ======================================================*/
+/*===================================================================================================================*/
+
+/*============================================== Project 2 Background  ==============================================*/
+
+#project2-background-art {
+  height: 100%;
+  width: 70%;
+  position: absolute;
+  display: inline-block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-left: none;
+  margin-right: none;
+  margin-top: none
+}
+
+/*============================================== Phone With Hand  ==============================================*/
+
+.phone{
+  margin-left: 58%;
+  margin-top: 28px;
+  position: absolute;
+  display: inline-block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+}
+
+/*============================================== Project Name & Description  ==============================================*/
+
+.project2-name {
+  position: absolute;
+  top: 200px;
+  margin-left: 26.5%;
+  font-size: 55px;
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+}
+
+.project2-description {
+  position: absolute;
+  top: 300px;
+  margin-left: 18%;
+  margin-right: 45%;
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light";
+  text-align: center;
+  color: white;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+}
+
+/*============================================== Projec 2 Home Logo ==============================================*/
+
+#logo-img-prjt2 {
+  position: relative;
+  margin-left: 90%;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.logo-link-to-prjt2 {
+  cursor: pointer;
+}
+
+/*============================================== GitHub/See More Button ==============================================*/
+
+.git-button-prjt2 {
+  position: absolute;
+  top: 550px;
+  margin-left: 5%;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light";
+  font-size: 25px;
+  /*border: 2px solid blue;*/
+  padding: 10px 400px 10px 400px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.git-button-link-prjt2 {
+  cursor: pointer;
+  text-decoration: none;
+  color: #f88924;
+}
+
+/*============================================== GitHub/See More Button ==============================================*/
+
+#app-login-screen {
+  position: absolute;
+  top: 114px;
+  margin-left: 64.85%;
+  height: 548px;
+  width: 287px;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+}
+
+/*============================================== Project 3 ==============================================*/
+/*=======================================================================================================*/
+
+/*============================================== Project 3 Background  ==============================================*/
+
+#project3-background-art {
+  /*height: 120%;
+  width: 120%;*/
+  height: 900px;
+  width: 900px;
+  position: absolute;
+  display: inline-block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-left: none;
+  margin-right: none;
+  margin-top: none
+}
+
+/*============================================== Project Name & Description  ==============================================*/
+
+.project3-name {
+  position: absolute;
+  top: 300px;
+  margin-left: 70%;
+  font-size: 55px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #1983ff;
+  /*cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
+}
+
+.project3-description {
+  position: absolute;
+  top: 420px;
+  margin-left: 63%;
+  margin-right: 8%;
+  font-size: 18px;
+  font-family: "HelveticaNeue-Light";
+  text-align: center;
+  color: #1983ff;
+  /*cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
+}
+
+/*============================================== GitHub/See More Button ==============================================*/
+
+.git-button-prjt3 {
+  position: absolute;
+  top: 650px;
+  margin-left: 63%;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light";
+  font-size: 25px;
+  border: 2px solid #1983ff;
+  padding: 10px 150px 10px 150px;
+  background-color: white;
+  /*border-radius: 5px;*/
+}
+
+.git-button-link-prjt3 {
+  cursor: pointer;
+  text-decoration: none;
+  color: #1983ff;
+}
+
+/*============================================== Projec 2 Home Logo ==============================================*/
+
+#logo-img-prjt3 {
+  position: relative;
+  margin-left: 90%;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.logo-link-to-prjt3 {
+  cursor: pointer;
+}

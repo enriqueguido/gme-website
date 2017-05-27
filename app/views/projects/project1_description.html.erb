@@ -22,13 +22,14 @@
     <img id="wobblee-bubble-pg" src="http://i65.tinypic.com/1552fwi.jpg" alt="Image and video hosting by TinyPic">
   </div>
 
+  <div class="wobblee-signup">
+    <img id="wobblee-signup" src="http://i67.tinypic.com/ftmtj4.jpg" alt="Image and video hosting by TinyPic">
+  </div>
+
   <div class="wobblee-home-pg">
     <img id="wobblee-home-pg" src="http://i63.tinypic.com/1sgpi1.jpg" alt="Image and video hosting by TinyPic">
   </div>
 
-  <div class="wobblee-signup">
-    <img id="wobblee-signup" src="http://i67.tinypic.com/ftmtj4.jpg" alt="Image and video hosting by TinyPic">
-  </div>
 
 <!-- ======================================= Project Name & Description ===================================================== -->
 
@@ -52,13 +53,23 @@
     Adobe Photoshop and Illustrator.
   </div>
 
+<!-- ======================================= Home Logo Button ===================================================== -->
+
+<div class="logo-link-to">
+  <%= link_to root_path do %>
+  <div class="logo">
+    <img id="logo-img" src="http://i67.tinypic.com/10dcpl0.jpg" alt="Image and video hosting by TinyPic">
+  </div>
+  <% end %>
+</div>
+
 <!-- ======================================= GitHub Button ===================================================== -->
 
-  <!-- <%#= link_to "<button>Add</button>" %> -->
-
+<div class="git-button">
+  <!-- <strong> -->
+  <%= link_to 'See More', 'https://github.com/galinap684/wobbleeapp-', class: "git-button-link" %>
+  <!-- </strong> -->
+</div>
   <% end %>
 <!-- </div> -->
 </a>
-
-
-<!-- <%#= button_to "buy", "https://github.com/enriqueguido", method: :get %> -->
