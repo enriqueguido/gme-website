@@ -23,7 +23,7 @@
   cursor: pointer;
 }
 
-.google-link {
+#contact-link {
   position: absolute;
   margin-top: 22.81%;
   margin-left: 0;
@@ -316,68 +316,66 @@ a {
 
 /*============================================== Project 3 Background  ==============================================*/
 
-#project3-background-art {
-  /*height: 120%;
-  width: 120%;*/
-  height: 900px;
-  width: 900px;
-  position: absolute;
-  display: inline-block;
+.project3-background-art3 #project3-background-art3 {
+  position: fixed;
+  display: block;
   background-repeat: no-repeat;
   overflow: hidden;
-  margin-left: none;
-  margin-right: none;
-  margin-top: none
+  height: 100vh;
+  width: 100vw;
+  margin-left: -8px;
 }
 
 /*============================================== Project Name & Description  ==============================================*/
 
 .project3-name {
   position: absolute;
-  top: 300px;
-  margin-left: 70%;
+  top: 170px;
+  margin-left: 41%;
   font-size: 55px;
   font-family: sans-serif;
   text-align: center;
-  color: #1983ff;
+  color: black;
   /*cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
 }
 
 .project3-description {
   position: absolute;
-  top: 420px;
-  margin-left: 63%;
-  margin-right: 8%;
+  top: 290px;
+  margin-left: 31%;
+  margin-right: 32%;
   font-size: 18px;
   font-family: "HelveticaNeue-Light";
   text-align: center;
-  color: #1983ff;
+  color: black;
   /*cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
 }
+
 
 /*============================================== GitHub/See More Button ==============================================*/
 
 .git-button-prjt3 {
   position: absolute;
-  top: 650px;
-  margin-left: 63%;
+  top: 480px;
+  margin-left: 35%;
   cursor: pointer;
   text-decoration: none;
   font-family: "HelveticaNeue-Light";
   font-size: 25px;
-  border: 2px solid #1983ff;
+  border: 3px solid #ff3778;
   padding: 10px 150px 10px 150px;
-  background-color: white;
-  /*border-radius: 5px;*/
+  background-color: #ff3778;
+  border-radius: 50px;
 }
 
 .git-button-link-prjt3 {
   cursor: pointer;
   text-decoration: none;
-  color: #1983ff;
+  /*color: #ff3778;*/
+  color: white;
 }
 
-/*============================================== Projec 2 Home Logo ==============================================*/
+/*============================================== Projec 3 Home Logo ==============================================*/
 
 #logo-img-prjt3 {
   position: relative;
@@ -390,3 +388,54 @@ a {
 .logo-link-to-prjt3 {
   cursor: pointer;
 }
+
+/*============================================== Email Popup Window ==============================================*/
+/*================================================================================================================*/
+
+/*@import "https://fonts.googleapis.com/css?family=Raleway";
+* { box-sizing: border-box; }
+#contact {
+  -webkit-user-select: none;  Chrome/Safari
+  -moz-user-select: none;  Firefox
+  -ms-user-select: none;  IE10+
+}*/
+
+/*#contact:hover { background: #666; }*/
+/*#contact:active { background: #444; }*/
+
+#contactForm {
+  display: none;
+  border: 6px solid salmon;
+  padding: 2em;
+  width: 400px;
+  text-align: center;
+  background: #fff;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+}
+/*
+input, textarea {
+  margin: .8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  display: block;
+  width: 280px;
+  padding: .4em;
+}
+textarea { height: 80px; resize: none; }
+
+.formBtn {
+  width: 140px;
+  display: inline-block;
+  background: teal;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}*/

@@ -5,26 +5,44 @@
   <img id="background-art" src="http://i65.tinypic.com/2q3xiye.jpg" alt="Image and video hosting by TinyPic">
 
 <!--============================== Contact info ==================================-->
-<div class="contact-logos">
+  <div class="contact-logos">
 
-<!-- linkedin logo link -->
-  <%= link_to (image_tag 'http://i66.tinypic.com/k3p160.jpg'), 'https://www.linkedin.com/in/guido-maximiliano-enrique/', class: 'linkedin-link' %>
+  <!-- linkedin logo link -->
+    <%= link_to (image_tag 'http://i66.tinypic.com/k3p160.jpg'), 'https://www.linkedin.com/in/guido-maximiliano-enrique/', class: 'linkedin-link' %>
 
-<!-- Google logo link -->
-<!-- <img id="google-link" src="http://i68.tinypic.com/e0gti.jpg" alt="Image and video hosting by TinyPic"> -->
-  <%= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', class: 'google-link' %>
+  <!--==================================== Google logo link ===================================-->
+    <!-- <%#= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'google-link', :popup => true %> -->
+    <span onclick="contactModal()">
+      <%= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'contact-link', :popup => true %>
+    </span>
+  <!-- </span> -->
 
-<!-- Twitter logo link -->
-  <%= link_to (image_tag 'http://i67.tinypic.com/2v0ok5z.jpg'), 'https://twitter.com/maxstang21', class: 'twitter-link' %>
+  <!--===================================== Twitter logo link ===============================-->
+    <%= link_to (image_tag 'http://i67.tinypic.com/2v0ok5z.jpg'), 'https://twitter.com/maxstang21', class: 'twitter-link' %>
 
-<!-- GitHub logo link -->
-  <%= link_to (image_tag 'http://i67.tinypic.com/rjmj3a.jpg'), 'https://github.com/enriqueguido', class: 'github-link' %>
+  <!--============================================ GitHub logo link ============================-->
+    <%= link_to (image_tag 'http://i67.tinypic.com/rjmj3a.jpg'), 'https://github.com/enriqueguido', class: 'github-link' %>
 
-<!-- Phone logo link -->
-<!-- <img id="phone-link" src="http://i64.tinypic.com/2h6x00x.jpg" alt="Image and video hosting by TinyPic"> -->
-  <%= link_to (image_tag 'http://i64.tinypic.com/2h6x00x.jpg'), '', class: 'phone-link', :popup => true %>
+  <!--========================================= Phone logo link ===================================-->
+  <!-- <img id="phone-link" src="http://i64.tinypic.com/2h6x00x.jpg" alt="Image and video hosting by TinyPic"> -->
+    <span onclick="phonePopup()">
+      <%= link_to (image_tag 'http://i64.tinypic.com/2h6x00x.jpg'), '', class: 'phone-link', :popup => true %>
+    </span>
 
-</div>
+    <script>
+      function phonePopup() {
+        alert("You may reach me at (954) 553-5814");
+      }
+      // $(function(){
+      //   $('.phonePopup').click(function(){
+      //     $('#contactForm').fadeToggle();
+      //   });
+      // });
+    </script>
+
+
+
+  </div>
 
 <!--============================ Info about me ====================================-->
   <div class="bio">
@@ -42,7 +60,7 @@
 
 
 <!--=================================== Profile photo =============================-->
-<!-- <%#= link_to (image_tag 'http://i63.tinypic.com/syqez8.jpg'), '', class: 'profile-photo' %> -->
+
   <a>
     <%= link_to project1_description_path do %>
     <img id="profile-photo" src="http://i63.tinypic.com/syqez8.jpg" alt="Image and video hosting by TinyPic">
@@ -51,3 +69,45 @@
 
   <% end %>
 </a>
+
+<!--=================================== Contact Form =============================-->
+
+<!-- <div id="contact">
+</div> -->
+
+<!-- <span onclick="contact()"> -->
+<!-- <button> -->
+  <!-- <%#= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'contact', :popup => true %> -->
+<!-- </button> -->
+<!-- </span> -->
+
+<!-- <p> -->
+<script>
+  $(function contactModal() {
+  // contact form animations
+  $('#contact-link').click(function() {
+    $('#contactForm').fadeToggle('slow');
+  })
+  $(document).mouseup(function (e) {
+    var container = $("#contactForm");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+      && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+      container.fadeOut();
+    }
+    });
+  });
+</script>
+<div id="contactForm">
+  <form action="https://formspree.io/guido.m.enrique@gmail.com"
+      method="POST">
+    <input placeholder="Name" type="text" Name="Name" required />
+    <input placeholder="Email" type="email" Name="_replyto" required />
+    <input placeholder="Subject" type="text" required />
+    <textarea placeholder="Comment"></textarea>
+    <input class="formBtn" type="submit" />
+    <input class="formBtn" type="reset" />
+  </form>
+</div>
+<!-- </p> -->
