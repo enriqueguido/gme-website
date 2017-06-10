@@ -45,6 +45,7 @@ and (max-device-width : 480px) {
   margin-top: 22.81%;
   margin-left: 0;
   cursor: pointer;
+  
 }
 
 .twitter-link {
@@ -456,6 +457,10 @@ textarea { height: 80px; resize: none; }
   font-size: 1.2em;
   border: none;
   height: 30px;
+}
+
+.hidden {
+  display: none;
 }
 
 /* ===================================================================================================================== */

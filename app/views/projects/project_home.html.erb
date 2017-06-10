@@ -12,9 +12,12 @@
 
 <!--==================================== Google logo link ===================================-->
     <!-- <%#= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'google-link', :popup => true %> -->
-    <span class="contact-link">
-      <%= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'contact-link', :popup => true %>
-    <!-- </span> -->
+  <span onclick="contactLink()">
+    <%#= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'contact-link', :popup => true %>
+  <!-- </span> -->
+  <%= button_tag (image_tag 'http://i68.tinypic.com/e0gti.jpg'), :onclick => '$("#contact-link").click()', id: 'contact-link', remote: true %>
+
+    <%#= button_tag (image_tag 'http://i68.tinypic.com/e0gti.jpg'), :onclick => '$("#contact-link").click()', id: 'contact-link', popup: true %>
   </span>
 
 <!--===================================== Twitter logo link ===============================-->
@@ -58,76 +61,48 @@
 <!-- </a> -->
 
 <!--=================================== Contact Form =============================-->
-
-<!-- <div id="contact">
-</div> -->
-
-<!-- <span onclick="contact()"> -->
-<!-- <button> -->
-  <!-- <%#= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'contact', :popup => true %> -->
-<!-- </button> -->
-<!-- </span> -->
-
-<!-- <p> -->
 <script>
-// $(document).on('turbolinks:load', function() {
-//   $('.contact-link').click(function(){
-//     $('#contactForm').fadeToggle('slow');
-//   });
-//   $(document).mouseup(function (e) {
-//     var container = $("#contactForm");
-//
-//     if (!container.is(e.target) // if the target of the click isn't the container...
-//       && container.has(e.target).length === 0) // ... nor a descendant of the container
-//     {
-//       container.fadeOut();
-//     }
-//   });
-// });
+// $(function phoneLink(){
+  $("#contact-link").click(function(){
+    $('#contact-form').fadeToggle();
+  });
+// })
+  $(document).mouseup(function (e) {
+    var container = $("#contactForm");
 
-</script>
-
-<script>
-$(function() {
-  // contact form animations
-  $('.contact-link').click(function() {
-    $('.contact-form').fadeToggle();
-  })
-  // $(document).mouseup(function (e) {
-  //   var container = $(".contact-form");
-  //
-  //   if (!container.is(e.target) // if the target of the click isn't the container...
-  //       && container.has(e.target).length === 0) // ... nor a descendant of the container
-  //   {
-  //       container.fadeOut();
-  //   }
-  // });
-
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.fadeOut();
+    }
   });
 </script>
 
-<div class="contact-form">
-    <div class="container">
-        <%= form_tag('https://formspree.io/guido.m.enrique@gmail.com', {:method => :post}) do %>
-            <div class="form-group">
-                <%= label_tag 'name', 'Name' %>
-                <%= text_field_tag 'name', nil, class: 'form-control', placeholder: 'Your Name' %>
-            </div>
-           <div class="form-group">
-               <%= label_tag 'email', 'Email' %>
-               <%= email_field_tag 'email', nil, class: 'form-control', placeholder: 'Your Email Address' %>
-           </div>
-           <div class="form-group">
-               <%= label_tag 'comments', 'Comments' %>
-               <%= text_area_tag 'comments', nil, class: 'form-control', rows: 4, placeholder: 'Comments...' %>
-           </div>
-           <%= submit_tag nil, class: 'btn btn-default btn-about pull-right' %>
-       <% end %>
-  </div>
-</div>
 
-<!-- <div id="contact-form">
-  <form action="https://formspree.io/guido.m.enrique@gmail.com"
+<div id="contact-form">
+  <%= form_for Contact.new do |f| %>
+    <%= f.label :name %> <br>
+    <%= f.text_field :name, require: true %>
+
+    <br>
+
+    <%= f.label :email %> <br>
+    <%= f.email_field :email, require: true %>
+
+    <br>
+
+    <%= f.label :message %> <br>
+    <%= f.text_area :message, as: :text %>
+
+    <div class="hidden">
+      <%= f.label :nickname %> <br>
+      <%= f.text_field :nickname, hint: 'Leave this field blank' %>
+    </div>
+
+    <%= f.submit 'Send', class: 'formBtn' %>
+  <% end %>
+</div>
+  <!-- <form action="https://formspree.io/guido.m.enrique@gmail.com"
       method="POST">
     <input placeholder="Name" type="text" Name="Name" required />
     <input placeholder="Email" type="email" Name="_replyto" required />
