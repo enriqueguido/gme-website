@@ -1,3 +1,4 @@
+
 <!-- ======================================= Make Page Clickable ===================================================== -->
 <a> <%= link_to project2_description_path do %>
 
@@ -15,6 +16,7 @@
   <div class="project1-background-art">
     <img id="project1-background-art" src="http://i64.tinypic.com/34ssf9g.jpg" alt="Image and video hosting by TinyPic">
   </div>
+
 
 <!-- ======================================= App Photos ===================================================== -->
 
@@ -55,21 +57,28 @@
 
 <!-- ======================================= Home Logo Button ===================================================== -->
 
-<div class="logo-link-to">
-  <%= link_to root_path do %>
-  <div class="logo">
-    <img id="logo-img" src="http://i67.tinypic.com/10dcpl0.jpg" alt="Image and video hosting by TinyPic">
+  <div class="logo-link-to">
+    <%= link_to root_path do %>
+    <div class="logo">
+      <img id="logo-img" src="http://i67.tinypic.com/10dcpl0.jpg" alt="Image and video hosting by TinyPic">
+    </div>
+    <% end %>
   </div>
-  <% end %>
-</div>
 
 <!-- ======================================= GitHub Button ===================================================== -->
 
-<div class="git-button">
-  <!-- <strong> -->
-  <%= link_to 'See More', 'https://github.com/galinap684/wobbleeapp-', class: "git-button-link" %>
-  <!-- </strong> -->
-</div>
-  <% end %>
-<!-- </div> -->
+  <div class="git-button">
+    <!-- <strong> -->
+    <%= link_to 'See More', 'https://github.com/galinap684/wobbleeapp-', class: "git-button-link" %>
+    <!-- </strong> -->
+  </div>
+    <% end %>
+  <!-- </div> -->
+
 </a>
+
+<!-- ======================================= Left Side Courser ===================================================== -->
+
+<%= link_to root_path do %>
+  <div class="left-side-cursor"></div>
+<% end %>

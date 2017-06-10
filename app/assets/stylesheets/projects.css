@@ -1,5 +1,22 @@
 /*============================================== Home Page ==============================================*/
+/*@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  #profile-photo {
+    margin-top: 80%;
+    margin-left: 11%;
+    height: 930px;
+    width: 915px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    overflow: hidden;
+    position: fixed;
+    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+  }
+}*/
 
+/*@media screen and (max-width: 320px) only */
 #profile-photo {
   margin-top: 4%;
   margin-left: 55%;
@@ -231,7 +248,7 @@ a {
 
 .phone{
   margin-left: 58%;
-  margin-top: 28px;
+  margin-top: -55px;
   position: absolute;
   display: inline-block;
   background-repeat: no-repeat;
@@ -292,6 +309,7 @@ a {
   padding: 10px 400px 10px 400px;
   background-color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .git-button-link-prjt2 {
@@ -400,8 +418,8 @@ a {
   -ms-user-select: none;  IE10+
 }*/
 
-/*#contact:hover { background: #666; }*/
-/*#contact:active { background: #444; }*/
+#contact:hover { /*background: #666; */}
+#contact:active { /*background: #444;*/ }
 
 #contactForm {
   display: none;
@@ -416,7 +434,7 @@ a {
   transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%)
 }
-/*
+
 input, textarea {
   margin: .8em auto;
   font-family: inherit;
@@ -438,4 +456,18 @@ textarea { height: 80px; resize: none; }
   font-size: 1.2em;
   border: none;
   height: 30px;
-}*/
+}
+
+/* ===================================================================================================================== */
+/*============================================== Left Side of Page Cursor  ==============================================*/
+.left-side-cursor {
+  /*background-color: #ff3778;*/
+  position: fixed;
+  top: -7px;
+  bottom: -10px;
+  height: 100%;
+  width: 49%;
+  cursor: pointer;
+  margin-bottom: -10px;
+  cursor:url("http://i350.photobucket.com/albums/q404/enriqueguido/mouse-cursor-left_zpsdi5hzbks.png"), auto;
+}
