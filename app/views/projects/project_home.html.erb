@@ -11,14 +11,14 @@
     <%= link_to (image_tag 'http://i66.tinypic.com/k3p160.jpg'), 'https://www.linkedin.com/in/guido-maximiliano-enrique/', class: 'linkedin-link' %>
 
 <!--==================================== Google logo link ===================================-->
-    <!-- <%#= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'google-link', :popup => true %> -->
-  <span onclick="contactLink()">
+    <%= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), new_contact_path, id: 'contact-link', :popup => true %>
+  <!-- <span onclick="contactLink()"> -->
     <%#= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'contact-link', :popup => true %>
   <!-- </span> -->
-  <%= button_tag (image_tag 'http://i68.tinypic.com/e0gti.jpg'), :onclick => '$("#contact-link").click()', id: 'contact-link', remote: true %>
+  <!-- <%= button_tag (image_tag 'http://i68.tinypic.com/e0gti.jpg'), :onclick => '$("#contact-link").click()', id: 'contact-link', remote: true %> -->
 
     <%#= button_tag (image_tag 'http://i68.tinypic.com/e0gti.jpg'), :onclick => '$("#contact-link").click()', id: 'contact-link', popup: true %>
-  </span>
+  <!-- </span> -->
 
 <!--===================================== Twitter logo link ===============================-->
     <%= link_to (image_tag 'http://i67.tinypic.com/2v0ok5z.jpg'), 'https://twitter.com/maxstang21', class: 'twitter-link' %>
@@ -61,7 +61,7 @@
 </a>
 
 <!--=================================== Contact Form =============================-->
-<script>
+<!-- <script>
 // $(function phoneLink(){
   $("#contact-link").click(function(){
     $('#contact-form').fadeToggle();
@@ -76,32 +76,32 @@
         container.fadeOut();
     }
   });
-</script>
+</script> -->
 
 
-<div id="contact-form">
-  <%= form_for Contact.new do |f| %>
-    <%= f.label :name %> <br>
-    <%= f.text_field :name, require: true %>
-
-    <br>
-
-    <%= f.label :email %> <br>
-    <%= f.email_field :email, require: true %>
+<!-- <div id="contact-form">
+  <%#= form_for Contact.new do |f| %>
+    <%#= f.label :name %> <br>
+    <%#= f.text_field :name, require: true %>
 
     <br>
 
-    <%= f.label :message %> <br>
-    <%= f.text_area :message, as: :text %>
+    <%#= f.label :email %> <br>
+    <%#= f.email_field :email, require: true %>
+
+    <br>
+
+    <%#= f.label :message %> <br>
+    <%#= f.text_area :message, as: :text %>
 
     <div class="hidden">
-      <%= f.label :nickname %> <br>
-      <%= f.text_field :nickname, hint: 'Leave this field blank' %>
+      <%#= f.label :nickname %> <br>
+      <%#= f.text_field :nickname, hint: 'Leave this field blank' %>
     </div>
 
-    <%= f.submit 'Send', class: 'formBtn' %>
-  <% end %>
-</div>
+    <%#= f.submit 'Send', class: 'formBtn' %>
+  <%# end %>
+</div> -->
   <!-- <form action="https://formspree.io/guido.m.enrique@gmail.com"
       method="POST">
     <input placeholder="Name" type="text" Name="Name" required />
