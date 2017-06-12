@@ -1,23 +1,53 @@
-<div id="contact-form">
-  <%= form_for Contact.new do |f| %>
-    <%= f.label :name %> <br>
-    <%= f.text_field :name, require: true %>
+<!-- ======================================= Home Logo Button ===================================================== -->
+<!-- <body class="<%#= ContactsController.new, :class => "background" %>">
+
+</body> -->
+
+<body class="background">
+
+</body>
+
+  <div class="logo-link-to">
+    <%= link_to root_path do %>
+    <div class="logo">
+      <img id="logo-img" src="http://i67.tinypic.com/10dcpl0.jpg" alt="Image and video hosting by TinyPic">
+    </div>
+    <% end %>
+  </div>
+
+<!-- <div id="contact-form">
+  <%#= form_for Contact.new do |f| %>
+    <%#= f.label :name %> <br>
+    <%#= f.text_field :name, require: true %>
 
     <br>
 
-    <%= f.label :email %> <br>
-    <%= f.email_field :email, require: true %>
+    <%#= f.label :email %> <br>
+    <%#= f.email_field :email, require: true %>
 
     <br>
 
-    <%= f.label :message %> <br>
-    <%= f.text_area :message, as: :text %>
+    <%#= f.label :message %> <br>
+    <%#= f.text_area :message, as: :text %>
 
     <div class="hidden">
-      <%= f.label :nickname %> <br>
-      <%= f.text_field :nickname, hint: 'Leave this field blank' %>
+      <%#= f.label :nickname %> <br>
+      <%#= f.text_field :nickname, hint: 'Leave this field blank' %>
     </div>
 
-    <%= f.submit 'Send', class: 'formBtn' %>
-  <% end %>
+    <%#= f.submit 'Send', class: 'formBtn' %>
+  <%# end %>
+</div> -->
+<!-- ======================================= Contact Form ===================================================== -->
+
+</div>
+  <form action="https://formspree.io/guido.m.enrique@gmail.com"
+      method="POST">
+    <input placeholder="Name" type="text" Name="Name" required />
+    <input placeholder="Email" type="email" Name="_replyto" required />
+    <input placeholder="Subject" type="text" required />
+    <textarea placeholder="Comment"></textarea>
+    <input class="formBtn" type="submit" />
+    <input class="formBtn" type="reset" />
+  </form>
 </div>
