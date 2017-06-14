@@ -1,4 +1,4 @@
-/*============================================== Headings/Paragraphs ==============================================*/
+/*============================================== Headings/Paragraphs/Contact Info ==============================================*/
 
 .heading {
   display: flex;
@@ -13,10 +13,27 @@
 }
 
 .message {
+  position: absolute;
+  left: 550px;
+  top: 400px;
   display: flex;
   justify-content: center;
   padding: 0px;
-  font-size: 15px;
+  font-size: 20px;
+  /*text-align: center;*/
+  font-family: "HelveticaNeue-Light";
+  color: #9fbc93;
+}
+
+.phone-number {
+  position: absolute;
+  left: 605px;
+  /*top: 500px;*/
+  bottom: 150px;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  font-size: 20px;
   text-align: center;
   font-family: "HelveticaNeue-Light";
   color: #9fbc93;
@@ -81,6 +98,10 @@ textarea { height: 420px; resize: none; }*/
   height: 30px;
   margin-bottom: 300px;
 }*/
+
+input:focus { outline: none; }
+
+textarea:focus { outline: none; }
 
 .submit-button {
   position: absolute;

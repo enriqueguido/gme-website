@@ -83,6 +83,7 @@ and (max-device-width : 480px) {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
   cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+  text-decoration: none;
 }
 
 .directions {
@@ -93,6 +94,7 @@ and (max-device-width : 480px) {
   font-size: 20px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   text-align: center;
+  text-decoration: none;
 }
 
 .space-bar {
@@ -102,6 +104,7 @@ and (max-device-width : 480px) {
   position: absolute;
   margin-top: 21%;
   margin-left: 30%;
+  text-decoration: none;
 }
 
 /*============================================== Background photo ==============================================*/
@@ -111,6 +114,7 @@ and (max-device-width : 480px) {
   display: block;
   background-repeat: no-repeat;
   overflow: hidden;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
 }
 
 /*============================================== Make Page Clickable ==============================================*/
@@ -120,6 +124,19 @@ and (max-device-width : 480px) {
   width: 100px;
   height: 100px;
   text-decoration: none;
+}
+
+.right-side-cursor-home {
+  background-color: black;
+  position: fixed;
+  /*right: -1px;*/
+  /*top: -7px;*/
+  /*bottom: -10px;*/
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  /*margin-bottom: -10px;*/
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
 }
 
 /*============================================== Project 1 ==============================================*/
@@ -135,6 +152,7 @@ and (max-device-width : 480px) {
   font-family: sans-serif;
   text-align: center;
   color: black;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
 }
 
 .project1-description {
@@ -147,6 +165,7 @@ and (max-device-width : 480px) {
   font-family: "HelveticaNeue-Light";
   text-align: center;
   color: black;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
 }
 
 /*============================================== Background Image ==============================================*/
@@ -159,6 +178,7 @@ and (max-device-width : 480px) {
   display: inline-block;
   background-repeat: no-repeat;
   overflow: hidden;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
 }
 
 /*============================================== App Photos ==============================================*/
@@ -247,9 +267,11 @@ and (max-device-width : 480px) {
 /*============================================== Phone With Hand  ==============================================*/
 
 .phone{
-  margin-left: 58%;
-  margin-top: -55px;
+  /*margin-left: 400px;*/
+  /*margin-top: -55px;*/
   position: absolute;
+  top: 37px;
+  right: -15.2px;
   display: inline-block;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -291,7 +313,13 @@ and (max-device-width : 480px) {
   cursor: pointer;
 }
 
-.logo-link-to-prjt2 {
+.logo-empty {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  /*background-color: red;*/
+  right: 60px;
+  top: 0px;
   cursor: pointer;
 }
 
@@ -407,6 +435,10 @@ and (max-device-width : 480px) {
   cursor: pointer;
 }
 
+.logo-prjt3 {
+  cursor: pointer;
+}
+
 /* ===================================================================================================================== */
 /*============================================== Left Side of Page Cursor  ==============================================*/
 .left-side-cursor {
@@ -419,4 +451,17 @@ and (max-device-width : 480px) {
   cursor: pointer;
   margin-bottom: -10px;
   cursor:url("http://i350.photobucket.com/albums/q404/enriqueguido/mouse-cursor-left_zpsdi5hzbks.png"), auto;
+}
+
+.right-side-cursor {
+  /*background-color: black;*/
+  position: fixed;
+  right: -1px;
+  top: -7px;
+  bottom: -10px;
+  height: 100%;
+  width: 49%;
+  cursor: pointer;
+  margin-bottom: -10px;
+  cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
 }

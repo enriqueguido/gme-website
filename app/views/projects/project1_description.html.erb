@@ -1,16 +1,12 @@
+<!-- ======================================= Right Side Courser ===================================================== -->
+
+<%= link_to project2_description_path do %>
+  <div class="right-side-cursor"></div>
+<% end %>
 
 <!-- ======================================= Make Page Clickable ===================================================== -->
-<a> <%= link_to project2_description_path do %>
-
-  <!-- <div class="background-color-project1"> -->
-
-    <!-- <div class="project1-name">
-      <%#= @project.name %>
-    </div>
-
-    <div class="project1_description">
-      <%#= (@project.description).gsub(/\n/, '<br/>') %>
-    </div> -->
+<a class="click">
+   <%= link_to project2_description_path do %>
 
 <!-- ======================================= Background Image ===================================================== -->
   <div class="project1-background-art">
@@ -34,26 +30,27 @@
 
 
 <!-- ======================================= Project Name & Description ===================================================== -->
-
-  <div class="project1-name">
-    <!-- <strong> -->
+  <a class="click">
+    <%= link_to project2_description_path do %>
+    <div class="project1-name">
       Wobble
-    <!-- </strong> -->
-  </div>
+    </div>
 
-  <div class="project1-description">
-    Wobblee was created as a mobile application utilizing Ruby
-    and Ruby on Rails for the backend. The app renders data
-    by checking your reaction time and provides advice
-    based on your intoxication level.
-    The application relies heavily on JavaScript for reaction time
-    measurements as bubbles randomly appear
-    on the screen and the user is timed only on the green bubble
-    that appears on the screen.
-    The frontend of this application was created using HTML, and CSS,
-    while all wireframing and high fidelity designs were created in
-    Adobe Photoshop and Illustrator.
-  </div>
+    <div class="project1-description">
+      Wobblee was created as a mobile application utilizing Ruby
+      and Ruby on Rails for the backend. The app renders data
+      by checking your reaction time and provides advice
+      based on your intoxication level.
+      The application relies heavily on JavaScript for reaction time
+      measurements as bubbles randomly appear
+      on the screen and the user is timed only on the green bubble
+      that appears on the screen.
+      The frontend of this application was created using HTML, and CSS,
+      while all wireframing and high fidelity designs were created in
+      Adobe Photoshop and Illustrator.
+    </div>
+    <% end %>
+  </a>
 
 <!-- ======================================= Home Logo Button ===================================================== -->
 

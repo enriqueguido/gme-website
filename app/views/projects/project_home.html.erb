@@ -1,25 +1,33 @@
+<%= link_to project1_description_path do %>
+  <div class="right-side-cursor-home"></div>
+<% end %>
+
 <!--============================ Make page clickable ============================-->
 <a class="click">
   <%= link_to project1_description_path do %>
 
 <!-- =========================== Background photo ================================-->
-  <img id="background-art" src="http://i65.tinypic.com/2q3xiye.jpg" alt="Image and video hosting by TinyPic">
+
+  <a class="click">
+    <%= link_to project1_description_path do %>
+      <img id="background-art" src="http://i65.tinypic.com/2q3xiye.jpg" alt="Image and video hosting by TinyPic">
+    <% end %>
+  </a>
 
 <!--============================== Contact info ==================================-->
   <div class="contact-logos">
-
-  <!-- linkedin logo link -->
+    <!-- linkedin logo link -->
     <%= link_to (image_tag 'http://i66.tinypic.com/k3p160.jpg'), 'https://www.linkedin.com/in/guido-maximiliano-enrique/', class: 'linkedin-link' %>
 
 <!--==================================== Google logo link ===================================-->
     <%= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), new_contact_path, id: 'contact-link', :popup => true %>
-  <!-- <span onclick="contactLink()"> -->
-    <%#= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'contact-link', :popup => true %>
-  <!-- </span> -->
-  <!-- <%= button_tag (image_tag 'http://i68.tinypic.com/e0gti.jpg'), :onclick => '$("#contact-link").click()', id: 'contact-link', remote: true %> -->
+    <!-- <span onclick="contactLink()"> -->
+      <%#= link_to (image_tag 'http://i68.tinypic.com/e0gti.jpg'), '', id: 'contact-link', :popup => true %>
+    <!-- </span> -->
+    <!-- <%= button_tag (image_tag 'http://i68.tinypic.com/e0gti.jpg'), :onclick => '$("#contact-link").click()', id: 'contact-link', remote: true %> -->
 
-    <%#= button_tag (image_tag 'http://i68.tinypic.com/e0gti.jpg'), :onclick => '$("#contact-link").click()', id: 'contact-link', popup: true %>
-  <!-- </span> -->
+      <%#= button_tag (image_tag 'http://i68.tinypic.com/e0gti.jpg'), :onclick => '$("#contact-link").click()', id: 'contact-link', popup: true %>
+    <!-- </span> -->
 
 <!--===================================== Twitter logo link ===============================-->
     <%= link_to (image_tag 'http://i67.tinypic.com/2v0ok5z.jpg'), 'https://twitter.com/maxstang21', class: 'twitter-link' %>
@@ -28,14 +36,14 @@
     <%= link_to (image_tag 'http://i67.tinypic.com/rjmj3a.jpg'), 'https://github.com/enriqueguido', class: 'github-link' %>
 
 <!--========================================= Phone logo link ===================================-->
-  <!-- <img id="phone-link" src="http://i64.tinypic.com/2h6x00x.jpg" alt="Image and video hosting by TinyPic"> -->
-  <!-- <span onclick="phonePopup()"> -->
-    <%= link_to (image_tag 'http://i64.tinypic.com/2h6x00x.jpg'), '', class: 'phone-link', :popup => true %>
-  <!-- </span> -->
-
+    <!-- <img id="phone-link" src="http://i64.tinypic.com/2h6x00x.jpg" alt="Image and video hosting by TinyPic"> -->
+    <!-- <span onclick="phonePopup()"> -->
+    <%= link_to (image_tag 'http://i64.tinypic.com/2h6x00x.jpg'), new_contact_path, class: 'phone-link', :popup => true %>
+    <!-- </span> -->
   </div>
 
 <!--============================ Info about me ====================================-->
+
   <div class="bio">
     I'am Max, a <strong>Full Stack</strong> web developer <br>
     commited to excellence <br> &amp; inspired by challenges.
@@ -48,7 +56,6 @@
   <div class="directions">
     Click anywhere on the page to see my work.
   </div>
-
 
 <!--=================================== Profile photo =============================-->
 
