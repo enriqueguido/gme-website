@@ -115,7 +115,7 @@ and (max-device-width : 480px) {
 
 /*============================================== Make Page Clickable ==============================================*/
 
-a {
+.click {
   cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
   width: 100px;
   height: 100px;

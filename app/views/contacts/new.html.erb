@@ -1,19 +1,37 @@
 <!-- ======================================= Home Logo Button ===================================================== -->
-<!-- <body class="<%#= ContactsController.new, :class => "background" %>">
+<div class="logo-course">
+  <%= link_to root_path do %>
+    <img class="home-logo" src="http://i66.tinypic.com/28bbpko.jpg" alt="Image and video hosting by TinyPic">
+  <% end %>
+</div>
 
-</body> -->
+<!-- ======================================= Headings ===================================================== -->
 
-<body class="background">
+<div class="heading">
+  <p class="heading"> KEEP IN TOUCH! </p>
+</div>
 
-</body>
+<div class="message">
+  <p class="message"> I'll get back to you as quickly as possible </p>
+</div>
 
-  <div class="logo-link-to">
-    <%= link_to root_path do %>
-    <div class="logo">
-      <img id="logo-img" src="http://i67.tinypic.com/10dcpl0.jpg" alt="Image and video hosting by TinyPic">
-    </div>
-    <% end %>
-  </div>
+<div class="phone-number">
+  <p class="phone-number"> You may also reach me at <br> <strong> (954) 553-5814 </strong></p>
+</div>
+
+<!-- ======================================= Background ===================================================== -->
+
+<body class="background"></body>
+
+
+<!-- ======================================= Contact Envelope Photo ===================================================== -->
+<div class="envelope">
+  <img src="http://i65.tinypic.com/zockfr.jpg" border="0" alt="Image and video hosting by TinyPic">
+</div>
+<div class="envelope-background-rotate">
+  <div class="envelope-background"></div>
+</div>
+<!-- ======================================= Contact Form ===================================================== -->
 
 <!-- <div id="contact-form">
   <%#= form_for Contact.new do |f| %>
@@ -21,7 +39,7 @@
     <%#= f.text_field :name, require: true %>
 
     <br>
-
+`
     <%#= f.label :email %> <br>
     <%#= f.email_field :email, require: true %>
 
@@ -38,16 +56,34 @@
     <%#= f.submit 'Send', class: 'formBtn' %>
   <%# end %>
 </div> -->
-<!-- ======================================= Contact Form ===================================================== -->
 
+<form action="https://formspree.io/guido.m.enrique@gmail.com" method="POST">
+  <input class="cotact-name" placeholder="Name" type="text" Name="Name" required />
+  <input class="contact-email" placeholder="Email" type="email" Name="_replyto" required />
+  <input class="contact-subject" placeholder="Subject" type="text" required />
+  <textarea class="contact-comment" placeholder="Comment"></textarea>
+  <input class="submit-button" type="submit" />
+  <input class="reset-button" type="reset" />
+</form>
+
+<!-- ======================================= Stamps ===================================================== -->
+
+<div class="post-stamp">
+  <img class="post-stamp" src="http://i63.tinypic.com/313kjfa.jpg" alt="Image and video hosting by TinyPic">
 </div>
-  <form action="https://formspree.io/guido.m.enrique@gmail.com"
-      method="POST">
-    <input placeholder="Name" type="text" Name="Name" required />
-    <input placeholder="Email" type="email" Name="_replyto" required />
-    <input placeholder="Subject" type="text" required />
-    <textarea placeholder="Comment"></textarea>
-    <input class="formBtn" type="submit" />
-    <input class="formBtn" type="reset" />
-  </form>
+
+<div class="miami-stamp">
+  <img src="http://i66.tinypic.com/2m452r5.jpg" alt="Image and video hosting by TinyPic">
+</div>
+
+<div class="la-stamp">
+  <img class="la-stamp" src="http://i68.tinypic.com/16jplp2.jpg" alt="Image and video hosting by TinyPic">
+</div>
+
+<div class="delivery-stamp">
+  <img class="delivery-stamp" src="http://i66.tinypic.com/ndk0n8.jpg" alt="Image and video hosting by TinyPic">
+</div>
+
+<div class="express-stamp">
+  <img class="express-stamp" src="http://i65.tinypic.com/35k1t29.jpg" alt="Image and video hosting by TinyPic">
 </div>

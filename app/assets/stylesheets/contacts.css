@@ -1,4 +1,28 @@
-/*============================================== Email Popup Window ==============================================*/
+/*============================================== Headings/Paragraphs ==============================================*/
+
+.heading {
+  display: flex;
+  justify-content: center;
+  /*margin-top: 10px;*/
+  /*margin-bottom: 300px;*/
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "HelveticaNeue-Light";
+  color: #9fbc93;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  font-size: 15px;
+  text-align: center;
+  font-family: "HelveticaNeue-Light";
+  color: #9fbc93;
+}
+
+/*============================================== Contact Form ==============================================*/
 /*================================================================================================================*/
 
 /*@import "https://fonts.googleapis.com/css?family=Raleway";
@@ -9,53 +33,254 @@
   -ms-user-select: none;  IE10+
 }*/
 
-#contact:hover { /*background: #666; */}
-#contact:active { /*background: #444;*/ }
-
-#contactForm {
-  display: none;
-  border: 6px solid salmon;
+/*.contactForm {
   padding: 2em;
-  width: 400px;
+  width: 580px;
   text-align: center;
-  background: #fff;
-  position: fixed;
+  background: black;
+  position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%)
-}
+  -webkit-transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  border: white;
+  background: none;
+}*/
 
-input, textarea {
-  margin: .8em auto;
+/*input, textarea {*/
+  /*margin: .8em auto;
   font-family: inherit;
   text-transform: inherit;
-  font-size: inherit;
+  font-size: inherit;*/
+
+  /*border: 6px solid salmon;*/
+  /*border-bottom: 4px solid white;*/
+  /*border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid;
+  border-color: #f59086;
+  background: none;
 
   display: block;
-  width: 280px;
-  padding: .4em;
-}
-textarea { height: 80px; resize: none; }
+  width: 200px;
+  padding: .4em;*/
+/*}
+textarea { height: 420px; resize: none; }*/
 
-.formBtn {
+/*.formBtn {
   width: 140px;
   display: inline-block;
-  background: teal;
+  background: #38c7c7;
   color: #fff;
   font-weight: 100;
   font-size: 1.2em;
   border: none;
   height: 30px;
+  margin-bottom: 300px;
+}*/
+
+.submit-button {
+  position: absolute;
+  bottom: 270px;
+  left: 570px;
+  width: 140px;
+  background: #00569a;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+  border-radius: 10px 0px 0px 0px;
 }
 
-.hidden {
-  display: none;
+.reset-button {
+  position: absolute;
+  bottom: 270px;
+  right: 570px;
+  width: 140px;
+  background: #00569a;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+  border-radius: 0px 10px 0px 0px;
 }
 
-.background {
-  background-color: black;
-  /*width: 100vw;
-  height: 100vh;
-  overflow: hidden;*/
+.cotact-name {
+  position: absolute;
+  top: 150px;
+  left: 470px;
+  margin: .8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid;
+  border-color: #00569a;
+  background: none;
+
+  display: block;
+  width: 200px;
+  padding: .4em;
+}
+
+.contact-email {
+  position: absolute;
+  top: 230px;
+  left: 470px;
+  margin: .8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid;
+  border-color: #00569a;
+  background: none;
+
+  display: block;
+  width: 200px;
+  padding: .4em;
+}
+
+.contact-subject {
+  position: absolute;
+  top: 312px;
+  left: 470px;
+  margin: .8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid;
+  border-color: #00569a;
+  background: none;
+
+  display: block;
+  width: 200px;
+  padding: .4em;
+}
+
+.contact-comment {
+  position: absolute;
+  top: 150px;
+  left: 750px;
+  margin: .8em auto;
+  font-family: inherit;
+  text-transform: inherit;
+  font-size: inherit;
+
+  border: 2px solid;
+  border-color: #00569a;
+  background: none;
+
+  display: block;
+  width: 200px;
+  padding: .4em;
+  height: 180px;
+  resize: none;
+}
+
+/*============================================== Background Color ==============================================*/
+
+/*.background {
+  background-color: #d4d4d4;
+}*/
+
+/*============================================== Home Button ==============================================*/
+
+.home-logo {
+  position: absolute;
+  /*margin-top: 5px;*/
+  margin-left: 89%;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+}
+
+.logo-course {
+  cursor: pointer;
+}
+
+/*============================================== Contact Envelope ==============================================*/
+
+.envelope {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.envelope-background {
+  display: flex;
+  justify-content: center;
+  margin-top: -300px;
+  margin-left: 390px;
+  /*position: relative;*/
+  /*top: 120px;
+  left: 392px;*/
+  width: 650px;
+  height: 318px;
+  background-color: #00569a;
+  border: none;
+  transform-origin: inherit;
+  /*transform: rotate(20deg);*/
+  /*transform:  translateX(-50%) translateY(-50%) rotate(20deg);*/
+  /*transform: matrix(1, -0.3, 0, 1, 0, 0);*/
+}
+
+/*.envelope-background-rotate {
+  position: fixed;
+  transform: rotate(20deg);
+}*/
+
+/*============================================== Contact Envelope ==============================================*/
+
+.post-stamp {
+  position: absolute;
+  top: 150px;
+  left: 140px;
+  height: 200px;
+  width: 200px;
+}
+
+.miami-stamp {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+}
+
+.la-stamp {
+  position: absolute;
+  top: 50px;
+  left: 40px;
+  height: 200px;
+  width: 200px;
+}
+
+.delivery-stamp {
+  position: absolute;
+  top: 230px;
+  right: 100px;
+  height: 300px;
+  width: 300px;
+}
+
+.express-stamp {
+  position: absolute;
+  top: 230px;
+  left: 40px;
+  height: 280px;
+  width: 280px;
 }
