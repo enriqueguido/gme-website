@@ -1,21 +1,5 @@
 /*============================================== Home Page ==============================================*/
-/*@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px) {
-  #profile-photo {
-    margin-top: 80%;
-    margin-left: 11%;
-    height: 930px;
-    width: 915px;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    padding-top: 0%;
-    overflow: hidden;
-    position: fixed;
-    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
-  }
-}*/
-
+/*======================================================================================================*/
 /*@media screen and (max-width: 320px) only */
 #profile-photo {
   margin-top: 4%;
@@ -464,4 +448,110 @@ and (max-device-width : 480px) {
   cursor: pointer;
   margin-bottom: -10px;
   cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+}
+
+/*============================================== Home Page Media Queries ==============================================*/
+/*=====================================================================================================================*/
+@media screen and (max-width: 1024px) and (min-width: 700px) {
+
+/*============================================== Contact info ==============================================*/
+  .linkedin-link {
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 0;
+    cursor: pointer;
+  }
+
+  #contact-link {
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 0;
+    cursor: pointer;
+  }
+
+  .twitter-link {
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 0;
+    cursor: pointer;
+  }
+
+  .github-link {
+    position: absolute;
+    margin-top: 35.2%;
+    margin-left: 0;
+    cursor: pointer;
+  }
+
+  .phone-link {
+    position: absolute;
+    margin-top: 40.3%;
+    margin-left: 0;
+    cursor: pointer;
+  }
+
+  .contact-logos {
+    cursor: pointer;
+  }
+
+/*============================================== Progile Photo ==============================================*/
+  #profile-photo {
+    margin-top: 15%;
+    margin-left: 38%;
+    height: 550px;
+    width: 550px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    overflow: hidden;
+    position: fixed;
+    display: block;
+    cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
+  }
+/*============================================== Background photo ==============================================*/
+
+  #background-art {
+    position: fixed;
+    display: block;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
+    height: 1666px;
+    width: 1257px;
+    right: -48%;
+    top: 0%;
+  }
+/*============================================== Info about me ==============================================*/
+  .bio {
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 11%;
+    margin-bottom: 0%;
+    font-size: 22px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-align: center;
+    cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
+    text-decoration: none;
+  }
+
+  .directions {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 16%;
+    margin-bottom: 0%;
+    font-size: 15px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .space-bar {
+    background-color: #D15CEA;
+    width: 160px;
+    height: 3px;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 24%;
+    text-decoration: none;
+  }
 }
