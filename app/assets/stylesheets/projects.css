@@ -999,7 +999,7 @@
 
   .project1-name {
     position: absolute;
-    top: 255px;
+    top: 115px;
     margin-left: 65%;
     font-size: 60px;
     font-family: sans-serif;
@@ -1010,7 +1010,7 @@
 
   .project1-description {
     position: absolute;
-    top: 380px;
+    top: 210px;
     margin-left: 62%;
     margin-right: 4%;
     /* margin-bottom: 0%; */
@@ -1067,7 +1067,7 @@
 
   .git-button {
     position: absolute;
-    top: 740px;
+    top: 500px;
     margin-left: 62%;
     cursor: pointer;
     text-decoration: none;
