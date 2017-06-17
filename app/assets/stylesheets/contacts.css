@@ -307,7 +307,7 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .heading {
     display: flex;
     justify-content: center;
