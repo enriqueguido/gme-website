@@ -1,6 +1,6 @@
 /*============================================== Home Page ==============================================*/
 /*======================================================================================================*/
-@media screen and (max-width: 1824px) {
+/*@media screen and (max-width: 1824px) {
 
   #profile-photo {
     margin-top: 4%;
@@ -14,11 +14,11 @@
     position: fixed;
     display: block;
     cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
-  }
+  }*/
 
   /*============================================== Contact info ==============================================*/
 
-  .linkedin-link {
+  /*.linkedin-link {
     position: absolute;
     margin-top: 20%;
     margin-left: 0;
@@ -55,11 +55,11 @@
 
   .contact-logos {
     cursor: pointer;
-  }
+  }*/
 
   /*============================================== Info about me ==============================================*/
 
-  .bio {
+  /*.bio {
     position: absolute;
     margin-top: 7%;
     margin-left: 15%;
@@ -90,38 +90,38 @@
     margin-top: 21%;
     margin-left: 30%;
     text-decoration: none;
-  }
+  }*/
 
   /*============================================== Background photo ==============================================*/
 
-  #background-art {
+  /*#background-art {
     position: fixed;
     display: block;
     background-repeat: no-repeat;
     overflow: hidden;
     cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
-  }
+  }*/
 
   /*============================================== Make Page Clickable ==============================================*/
 
-  .click {
+  /*.click {
     cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
     width: 100px;
     height: 100px;
     text-decoration: none;
-  }
+  }*/
 
   .right-side-cursor-home {
-    background-color: black;
-    position: fixed;
+    /*background-color: black;
+    position: fixed;*/
     /*right: -1px;*/
     /*top: -7px;*/
     /*bottom: -10px;*/
-    height: 100%;
+    /*height: 100%;
     width: 100%;
-    cursor: pointer;
+    cursor: pointer;*/
     /*margin-bottom: -10px;*/
-    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+    /*cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
   }
 
   /*============================================== Project 1 ==============================================*/
@@ -130,32 +130,32 @@
   /*============================================== Project Name & Description ==============================================*/
 
   .project1-name {
-    position: absolute;
+    /*position: absolute;
     top: 200px;
     margin-left: 71.5%;
     font-size: 55px;
     font-family: sans-serif;
     text-align: center;
     color: black;
-    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
   }
 
   .project1-description {
-    position: absolute;
+    /*position: absolute;
     top: 300px;
     margin-left: 63%;
-    margin-right: 6%;
+    margin-right: 6%;*/
     /*margin-bottom: 0%;*/
-    font-size: 18px;
+    /*font-size: 18px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
-    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
   }
 
   /*============================================== Background Image ==============================================*/
 
-  #project1-background-art {
+  /*#project1-background-art {
     height: 100%;
     width: 70%;
     margin-right: 20%;
@@ -164,10 +164,10 @@
     background-repeat: no-repeat;
     overflow: hidden;
     cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
-  }
+  }*/
 
   /*============================================== App Photos ==============================================*/
-
+/*
   #wobblee-home-pg {
     position: absolute;
     top: 220px;
@@ -194,25 +194,25 @@
     opacity: 0.6;
     overflow: hidden;
     display: block;
-  }
+  }*/
 
   /*============================================== GitHub Button ==============================================*/
 
   .git-button {
-    position: absolute;
+    /*position: absolute;
     top: 630px;
     margin-left: 70%;
     cursor: pointer;
     text-decoration: none;
     font-family: "HelveticaNeue-Light";
-    font-size: 20px;
+    font-size: 20px;*/
     /*border: 2px solid blue;*/
-    padding: 10px 90px 10px 90px;
+    /*padding: 10px 90px 10px 90px;
     background-color: #325eea;
-    border-radius: 5px;
+    border-radius: 5px;*/
   }
 
-  .git-button-link {
+  /*.git-button-link {
     cursor: pointer;
     text-decoration: none;
     color: white;
@@ -220,7 +220,7 @@
 
   /*============================================== Home Logo Button ==============================================*/
 
-  #logo-img {
+  /*#logo-img {
     position: relative;
     margin-left: 90%;
     height: 80px;
@@ -230,14 +230,14 @@
 
   .logo-link-to {
     cursor: pointer;
-  }
+  }*/
 
   /*=================================================== Project 2 ======================================================*/
   /*===================================================================================================================*/
 
   /*============================================== Project 2 Background  ==============================================*/
 
-  #project2-background-art {
+  /*#project2-background-art {
     height: 100%;
     width: 70%;
     position: absolute;
@@ -247,25 +247,25 @@
     margin-left: none;
     margin-right: none;
     margin-top: none
-  }
+  }*/
 
   /*============================================== Phone With Hand  ==============================================*/
 
   .phone{
     /*margin-left: 400px;*/
     /*margin-top: -55px;*/
-    position: absolute;
+    /*position: absolute;
     top: 37px;
     right: -15.2px;
     display: inline-block;
     background-repeat: no-repeat;
     overflow: hidden;
-    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
   }
 
   /*============================================== Project Name & Description  ==============================================*/
 
-  .project2-name {
+  /*.project2-name {
     position: absolute;
     top: 200px;
     margin-left: 26.5%;
@@ -286,50 +286,50 @@
     text-align: center;
     color: white;
     cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
-  }
+  }*/
 
   /*============================================== Projec 2 Home Logo ==============================================*/
 
   #logo-img-prjt2 {
-    position: relative;
+    /*position: relative;
     margin-left: 90%;
     height: 80px;
     width: 80px;
-    cursor: pointer;
+    cursor: pointer;*/
   }
 
   .logo-empty {
-    position: absolute;
+    /*position: absolute;
     height: 100px;
-    width: 100px;
+    width: 100px;*/
     /*background-color: red;*/
-    right: 60px;
+    /*right: 60px;
     top: 0px;
-    cursor: pointer;
+    cursor: pointer;*/
   }
 
   /*============================================== GitHub/See More Button ==============================================*/
 
   .git-button-prjt2 {
-    position: absolute;
+    /*position: absolute;
     top: 550px;
     margin-left: 5%;
     cursor: pointer;
     text-decoration: none;
     font-family: "HelveticaNeue-Light";
-    font-size: 25px;
+    font-size: 25px;*/
     /*border: 2px solid blue;*/
-    padding: 10px 400px 10px 400px;
+    /*padding: 10px 400px 10px 400px;
     background-color: white;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: pointer;*/
   }
 
-  .git-button-link-prjt2 {
+  /*.git-button-link-prjt2 {
     cursor: pointer;
     text-decoration: none;
     color: #f88924;
-  }
+  }*/
 
   /*============================================== GitHub/See More Button ==============================================*/
 
@@ -346,7 +346,7 @@
   /*=======================================================================================================*/
 
   /*============================================== Project 3 Background  ==============================================*/
-
+/*
   .project3-background-art3 #project3-background-art3 {
     position: fixed;
     display: block;
@@ -355,36 +355,36 @@
     height: 100vh;
     width: 100vw;
     margin-left: -8px;
-  }
+  }*/
 
   /*============================================== Project Name & Description  ==============================================*/
 
   .project3-name {
-    position: absolute;
+    /*position: absolute;
     top: 170px;
     margin-left: 41%;
     font-size: 55px;
     font-family: sans-serif;
     text-align: center;
-    color: black;
+    color: black;*/
     /*cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
   }
 
   .project3-description {
-    position: absolute;
+    /*position: absolute;
     top: 290px;
     margin-left: 31%;
     margin-right: 32%;
     font-size: 18px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
-    color: black;
+    color: black;*/
     /*cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
   }
 
 
   /*============================================== GitHub/See More Button ==============================================*/
-
+/*
   .git-button-prjt3 {
     position: absolute;
     top: 480px;
@@ -397,18 +397,18 @@
     padding: 10px 150px 10px 150px;
     background-color: #ff3778;
     border-radius: 50px;
-  }
+  }*/
 
   .git-button-link-prjt3 {
-    cursor: pointer;
-    text-decoration: none;
+    /*cursor: pointer;
+    text-decoration: none;*/
     /*color: #ff3778;*/
-    color: white;
+    /*color: white;*/
   }
 
   /*============================================== Projec 3 Home Logo ==============================================*/
 
-  #logo-img-prjt3 {
+  /*#logo-img-prjt3 {
     position: relative;
     margin-left: 90%;
     height: 80px;
@@ -422,13 +422,13 @@
 
   .logo-prjt3 {
     cursor: pointer;
-  }
+  }*/
 
   /* ===================================================================================================================== */
   /*============================================== Left Side of Page Cursor  ==============================================*/
-  .left-side-cursor {
+  /*.left-side-cursor {*/
     /*background-color: #ff3778;*/
-    position: fixed;
+    /*position: fixed;
     top: -7px;
     bottom: -10px;
     height: 100%;
@@ -436,11 +436,11 @@
     cursor: pointer;
     margin-bottom: -10px;
     cursor:url("http://i350.photobucket.com/albums/q404/enriqueguido/mouse-cursor-left_zpsdi5hzbks.png"), auto;
-  }
+  }*/
 
-  .right-side-cursor {
+  /*.right-side-cursor {*/
     /*background-color: black;*/
-    position: fixed;
+    /*position: fixed;
     right: -1px;
     top: -7px;
     bottom: -10px;
@@ -450,10 +450,10 @@
     margin-bottom: -10px;
     cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
   }
-}
+}*/
 /*============================================== Home Page Media Queries ==============================================*/
 /*=====================================================================================================================*/
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1824px) and (min-width: 1024px) {
 
 /*============================================== Contact info ==============================================*/
   .linkedin-link {
@@ -888,40 +888,40 @@
   }
 }
 
-@media screen and (max-width: 768px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
 /*============================================== Contact info ==============================================*/
   .linkedin-link {
     position: absolute;
-    margin-top: 60.4%;
+    margin-top: 22%;
     margin-left: 0;
     cursor: pointer;
   }
 
   #contact-link {
     position: absolute;
-    margin-top: 65.6%;
+    margin-top: 25.9%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .twitter-link {
     position: absolute;
-    margin-top: 70.8%;
+    margin-top: 29.8%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .github-link {
     position: absolute;
-    margin-top: 76%;
+    margin-top: 33.7%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .phone-link {
     position: absolute;
-    margin-top: 81.3%;
+    margin-top: 37.6%;
     margin-left: 0;
     cursor: pointer;
   }
@@ -932,8 +932,8 @@
 
 /*============================================== Progile Photo ==============================================*/
   #profile-photo {
-    margin-top: 35%;
-    margin-left: 10%;
+    margin-top: 12%;
+    margin-left: 34%;
     height: 660px;
     width: 780px;
     margin-bottom: 0%;
@@ -949,10 +949,10 @@
   #background-art {
     position: fixed;
     display: block;
-    height: 3111px;
-    width: 1400px;
-    top: -162px;
-    left: -177px;
+    height: 2029px;
+    width: 1500px;
+    top: -38px;
+    left: -143px;
     background-repeat: no-repeat;
     overflow: hidden;
     cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
@@ -961,8 +961,8 @@
 /*============================================== Info about me ==============================================*/
   .bio {
     position: absolute;
-    margin-top: 8%;
-    margin-left: 20%;
+    margin-top: 9%;
+    margin-left: 12%;
     margin-bottom: 0%;
     font-size: 27px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -974,7 +974,7 @@
   .directions {
     position: absolute;
     margin-top: 30%;
-    margin-left: 28%;
+    margin-left: 17%;
     margin-bottom: 0%;
     font-size: 18px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -988,7 +988,7 @@
     height: 3px;
     position: absolute;
     margin-top: 25%;
-    margin-left: 33%;
+    margin-left: 22%;
     text-decoration: none;
   }
 
@@ -1321,7 +1321,7 @@
   }
 }
 
-@media screen and (max-width: 768px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
 /*============================================== Contact info ==============================================*/
   .linkedin-link {
