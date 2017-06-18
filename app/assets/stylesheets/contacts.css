@@ -338,7 +338,7 @@
     position: absolute;
     left: 405px;
     /* top: 500px; */
-    bottom: 100px;
+    bottom: 0px;
     display: flex;
     justify-content: center;
     padding: 0px;
@@ -414,8 +414,8 @@
 
   .submit-button {
     position: absolute;
-    bottom: 220px;
-    left: 360px;
+    bottom: 120px;
+    left: 335px;
     width: 140px;
     background: #00569a;
     color: #fff;
@@ -428,8 +428,8 @@
 
   .reset-button {
     position: absolute;
-    bottom: 220px;
-    right: 360px;
+    bottom: 120px;
+    right: 335px;
     width: 140px;
     background: #00569a;
     color: #fff;
@@ -634,7 +634,7 @@
 
   .message {
     position: absolute;
-    left: 210px;
+    left: 255px;
     top: 400px;
     display: flex;
     justify-content: center;
@@ -647,9 +647,9 @@
 
   .phone-number {
     position: absolute;
-    left: 276px;
+    left: 300px;
     /* top: 500px; */
-    bottom: 360px;
+    bottom: 465px;
     display: flex;
     justify-content: center;
     padding: 0px;
@@ -725,8 +725,8 @@
 
   .submit-button {
     position: absolute;
-    bottom: 470px;
-    left: 240px;
+    bottom: 550px;
+    left: 265px;
     width: 140px;
     background: #00569a;
     color: #fff;
@@ -739,8 +739,8 @@
 
   .reset-button {
     position: absolute;
-    bottom: 470px;
-    right: 240px;
+    bottom: 550px;
+    right: 265px;
     width: 140px;
     background: #00569a;
     color: #fff;
@@ -754,7 +754,7 @@
   .cotact-name {
     position: absolute;
     top: 150px;
-    left: 127px;
+    left: 185px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -775,7 +775,7 @@
   .contact-email {
     position: absolute;
     top: 230px;
-    left: 127px;
+    left: 185px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -796,7 +796,7 @@
   .contact-subject {
     position: absolute;
     top: 312px;
-    left: 127px;
+    left: 185px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -817,7 +817,7 @@
   .contact-comment {
     position: absolute;
     top: 150px;
-    left: 410px;
+    left: 500px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -899,7 +899,7 @@
   .miami-stamp {
     position: absolute;
     top: 35px;
-    right: 4px;
+    right: 23px;
     height: 150px;
     width: 150px;
   }

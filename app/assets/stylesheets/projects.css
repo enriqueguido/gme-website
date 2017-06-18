@@ -1326,35 +1326,35 @@
 /*============================================== Contact info ==============================================*/
   .linkedin-link {
     position: absolute;
-    margin-top: 62%;
+    margin-top: 56%;
     margin-left: 0;
     cursor: pointer;
   }
 
   #contact-link {
     position: absolute;
-    margin-top: 67%;
+    margin-top: 61%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .twitter-link {
     position: absolute;
-    margin-top: 72%;
+    margin-top: 66%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .github-link {
     position: absolute;
-    margin-top: 77%;
+    margin-top: 71%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .phone-link {
     position: absolute;
-    margin-top: 82%;
+    margin-top: 76%;
     margin-left: 0;
     cursor: pointer;
   }
@@ -1368,8 +1368,8 @@
   #profile-photo {
     margin-top: 31%;
     margin-left: 17%;
-    height: 800px;
-    width: 780px;
+    height: 900px;
+    width: 800px;
     margin-bottom: 0%;
     padding-bottom: 0%;
     padding-top: 0%;
@@ -1435,7 +1435,7 @@
   .project1-name {
     position: absolute;
     top: 255px;
-    margin-left: 66%;
+    margin-left: 68%;
     font-size: 60px;
     font-family: sans-serif;
     text-align: center;
@@ -1473,7 +1473,7 @@
 
   #wobblee-home-pg {
     position: absolute;
-    top: 235px;
+    top: 290px;
     margin-left: 19%;
     height: 500px;
     width: 280px;
@@ -1482,16 +1482,16 @@
   #wobblee-signup {
     position: absolute;
     top: 42px;
-    margin-left: 7%;
-    height: 250px;
+    margin-left: 3%;
+    height: 450px;
     width: 240px;
     opacity: 0.7;
   }
 
   #wobblee-bubble-pg {
     position: fixed;
-    top: 500px;
-    margin-left: 36%;
+    top: 615px;
+    margin-left: 38%;
     height: 450px;
     width: 240px;
     opacity: 0.6;
@@ -1556,15 +1556,15 @@
 
   #phone-image {
     /* margin-left: 400px; */
-    margin-top: 260px;
+    margin-top: 360px;
     position: fixed;
     /* top: 253px; */
     right: -57px;
     /* display: inline-block; */
     /* background-repeat: no-repeat; */
     overflow: hidden;
-    height: 735px;
-    width: 510px;
+    height: 750px;
+    width: 530px;
     cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
   }
 
@@ -1573,7 +1573,7 @@
   .project2-name {
     position: absolute;
     top: 295px;
-    margin-left: 11%;
+    margin-left: 15%;
     font-size: 55px;
     font-family: sans-serif;
     text-align: center;
@@ -1584,8 +1584,8 @@
   .project2-description {
     position: absolute;
     top: 400px;
-    margin-left: 10%;
-    margin-right: 57%;
+    margin-left: 13%;
+    margin-right: 53%;
     font-size: 16px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
@@ -1618,7 +1618,7 @@
   .git-button-prjt2 {
     position: absolute;
     top: 716px;
-    margin-left: -25%;
+    margin-left: -17%;
     cursor: pointer;
     text-decoration: none;
     font-family: "HelveticaNeue-Light";
@@ -1693,7 +1693,7 @@
   .git-button-prjt3 {
     position: absolute;
     top: 595px;
-    margin-left: 25%;
+    margin-left: 28%;
     cursor: pointer;
     text-decoration: none;
     font-family: "HelveticaNeue-Light";
