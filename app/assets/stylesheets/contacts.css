@@ -634,7 +634,7 @@
 
   .message {
     position: absolute;
-    left: 255px;
+    left: 355px;
     top: 400px;
     display: flex;
     justify-content: center;
@@ -647,7 +647,7 @@
 
   .phone-number {
     position: absolute;
-    left: 330px;
+    left: 430px;
     /* top: 500px; */
     bottom: 485px;
     display: flex;
@@ -726,7 +726,7 @@
   .submit-button {
     position: absolute;
     bottom: 600px;
-    left: 290px;
+    left: 320px;
     width: 140px;
     background: #00569a;
     color: #fff;
@@ -740,7 +740,7 @@
   .reset-button {
     position: absolute;
     bottom: 600px;
-    right: 290px;
+    right: 320px;
     width: 140px;
     background: #00569a;
     color: #fff;
@@ -754,7 +754,7 @@
   .cotact-name {
     position: absolute;
     top: 150px;
-    left: 200px;
+    left: 220px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -775,7 +775,7 @@
   .contact-email {
     position: absolute;
     top: 230px;
-    left: 200px;
+    left: 220px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -796,7 +796,7 @@
   .contact-subject {
     position: absolute;
     top: 312px;
-    left: 200px;
+    left: 220px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -817,7 +817,7 @@
   .contact-comment {
     position: absolute;
     top: 150px;
-    left: 515px;
+    left: 530px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -867,7 +867,7 @@
     display: flex;
     justify-content: center;
     margin-top: -310px;
-    margin-left: 100px;
+    margin-left: 200px;
     /*position: relative;*/
     /*top: 120px;
     left: 392px;*/
