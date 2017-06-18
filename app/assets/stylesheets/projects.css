@@ -1333,28 +1333,28 @@
 
   #contact-link {
     position: absolute;
-    margin-top: 61%;
+    margin-top: 60.5%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .twitter-link {
     position: absolute;
-    margin-top: 66%;
+    margin-top: 65.5%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .github-link {
     position: absolute;
-    margin-top: 71%;
+    margin-top: 70.5%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .phone-link {
     position: absolute;
-    margin-top: 76%;
+    margin-top: 75.5%;
     margin-left: 0;
     cursor: pointer;
   }
@@ -1367,7 +1367,7 @@
 
   #profile-photo {
     margin-top: 31%;
-    margin-left: 17%;
+    margin-left: 19%;
     height: 900px;
     width: 800px;
     margin-bottom: 0%;
@@ -1397,7 +1397,7 @@
   .bio {
     position: absolute;
     margin-top: 8%;
-    margin-left: 20%;
+    margin-left: 22%;
     margin-bottom: 0%;
     font-size: 27px;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
