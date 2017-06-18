@@ -867,7 +867,7 @@
     display: flex;
     justify-content: center;
     margin-top: -310px;
-    margin-left: 175px;
+    margin-left: 165px;
     /*position: relative;*/
     /*top: 120px;
     left: 392px;*/
@@ -927,4 +927,319 @@
     height: 280px;
     width: 280px;
   }
+}
+
+@media screen and (min-width: 320px) and (max-width: 736px) and (orientation: portrait) {
+
+  .heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+    /* margin-bottom: 300px; */
+    padding: 0px;
+    font-size: 17px;
+    text-align: center;
+    font-family: "HelveticaNeue-Light";
+    color: #9fbc93;
+  }
+
+  .message {
+    position: absolute;
+    left: 105px;
+    right: 85px;
+    top: 71px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    font-size: 12px;
+    /* text-align: center; */
+    font-family: "HelveticaNeue-Light";
+    color: #9fbc93;
+  }
+
+  .phone-number {
+    position: absolute;
+    left: 90px;
+    /* top: 500px; */
+    bottom: 65px;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    font-size: 12px;
+    text-align: center;
+    font-family: "HelveticaNeue-Light";
+    color: #9fbc93;
+  }
+
+  /*============================================== Contact Form ==============================================*/
+  /*================================================================================================================*/
+
+  /*@import "https://fonts.googleapis.com/css?family=Raleway";
+  * { box-sizing: border-box; }
+  #contact {
+    -webkit-user-select: none;  Chrome/Safari
+    -moz-user-select: none;  Firefox
+    -ms-user-select: none;  IE10+
+  }*/
+
+  /*.contactForm {
+    padding: 2em;
+    width: 580px;
+    text-align: center;
+    background: black;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    border: white;
+    background: none;
+  }*/
+
+  /*input, textarea {*/
+    /*margin: .8em auto;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: inherit;*/
+
+    /*border: 6px solid salmon;*/
+    /*border-bottom: 4px solid white;*/
+    /*border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid;
+    border-color: #f59086;
+    background: none;
+
+    display: block;
+    width: 200px;
+    padding: .4em;*/
+  /*}
+  textarea { height: 420px; resize: none; }*/
+
+  /*.formBtn {
+    width: 140px;
+    display: inline-block;
+    background: #38c7c7;
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.2em;
+    border: none;
+    height: 30px;
+    margin-bottom: 300px;
+  }*/
+
+  input:focus { outline: none; }
+
+  textarea:focus { outline: none; }
+
+  .submit-button {
+    position: absolute;
+    bottom: 200px;
+    left: 95px;
+    width: 140px;
+    background: #00569a;
+    color: #fff;
+    font-weight: 100;
+    font-size: 10px;
+    border: none;
+    height: 22px;
+    width: 67px;
+    border-radius: 10px 0px 0px 0px;
+  }
+
+  .reset-button {
+    position: absolute;
+    bottom: 200px;
+    right: 95px;
+    width: 140px;
+    background: #00569a;
+    color: #fff;
+    font-weight: 100;
+    font-size: 10px;
+    border: none;
+    height: 22px;
+    width: 67px;
+    border-radius: 0px 10px 0px 0px;
+  }
+
+  .cotact-name {
+    position: absolute;
+    top: 150px;
+    left: 60px;
+    margin: 0.8em auto;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 12px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid;
+    border-color: #00569a;
+    background: none;
+    display: block;
+    width: 150px;
+    display: block;
+    width: 208px;
+  }
+
+  .contact-email {
+    position: absolute;
+    top: 205px;
+    left: 60px;
+    margin: .8em auto;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 12px;
+
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid;
+    border-color: #00569a;
+    background: none;
+
+    display: block;
+    width: 200px;
+    padding: .4em;
+  }
+
+  .contact-subject {
+    position: absolute;
+    top: 173px;
+    left: 60px;
+    margin: .8em auto;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 12px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid;
+    border-color: #00569a;
+    background: none;
+    display: block;
+    width: 200px;
+    padding: .4em;
+  }
+
+  .contact-comment {
+    position: absolute;
+    top: 236px;
+    left: 58px;
+    margin: .8em auto;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: inherit;
+    border: 2px solid;
+    border-color: #00569a;
+    background: none;
+    display: block;
+    /* width: 177px; */
+    padding: .4em;
+    width: 200px;
+    resize: none;
+    height: 55px;
+  }
+
+  /*============================================== Background Color ==============================================*/
+
+  /*.background {
+    background-color: #d4d4d4;
+  }*/
+
+  /*============================================== Home Button ==============================================*/
+
+  .home-logo {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 70%;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+  }
+
+  .logo-course {
+    cursor: pointer;
+  }
+
+  /*============================================== Contact Envelope ==============================================*/
+
+  .envelope {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .envelope-background {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    /* position: relative; */
+    width: 300px;
+    margin-top: 184px;
+    height: 160px;
+    background-color: #00569a;
+    border: none;
+    transform-origin: inherit;
+    /* transform: rotate(20deg); */
+    /* transform: translateX(-50%) translateY(-50%) rotate(20deg); */
+    /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+  }
+
+  .mobile-envelope {
+    height: 300px;
+    width: 275px;
+    position: absolute;
+    top: 146px;
+  }
+  /*.envelope-background-rotate {
+    position: fixed;
+    transform: rotate(20deg);
+  }*/
+
+  /*============================================== Contact Envelope ==============================================*/
+
+  .post-stamp {
+    position: absolute;
+    top: 115px;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .miami-stamp {
+    position: absolute;
+    top: 39px;
+    right: 5px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .la-stamp {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .delivery-stamp {
+    position: absolute;
+    top: 202px;
+    right: 1px;
+    height: 100px;
+    width: 100px;
+  }
+
+  .express-stamp {
+    position: absolute;
+    top: 230px;
+    left: 6px;
+    height: 100px;
+    width: 100px;
+  }
+
 }
