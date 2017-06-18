@@ -1347,14 +1347,14 @@
 
   .github-link {
     position: absolute;
-    margin-top: 69%;
+    margin-top: 68%;
     margin-left: 0;
     cursor: pointer;
   }
 
   .phone-link {
     position: absolute;
-    margin-top: 74%;
+    margin-top: 72%;
     margin-left: 0;
     cursor: pointer;
   }
@@ -1556,7 +1556,7 @@
 
   #phone-image {
     /* margin-left: 400px; */
-    margin-top: 360px;
+    margin-top: 460px;
     position: fixed;
     /* top: 253px; */
     right: -57px;
