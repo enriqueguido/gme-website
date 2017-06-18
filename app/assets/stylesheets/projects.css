@@ -932,7 +932,7 @@
 
 /*============================================== Progile Photo ==============================================*/
   #profile-photo {
-    margin-top: 12%;
+    margin-top: 7%;
     margin-left: 34%;
     height: 660px;
     width: 780px;
@@ -1000,7 +1000,7 @@
   .project1-name {
     position: absolute;
     top: 115px;
-    margin-left: 65%;
+    margin-left: 69%;
     font-size: 60px;
     font-family: sans-serif;
     text-align: center;
@@ -1038,8 +1038,8 @@
 
   #wobblee-home-pg {
     position: absolute;
-    top: 301px;
-    margin-left: 16%;
+    top: 178px;
+    margin-left: 20%;
     height: 470px;
     width: 240px;
   }
@@ -1048,18 +1048,18 @@
     position: absolute;
     top: 50px;
     margin-left: 5%;
-    height: 360px;
-    width: 170px;
+    height: 450px;
+    width: 250px;
     opacity: 0.7;
   }
 
   #wobblee-bubble-pg {
     position: fixed;
-    top: 620px;
-    margin-left: 28%;
+    top: 353px;
+    margin-left: 36%;
     height: 450px;
     width: 250px;
-    opacity: 0.6;
+    opacity: 0.7;
     overflow: hidden;
     display: block;
   }
@@ -1067,8 +1067,8 @@
 
   .git-button {
     position: absolute;
-    top: 500px;
-    margin-left: 62%;
+    top: 535px;
+    margin-left: 64%;
     cursor: pointer;
     text-decoration: none;
     font-family: "HelveticaNeue-Light";
@@ -1121,15 +1121,15 @@
 
   #phone-image {
     /* margin-left: 400px; */
-    margin-top: 20px;
+    margin-top: 110px;
     position: fixed;
     /* top: 253px; */
     right: -32px;
     /* display: inline-block; */
     /* background-repeat: no-repeat; */
     overflow: hidden;
-    height: 735px;
-    width: 550px;
+    height: 635px;
+    width: 490px;
     cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
   }
 
@@ -1137,8 +1137,8 @@
 
   .project2-name {
     position: absolute;
-    top: 265px;
-    margin-left: 9%;
+    top: 245px;
+    margin-left: 18%;
     font-size: 55px;
     font-family: sans-serif;
     text-align: center;
@@ -1148,9 +1148,9 @@
 
   .project2-description {
     position: absolute;
-    top: 375px;
-    margin-left: 7%;
-    margin-right: 56%;
+    top: 345px;
+    margin-left: 12%;
+    margin-right: 49%;
     font-size: 16px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
@@ -1182,8 +1182,8 @@
 
   .git-button-prjt2 {
     position: absolute;
-    top: 675px;
-    margin-left: -34%;
+    top: 540px;
+    margin-left: -13%;
     cursor: pointer;
     text-decoration: none;
     font-family: "HelveticaNeue-Light";
@@ -1231,8 +1231,8 @@
 
   .project3-name {
     position: absolute;
-    top: 210px;
-    margin-left: 36%;
+    top: 100px;
+    margin-left: 38%;
     font-size: 55px;
     font-family: sans-serif;
     text-align: center;
@@ -1242,7 +1242,7 @@
 
   .project3-description {
     position: absolute;
-    top: 328px;
+    top: 305px;
     margin-left: 31%;
     margin-right: 27%;
     font-size: 18px;
@@ -1256,8 +1256,8 @@
 
   .git-button-prjt3 {
     position: absolute;
-    top: 580px;
-    margin-left: 24%;
+    top: 485px;
+    margin-left: 31%;
     cursor: pointer;
     text-decoration: none;
     font-family: "HelveticaNeue-Light";

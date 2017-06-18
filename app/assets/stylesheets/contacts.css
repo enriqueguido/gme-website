@@ -1,5 +1,5 @@
 /*============================================== Headings/Paragraphs/Contact Info ==============================================*/
-@media screen and (max-width: 1824px) {
+@media screen and (max-width: 1824px) and (min-width: 1024px) {
   .heading {
     display: flex;
     justify-content: center;
@@ -14,315 +14,7 @@
 
   .message {
     position: absolute;
-    left: 633px;
-    top: 422px;
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    font-size: 20px;
-    /*text-align: center;*/
-    font-family: "HelveticaNeue-Light";
-    color: #9fbc93;
-  }
-
-  .phone-number {
-    position: absolute;
-    left: 685px;
-    /*top: 500px;*/
-    bottom: 100px;
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    font-size: 20px;
-    text-align: center;
-    font-family: "HelveticaNeue-Light";
-    color: #9fbc93;
-  }
-
-  /*============================================== Contact Form ==============================================*/
-  /*================================================================================================================*/
-
-  /*@import "https://fonts.googleapis.com/css?family=Raleway";
-  * { box-sizing: border-box; }
-  #contact {
-    -webkit-user-select: none;  Chrome/Safari
-    -moz-user-select: none;  Firefox
-    -ms-user-select: none;  IE10+
-  }*/
-
-  /*.contactForm {
-    padding: 2em;
-    width: 580px;
-    text-align: center;
-    background: black;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    display: flex;
-    justify-content: center;
-    border: white;
-    background: none;
-  }*/
-
-  /*input, textarea {*/
-    /*margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;*/
-
-    /*border: 6px solid salmon;*/
-    /*border-bottom: 4px solid white;*/
-    /*border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 2px solid;
-    border-color: #f59086;
-    background: none;
-
-    display: block;
-    width: 200px;
-    padding: .4em;*/
-  /*}
-  textarea { height: 420px; resize: none; }*/
-
-  /*.formBtn {
-    width: 140px;
-    display: inline-block;
-    background: #38c7c7;
-    color: #fff;
-    font-weight: 100;
-    font-size: 1.2em;
-    border: none;
-    height: 30px;
-    margin-bottom: 300px;
-  }*/
-
-  input:focus { outline: none; }
-
-  textarea:focus { outline: none; }
-
-  .submit-button {
-    position: absolute;
-    bottom: 218px;
-    left: 645px;
-    width: 140px;
-    background: #00569a;
-    color: #fff;
-    font-weight: 100;
-    font-size: 1.2em;
-    border: none;
-    height: 30px;
-    border-radius: 10px 0px 0px 0px;
-  }
-
-  .reset-button {
-    position: absolute;
-    bottom: 218px;
-    right: 645px;
-    width: 140px;
-    background: #00569a;
-    color: #fff;
-    font-weight: 100;
-    font-size: 1.2em;
-    border: none;
-    height: 30px;
-    border-radius: 0px 10px 0px 0px;
-  }
-
-  .cotact-name {
-    position: absolute;
-    top: 150px;
-    left: 532px;
-    margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;
-
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 2px solid;
-    border-color: #00569a;
-    background: none;
-
-    display: block;
-    width: 200px;
-    padding: .4em;
-  }
-
-  .contact-email {
-    position: absolute;
-    top: 230px;
-    left: 532px;
-    margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;
-
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 2px solid;
-    border-color: #00569a;
-    background: none;
-
-    display: block;
-    width: 200px;
-    padding: .4em;
-  }
-
-  .contact-subject {
-    position: absolute;
-    top: 312px;
-    left: 532px;
-    margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;
-
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 2px solid;
-    border-color: #00569a;
-    background: none;
-
-    display: block;
-    width: 200px;
-    padding: .4em;
-  }
-
-  .contact-comment {
-    position: absolute;
-    top: 150px;
-    left: 820px;
-    margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;
-
-    border: 2px solid;
-    border-color: #00569a;
-    background: none;
-
-    display: block;
-    width: 200px;
-    padding: .4em;
-    height: 180px;
-    resize: none;
-  }
-
-  /*============================================== Background Color ==============================================*/
-
-  /*.background {
-    background-color: #d4d4d4;
-  }*/
-
-  /*============================================== Home Button ==============================================*/
-
-  .home-logo {
-    position: absolute;
-    /*margin-top: 5px;*/
-    margin-left: 89%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
-
-  .logo-course {
-    cursor: pointer;
-  }
-
-  /*============================================== Contact Envelope ==============================================*/
-
-  .envelope {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-  }
-
-  .envelope-background {
-    display: flex;
-    justify-content: center;
-    margin-top: -310px;
-    margin-left: 460px;
-    /*position: relative;*/
-    /*top: 120px;
-    left: 392px;*/
-    width: 650px;
-    height: 318px;
-    background-color: #00569a;
-    border: none;
-    transform-origin: inherit;
-    /*transform: rotate(20deg);*/
-    /*transform:  translateX(-50%) translateY(-50%) rotate(20deg);*/
-    /*transform: matrix(1, -0.3, 0, 1, 0, 0);*/
-  }
-
-  /*.envelope-background-rotate {
-    position: fixed;
-    transform: rotate(20deg);
-  }*/
-
-  /*============================================== Contact Envelope ==============================================*/
-
-  .post-stamp {
-    position: absolute;
-    top: 150px;
-    left: 140px;
-    height: 200px;
-    width: 200px;
-  }
-
-  .miami-stamp {
-    position: absolute;
-    top: 25px;
-    right: 90px;
-  }
-
-  .la-stamp {
-    position: absolute;
-    top: 50px;
-    left: 40px;
-    height: 200px;
-    width: 200px;
-  }
-
-  .delivery-stamp {
-    position: absolute;
-    top: 230px;
-    right: 100px;
-    height: 300px;
-    width: 300px;
-  }
-
-  .express-stamp {
-    position: absolute;
-    top: 230px;
-    left: 40px;
-    height: 280px;
-    width: 280px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .heading {
-    display: flex;
-    justify-content: center;
-    /*margin-top: 10px;*/
-    /*margin-bottom: 300px;*/
-    padding: 0px;
-    font-size: 30px;
-    text-align: center;
-    font-family: "HelveticaNeue-Light";
-    color: #9fbc93;
-  }
-
-  .message {
-    position: absolute;
-    left: 550px;
+    left: 555px;
     top: 400px;
     display: flex;
     justify-content: center;
@@ -335,7 +27,7 @@
 
   .phone-number {
     position: absolute;
-    left: 605px;
+    left: 610px;
     /*top: 500px;*/
     bottom: 150px;
     display: flex;
@@ -442,7 +134,7 @@
   .cotact-name {
     position: absolute;
     top: 150px;
-    left: 470px;
+    left: 475px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -463,7 +155,7 @@
   .contact-email {
     position: absolute;
     top: 230px;
-    left: 470px;
+    left: 475px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -484,7 +176,7 @@
   .contact-subject {
     position: absolute;
     top: 312px;
-    left: 470px;
+    left: 475px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -554,7 +246,7 @@
   .envelope-background {
     display: flex;
     justify-content: center;
-    margin-top: -300px;
+    margin-top: -310px;
     margin-left: 390px;
     /*position: relative;*/
     /*top: 120px;
@@ -615,7 +307,8 @@
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
   .heading {
     display: flex;
     justify-content: center;
@@ -630,7 +323,7 @@
 
   .message {
     position: absolute;
-    left: 550px;
+    left: 345px;
     top: 400px;
     display: flex;
     justify-content: center;
@@ -645,7 +338,7 @@
     position: absolute;
     left: 405px;
     /* top: 500px; */
-    bottom: 95px;
+    bottom: 100px;
     display: flex;
     justify-content: center;
     padding: 0px;
@@ -721,7 +414,7 @@
 
   .submit-button {
     position: absolute;
-    bottom: 215px;
+    bottom: 220px;
     left: 360px;
     width: 140px;
     background: #00569a;
@@ -735,7 +428,7 @@
 
   .reset-button {
     position: absolute;
-    bottom: 215px;
+    bottom: 220px;
     right: 360px;
     width: 140px;
     background: #00569a;
@@ -750,7 +443,7 @@
   .cotact-name {
     position: absolute;
     top: 150px;
-    left: 260px;
+    left: 255px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -771,7 +464,7 @@
   .contact-email {
     position: absolute;
     top: 230px;
-    left: 260px;
+    left: 255px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -792,7 +485,7 @@
   .contact-subject {
     position: absolute;
     top: 312px;
-    left: 260px;
+    left: 255px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -813,7 +506,7 @@
   .contact-comment {
     position: absolute;
     top: 150px;
-    left: 550px;
+    left: 540px;
     margin: .8em auto;
     font-family: inherit;
     text-transform: inherit;
@@ -862,17 +555,19 @@
   .envelope-background {
     display: flex;
     justify-content: center;
-    margin-top: -315px;
-    margin-left: 180px;
-    /* position: relative; */
+    margin-top: -310px;
+    margin-left: 185px;
+    /*position: relative;*/
+    /*top: 120px;
+    left: 392px;*/
     width: 650px;
     height: 318px;
     background-color: #00569a;
     border: none;
     transform-origin: inherit;
-    /* transform: rotate(20deg); */
-    /* transform: translateX(-50%) translateY(-50%) rotate(20deg); */
-    /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
+    /*transform: rotate(20deg);*/
+    /*transform:  translateX(-50%) translateY(-50%) rotate(20deg);*/
+    /*transform: matrix(1, -0.3, 0, 1, 0, 0);*/
   }
 
   /*.envelope-background-rotate {
@@ -884,24 +579,24 @@
 
   .post-stamp {
     position: absolute;
-    top: 135px;
-    left: 55px;
-    height: 150px;
-    width: 150px;
+    top: 150px;
+    left: 40px;
+    height: 200px;
+    width: 200px;
   }
 
   .miami-stamp {
     position: absolute;
-    top: 45px;
-    right: 35px;
-    height: 180px;
-    width: 180px;
+    top: 35px;
+    right: 30px;
+    height: 220px;
+    width: 220px;
   }
 
   .la-stamp {
     position: absolute;
     top: 5px;
-    left: 5px;
+    left: 15px;
     height: 200px;
     width: 200px;
   }
@@ -909,306 +604,6 @@
   .delivery-stamp {
     position: absolute;
     top: 230px;
-    right: -13px;
-    height: 300px;
-    width: 300px;
-  }
-
-  .express-stamp {
-    position: absolute;
-    top: 230px;
-    left: 15px;
-    height: 250px;
-    width: 250px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  .heading {
-    display: flex;
-    justify-content: center;
-    /*margin-top: 10px;*/
-    /*margin-bottom: 300px;*/
-    padding: 0px;
-    font-size: 30px;
-    text-align: center;
-    font-family: "HelveticaNeue-Light";
-    color: #9fbc93;
-  }
-
-  .message {
-    position: absolute;
-    left: 210px;
-    top: 485px;
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    font-size: 20px;
-    /* text-align: center; */
-    font-family: "HelveticaNeue-Light";
-    color: #9fbc93;
-  }
-
-  .phone-number {
-    position: absolute;
-    left: 275px;
-    /* top: 500px; */
-    bottom: 250px;
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    font-size: 20px;
-    text-align: center;
-    font-family: "HelveticaNeue-Light";
-    color: #9fbc93;
-  }
-
-  /*============================================== Contact Form ==============================================*/
-  /*================================================================================================================*/
-
-  /*@import "https://fonts.googleapis.com/css?family=Raleway";
-  * { box-sizing: border-box; }
-  #contact {
-    -webkit-user-select: none;  Chrome/Safari
-    -moz-user-select: none;  Firefox
-    -ms-user-select: none;  IE10+
-  }*/
-
-  /*.contactForm {
-    padding: 2em;
-    width: 580px;
-    text-align: center;
-    background: black;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    display: flex;
-    justify-content: center;
-    border: white;
-    background: none;
-  }*/
-
-  /*input, textarea {*/
-    /*margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;*/
-
-    /*border: 6px solid salmon;*/
-    /*border-bottom: 4px solid white;*/
-    /*border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 2px solid;
-    border-color: #f59086;
-    background: none;
-
-    display: block;
-    width: 200px;
-    padding: .4em;*/
-  /*}
-  textarea { height: 420px; resize: none; }*/
-
-  /*.formBtn {
-    width: 140px;
-    display: inline-block;
-    background: #38c7c7;
-    color: #fff;
-    font-weight: 100;
-    font-size: 1.2em;
-    border: none;
-    height: 30px;
-    margin-bottom: 300px;
-  }*/
-
-  input:focus { outline: none; }
-
-  textarea:focus { outline: none; }
-
-  .submit-button {
-    position: absolute;
-    bottom: 385px;
-    left: 235px;
-    width: 140px;
-    background: #00569a;
-    color: #fff;
-    font-weight: 100;
-    font-size: 1.2em;
-    border: none;
-    height: 30px;
-    border-radius: 10px 0px 0px 0px;
-  }
-
-  .reset-button {
-    position: absolute;
-    bottom: 385px;
-    right: 235px;
-    width: 140px;
-    background: #00569a;
-    color: #fff;
-    font-weight: 100;
-    font-size: 1.2em;
-    border: none;
-    height: 30px;
-    border-radius: 0px 10px 0px 0px;
-  }
-
-  .cotact-name {
-    position: absolute;
-    top: 220px;
-    left: 135px;
-    margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 2px solid;
-    border-color: #00569a;
-    background: none;
-    display: block;
-    width: 200px;
-    padding: .4em;
-  }
-
-  .contact-email {
-    position: absolute;
-    top: 305px;
-    left: 135px;
-    margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 2px solid;
-    border-color: #00569a;
-    background: none;
-    display: block;
-    width: 200px;
-    padding: .4em;
-  }
-
-  .contact-subject {
-    position: absolute;
-    top: 390px;
-    left: 135px;
-    margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: 2px solid;
-    border-color: #00569a;
-    background: none;
-    display: block;
-    width: 200px;
-    padding: .4em;
-  }
-
-  .contact-comment {
-    position: absolute;
-    top: 230px;
-    left: 420px;
-    margin: .8em auto;
-    font-family: inherit;
-    text-transform: inherit;
-    font-size: inherit;
-    border: 2px solid;
-    border-color: #00569a;
-    background: none;
-    display: block;
-    width: 200px;
-    padding: .4em;
-    height: 180px;
-    resize: none;
-  }
-
-  /*============================================== Background Color ==============================================*/
-
-  /*.background {
-    background-color: #d4d4d4;
-  }*/
-
-  /*============================================== Home Button ==============================================*/
-
-  .home-logo {
-    position: absolute;
-    /*margin-top: 5px;*/
-    margin-left: 89%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
-
-  .logo-course {
-    cursor: pointer;
-  }
-
-  /*============================================== Contact Envelope ==============================================*/
-
-  .envelope {
-    display: flex;
-    justify-content: center;
-    margin-top: 110px;
-  }
-
-  .envelope-background {
-    display: flex;
-    justify-content: center;
-    margin-top: -306px;
-    margin-left: 49px;
-    /* position: relative; */
-    width: 650px;
-    height: 318px;
-    background-color: #00569a;
-    border: none;
-    transform-origin: inherit;
-    /* transform: rotate(20deg); */
-    /* transform: translateX(-50%) translateY(-50%) rotate(20deg); */
-    /* transform: matrix(1, -0.3, 0, 1, 0, 0); */
-  }
-
-  /*.envelope-background-rotate {
-    position: fixed;
-    transform: rotate(20deg);
-  }*/
-
-  /*============================================== Contact Envelope ==============================================*/
-
-  .post-stamp {
-    position: absolute;
-    top: 100px;
-    left: 1px;
-    height: 130px;
-    width: 130px;
-  }
-
-  .miami-stamp {
-    position: absolute;
-    top: 50px;
-    right: 0px;
-    height: 170px;
-    width: 170px;
-  }
-
-  .la-stamp {
-    position: absolute;
-    top: 25px;
-    left: -1px;
-    height: 150px;
-    width: 150px;
-  }
-
-  .delivery-stamp {
-    position: absolute;
-    top: 337px;
     right: 0px;
     height: 300px;
     width: 300px;
@@ -1216,9 +611,9 @@
 
   .express-stamp {
     position: absolute;
-    top: 327px;
-    left: 5px;
-    height: 220px;
-    width: 220px;
+    top: 230px;
+    left: 20px;
+    height: 280px;
+    width: 280px;
   }
 }
