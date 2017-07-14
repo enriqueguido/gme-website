@@ -1,5 +1,13 @@
 /*============================================== Headings/Paragraphs/Contact Info ==============================================*/
 @media screen and (max-width: 1824px) and (min-width: 1024px) {
+
+  .home-contact-page {
+    position: absolute;
+    margin-left: 90.5%;
+    margin-top: 75px;
+    font-family: "HelveticaNeue-Light";
+  }
+
   .heading {
     display: flex;
     justify-content: center;
@@ -308,6 +316,13 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+  .home-contact-page {
+    position: absolute;
+    margin-left: 90.5%;
+    margin-top: 75px;
+    font-family: "HelveticaNeue-Light";
+  }
 
   .heading {
     display: flex;
@@ -620,6 +635,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
+  .home-contact-page {
+    position: absolute;
+    margin-left: 90.5%;
+    margin-top: 75px;
+    font-family: "HelveticaNeue-Light";
+  }
+
   .heading {
     display: flex;
     justify-content: center;
@@ -930,6 +952,13 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+
+  .home-contact-page {
+    position: absolute;
+    margin-left: 90.5%;
+    margin-top: 75px;
+    font-family: "HelveticaNeue-Light";
+  }
 
   .heading {
     display: flex;

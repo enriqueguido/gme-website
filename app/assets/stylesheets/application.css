@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+ /*============================================== Home Logo Button ==============================================*/
+
+.home {
+  position: absolute;
+  margin-left: 90.5%;
+  margin-top: -10px;
+  font-family: "HelveticaNeue-Light";
+}

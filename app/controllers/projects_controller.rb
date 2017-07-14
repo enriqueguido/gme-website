@@ -73,6 +73,10 @@ class ProjectsController < ApplicationController
     # @project = Project.find(2)
   end
 
+  def project4_description
+    # @project = Project.find(2)
+  end
+  
   def project_home
     @projects = Project.all
   end
