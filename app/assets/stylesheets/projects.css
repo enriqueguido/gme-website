@@ -459,44 +459,55 @@
   }
 
   /*============================================== Contact info ==============================================*/
-    /*.linkedin-link {
-      position: absolute;
-      margin-top: 22%;
-      margin-left: 0;
-      cursor: pointer;
-    }
 
-    #contact-link {
-      position: absolute;
-      margin-top: 25.9%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .linkedin-link {
+    position: absolute;
+    margin-top: 24.7%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .twitter-link {
-      position: absolute;
-      margin-top: 29.8%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  #contact-link {
+    position: absolute;
+    margin-top: 27.5%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .github-link {
-      position: absolute;
-      margin-top: 33.7%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .twitter-link {
+    position: absolute;
+    margin-top: 30.3%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .phone-link {
-      position: absolute;
-      margin-top: 37.6%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .github-link {
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .contact-logos {
-      cursor: pointer;
-    }*/
+  .phone-link {
+    position: absolute;
+    margin-top: 35.7%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
+
+  .contact-logos {
+    cursor: pointer;
+  }
 
   /*============================================== Progile Photo ==============================================*/
 
@@ -902,44 +913,54 @@
   }
 
   /*============================================== Contact info ==============================================*/
-    /*.linkedin-link {
-      position: absolute;
-      margin-top: 56%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .linkedin-link {
+    position: absolute;
+    margin-top: 24.7%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    #contact-link {
-      position: absolute;
-      margin-top: 60%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  #contact-link {
+    position: absolute;
+    margin-top: 27.5%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .twitter-link {
-      position: absolute;
-      margin-top: 64%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .twitter-link {
+    position: absolute;
+    margin-top: 30.3%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .github-link {
-      position: absolute;
-      margin-top: 68%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .github-link {
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .phone-link {
-      position: absolute;
-      margin-top: 72%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .phone-link {
+    position: absolute;
+    margin-top: 35.7%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .contact-logos {
-      cursor: pointer;
-    }*/
+  .contact-logos {
+    cursor: pointer;
+  }
 
   /*============================================== Progile Photo ==============================================*/
 
@@ -1348,44 +1369,54 @@
 
   /*============================================== Contact info ==============================================*/
 
-    /*.linkedin-link {
-      position: absolute;
-      margin-top: 52%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .linkedin-link {
+    position: absolute;
+    margin-top: 24.7%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    #contact-link {
-      position: absolute;
-      margin-top: 64%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  #contact-link {
+    position: absolute;
+    margin-top: 27.5%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .twitter-link {
-      position: absolute;
-      margin-top: 76%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .twitter-link {
+    position: absolute;
+    margin-top: 30.3%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .github-link {
-      position: absolute;
-      margin-top: 88%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .github-link {
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .phone-link {
-      position: absolute;
-      margin-top: 100%;
-      margin-left: 0;
-      cursor: pointer;
-    }
+  .phone-link {
+    position: absolute;
+    margin-top: 35.7%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
 
-    .contact-logos {
-      cursor: pointer;
-    }*/
+  .contact-logos {
+    cursor: pointer;
+  }
 
   /*============================================== Progile Photo ==============================================*/
 
