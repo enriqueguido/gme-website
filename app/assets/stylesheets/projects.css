@@ -1705,6 +1705,150 @@
   }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1366px) and (orientation: portrait) {
+
+  /*============================================== Project 4 ==============================================*/
+  /*=======================================================================================================*/
+
+  /*======================================= Home Logo Button =====================================================*/
+
+  #logo-img-prjt4 {
+    position: relative;
+    margin-left: 90%;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+  }
+
+/*======================================= Main Phone Photo/Sign Up =====================================================*/
+
+  #phone-signup-image {
+    height: 550px;
+    width: 250px;
+    float: right;
+    margin-right: 180px;
+    z-index: 100;
+    margin-top: 300px;
+  }
+
+  /*======================================= Phone Message Image =====================================================*/
+
+  #phone-message-image {
+    height: 415px;
+    width: 195px;
+    position: absolute;
+    right: 20px;
+    top: 460px;
+    z-index: -1;
+  }
+
+  /*======================================= Phone Comments Image =====================================================*/
+
+  #phone-comment-image {
+    height: 415px;
+    width: 195px;
+    position: absolute;
+    right: 412px;
+    top: 460px;
+    z-index: -1;
+  }
+
+/*======================================= Project 4 Description & name ===================================================== */
+
+  .project4_description {
+    color: white;
+    font-size: 15px;
+    margin-top: 470px;
+    margin-left: 140px;
+    margin-right: 621px;
+  }
+
+  .project4_name {
+    color: white;
+    font-size: 50px;
+    margin-top: -345px;
+    margin-left: 215px;
+    z-index: 100;
+  }
+
+/*======================================= Main Phone Photo/Sign Up Shadow =====================================================*/
+  .phone-signup-shadow {
+    width: 280px;
+    height: 65px;
+    margin: 10px 0 0 -10px;
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+    position: absolute;
+    margin-top: 356px;
+    margin-left: 555px;
+    z-index: -1;
+  }
+
+/*======================================= Phone Message Image Shadow =====================================================*/
+
+    .phone-message-shadow {
+      width: 225px;
+      height: 50px;
+      margin: 10px 0 0 -10px;
+      background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
+      -moz-border-radius: 100px / 50px;
+      -webkit-border-radius: 100px / 50px;
+      border-radius: 100px / 50px;
+      position: absolute;
+      margin-top: 295px;
+      margin-left: 777px;
+      z-index: -2;
+    }
+
+/*======================================= Phone Comments Image Shadow ===================================================== */
+
+    .phone-comment-shadow {
+      width: 225px;
+      height: 50px;
+      margin: 10px 0 0 -10px;
+      background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
+      -moz-border-radius: 100px / 50px;
+      -webkit-border-radius: 100px / 50px;
+      border-radius: 100px / 50px;
+      position: absolute;
+      margin-top: 295px;
+      margin-left: 388px;
+      z-index: -2;
+    }
+/*======================================= Project 4 Description Background ===================================================== */
+
+  #project4-background {
+    position: absolute;
+    top: 321px;
+    z-index: -2;
+    height: 680px;
+  }
+
+  /* ===================================================================================================================== */
+  /*============================================== Left Side of Page Cursor  ==============================================*/
+  .left-side-cursor {
+    /*background-color: black;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 50%;
+    cursor:url("http://i68.tinypic.com/qoy78p.jpg"), auto;
+  }
+
+  .right-side-cursor {
+    /*background-color: black;*/
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 100%;
+    width: 50%;
+    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+  }
+}
+
 @media screen and (min-width: 320px) and (max-width: 736px) and (orientation: portrait) {
 
 /*============================================== Contact info ==============================================*/
