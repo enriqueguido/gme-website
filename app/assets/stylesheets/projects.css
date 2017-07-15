@@ -1622,7 +1622,7 @@
   .project4_name {
     color: white;
     font-size: 50px;
-    margin-top: -335px;
+    margin-top: -326px;
     margin-left: 215px;
     z-index: 100;
   }
@@ -1637,7 +1637,7 @@
     -webkit-border-radius: 100px / 50px;
     border-radius: 100px / 50px;
     position: absolute;
-    margin-top: 356px;
+    margin-top: 365px;
     margin-left: 515px;
     z-index: -1;
   }
@@ -1653,7 +1653,7 @@
       -webkit-border-radius: 100px / 50px;
       border-radius: 100px / 50px;
       position: absolute;
-      margin-top: 295px;
+      margin-top: 310px;
       margin-left: 735px;
       z-index: -2;
     }
@@ -1669,7 +1669,7 @@
       -webkit-border-radius: 100px / 50px;
       border-radius: 100px / 50px;
       position: absolute;
-      margin-top: 295px;
+      margin-top: 310px;
       margin-left: 350px;
       z-index: -2;
     }
