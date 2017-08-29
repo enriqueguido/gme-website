@@ -1,5 +1,7 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :edit, :update, :destroy]
+  before_filter :check_mobile
+  # before_filter :device_variant
 
   # GET /projects
   # GET /projects.json
@@ -61,22 +63,22 @@ class ProjectsController < ApplicationController
     end
   end
 
-  def project3_description
-    # @project = Project.find(1)
+  def project1_description
+    # @project = Project.find(2)
   end
 
   def project2_description
     # @project = Project.find(3)
   end
 
-  def project1_description
-    # @project = Project.find(2)
+  def project3_description
+    # @project = Project.find(1)
   end
 
   def project4_description
     # @project = Project.find(2)
   end
-  
+
   def project_home
     @projects = Project.all
   end

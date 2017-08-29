@@ -1705,12 +1705,12 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 736px) and (orientation: portrait) {
+/*@media screen and (min-width: 320px) and (max-width: 736px) and (orientation: portrait) {*/
 
 /*============================================== Contact info ==============================================*/
 
-  .click-to-project1 {
-    /*background-color: #ff3778;*/
+  /*.click-to-project1 {
+    background-color: #ff3778;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -1718,11 +1718,11 @@
     height: 100%;
     width: 100%;
     cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
-  }
+  }*/
 
   /*============================================== Contact info ==============================================*/
 
-  .linkedin-link {
+  /*.linkedin-link {
     position: absolute;
     margin-top: 24.7%;
     margin-left: 0;
@@ -1747,8 +1747,8 @@
     cursor: pointer;
     float: left;
     clear: left;
-  }
-
+  }*/
+/*
   .github-link {
     position: absolute;
     margin-top: 33%;
@@ -1756,8 +1756,8 @@
     cursor: pointer;
     float: left;
     clear: left;
-  }
-
+  }*/
+/*
   .phone-link {
     position: absolute;
     margin-top: 35.7%;
@@ -1765,15 +1765,15 @@
     cursor: pointer;
     float: left;
     clear: left;
-  }
-
+  }*/
+/*
   .contact-logos {
     cursor: pointer;
-  }
+  }*/
 
   /*============================================== Progile Photo ==============================================*/
 
-  #profile-photo {
+  /*#profile-photo {
     margin-top: 70%;
     margin-left: 0%;
     height: 350px;
@@ -1784,12 +1784,12 @@
     overflow: hidden;
     position: fixed;
     display: block;
-    /*cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
-  }
+    cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
+  }*/
 
   /*============================================== Background photo ==============================================*/
 
-  #background-art {
+  /*#background-art {
     position: fixed;
     display: block;
     height: 911px;
@@ -1798,12 +1798,12 @@
     left: -69px;
     background-repeat: no-repeat;
     overflow: hidden;
-    /*cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
-  }
+    cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
+  }*/
 
   /*============================================== Info about me ==============================================*/
 
-  .bio {
+  /*.bio {
     position: absolute;
     margin-top: 6%;
     margin-left: -3%;
@@ -1811,11 +1811,11 @@
     font-size: 20px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
-    /*cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
+    cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
     text-decoration: none;
-  }
+  }*/
 
-  .directions {
+  /*.directions {
     position: absolute;
     margin-top: 45%;
     margin-left: 16%;
@@ -1824,9 +1824,9 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     text-decoration: none;
-  }
+  }*/
 
-  .space-bar {
+  /*.space-bar {
     background-color: #D15CEA;
     width: 150px;
     height: 3px;
@@ -1834,14 +1834,14 @@
     margin-top: 40%;
     margin-left: 25%;
     text-decoration: none;
-  }
+  }*/
 
   /*============================================== Project 1 ==============================================*/
   /*=======================================================================================================*/
 
   /*============================================== Project Name & Description ==============================================*/
 
-  .project1-name {
+  /*.project1-name {
     position: absolute;
     top: 580px;
     margin-left: 28%;
@@ -1857,17 +1857,16 @@
     top: 684px;
     margin-left: 7%;
     margin-right: 7%;
-    /* margin-bottom: 0%; */
     font-size: 14px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
     cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
-  }
+  }*/
 
   /*============================================== Background Image ==============================================*/
 
-  #project1-background-art {
+  /*#project1-background-art {
     height: 100%;
     width: 100%;
     margin-right: 20%;
@@ -1876,10 +1875,10 @@
     background-repeat: no-repeat;
     overflow: hidden;
     cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
-  }
+  }*/
 
   /*============================================== App Photos ==============================================*/
-
+/*
   #wobblee-home-pg {
     position: absolute;
     top: 150px;
@@ -1906,11 +1905,11 @@
     opacity: 0.6;
     overflow: hidden;
     display: block;
-  }
+  }*/
 
   /*============================================== GitHub Button ==============================================*/
 
-  .git-button {
+  /*.git-button {
     position: absolute;
     top: 968px;
     margin-left: 12%;
@@ -1918,7 +1917,6 @@
     text-decoration: none;
     font-family: "HelveticaNeue-Light";
     font-size: 14px;
-    /* border: 2px solid blue; */
     padding: 10px 90px 10px 90px;
     background-color: #325eea;
     border-radius: 5px;
@@ -1928,11 +1926,11 @@
     cursor: pointer;
     text-decoration: none;
     color: white;
-  }
+  }*/
 
   /*============================================== Home Logo Button ==============================================*/
 
-  #logo-img {
+  /*#logo-img {
     position: relative;
     margin-left: 70%;
     height: 80px;
@@ -1942,45 +1940,38 @@
 
   .logo-link-to {
     cursor: pointer;
-  }
+  }*/
 
   /*=================================================== Project 2 ======================================================*/
   /*===================================================================================================================*/
 
   /*============================================== Project 2 Background  ==============================================*/
 
-  #project2-background-art {
+  /*#project2-background-art {
     height: 100%;
     width: 100%;
     position: absolute;
     display: inline-block;
     background-repeat: no-repeat;
     overflow: hidden;
-    /* margin-left: -71px; */
     margin-top: 565px;
-    /*margin-right: none;
-    margin-top: none;*/
-  }
+  }*/
 
   /*============================================== Phone With Hand  ==============================================*/
 
-  #phone-image {
-    /* margin-left: 400px; */
+  /*#phone-image {
     margin-top: 130px;
     position: absolute;
-    /* top: 253px; */
     right: -12px;
-    /* display: inline-block; */
-    /* background-repeat: no-repeat; */
     overflow: hidden;
     height: 435px;
     width: 300px;
     cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
-  }
+  }*/
 
   /*============================================== Project Name & Description  ==============================================*/
 
-  .project2-name {
+  /*.project2-name {
     position: absolute;
     top: 710px;
     margin-left: 30%;
@@ -2001,11 +1992,11 @@
     text-align: center;
     color: white;
     cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;
-  }
+  }*/
 
   /*============================================== Projec 2 Home Logo ==============================================*/
 
-  #logo-img-prjt2 {
+  /*#logo-img-prjt2 {
     position: relative;
     margin-left: 70%;
     height: 80px;
@@ -2017,15 +2008,14 @@
     position: absolute;
     height: 100px;
     width: 100px;
-    /*background-color: red;*/
     right: 60px;
     top: 0px;
     cursor: pointer;
-  }
+  }*/
 
   /*============================================== GitHub/See More Button ==============================================*/
 
-  .git-button-prjt2 {
+  /*.git-button-prjt2 {
     position: absolute;
     top: 1000px;
     margin-left: 10%;
@@ -2033,7 +2023,6 @@
     text-decoration: none;
     font-family: "HelveticaNeue-Light";
     font-size: 15px;
-    /* border: 2px solid blue; */
     padding: 10px 100px 10px 100px;
     background-color: white;
     border-radius: 5px;
@@ -2044,7 +2033,7 @@
     cursor: pointer;
     text-decoration: none;
     color: #f88924;
-  }
+  }*/
 
   /*============================================== GitHub/See More Button ==============================================*/
 
@@ -2062,7 +2051,7 @@
 
   /*============================================== Project 3 Background  ==============================================*/
 
-  .project3-background-art3 #project3-background-art3 {
+  /*.project3-background-art3 #project3-background-art3 {
     position: fixed;
     display: block;
     background-repeat: no-repeat;
@@ -2070,11 +2059,11 @@
     height: 100vh;
     width: 100vw;
     margin-left: -8px;
-  }
+  }*/
 
   /*============================================== Project Name & Description  ==============================================*/
 
-  .project3-name {
+  /*.project3-name {
     position: absolute;
     top: 120px;
     margin-left: 25%;
@@ -2082,7 +2071,6 @@
     font-family: sans-serif;
     text-align: center;
     color: black;
-    /* cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto; */
   }
 
   .project3-description {
@@ -2094,13 +2082,12 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
-    /* cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto; */
-  }
+  }*/
 
 
   /*============================================== GitHub/See More Button ==============================================*/
 
-  .git-button-prjt3 {
+  /*.git-button-prjt3 {
     position: absolute;
     top: 365px;
     margin-left: 12%;
@@ -2117,13 +2104,12 @@
   .git-button-link-prjt3 {
     cursor: pointer;
     text-decoration: none;
-    /*color: #ff3778;*/
     color: white;
-  }
+  }*/
 
   /*============================================== Projec 3 Home Logo ==============================================*/
 
-  #logo-img-prjt3 {
+  /*#logo-img-prjt3 {
     position: relative;
     margin-left: 70%;
     height: 80px;
@@ -2137,57 +2123,57 @@
 
   .logo-prjt3 {
     cursor: pointer;
-  }
+  }*/
 
   /*============================================== Project 4 ==============================================*/
   /*=======================================================================================================*/
 
   /*======================================= Home Logo Button =====================================================*/
 
-  #logo-img-prjt4 {
+  /*#logo-img-prjt4 {
     position: relative;
     margin-left: 90%;
     height: 80px;
     width: 80px;
     cursor: pointer;
-  }
+  }*/
 
 /*======================================= Main Phone Photo/Sign Up =====================================================*/
 
-  #phone-signup-image {
+  /*#phone-signup-image {
     height: 750px;
     width: 340px;
     float: right;
     margin-right: 275px;
     z-index: 100;
     margin-top: 300px;
-  }
+  }*/
 
   /*======================================= Phone Message Image =====================================================*/
 
-  #phone-message-image {
+  /*#phone-message-image {
     height: 565px;
     width: 230px;
     position: absolute;
     right: 75px;
     top: 490px;
     z-index: -1;
-  }
+  }*/
 
   /*======================================= Phone Comments Image =====================================================*/
 
-  #phone-comment-image {
+  /*#phone-comment-image {
     height: 565px;
     width: 230px;
     position: absolute;
     right: 412px;
     top: 490px;
     z-index: -1;
-  }
+  }*/
 
 /*======================================= Project 4 Description & name ===================================================== */
 
-  .project4_description {
+  /*.project4_description {
     color: white;
     font-size: 13px;
     margin-top: 470px;
@@ -2201,10 +2187,10 @@
     margin-top: -335px;
     margin-left: 215px;
     z-index: 100;
-  }
+  }*/
 
 /*======================================= Main Phone Photo/Sign Up Shadow =====================================================*/
-  .phone-signup-shadow {
+  /*.phone-signup-shadow {
     width: 280px;
     height: 65px;
     margin: 10px 0 0 -10px;
@@ -2216,11 +2202,11 @@
     margin-top: 356px;
     margin-left: 515px;
     z-index: -1;
-  }
+  }*/
 
 /*======================================= Phone Message Image Shadow =====================================================*/
 
-    .phone-message-shadow {
+    /*.phone-message-shadow {
       width: 225px;
       height: 50px;
       margin: 10px 0 0 -10px;
@@ -2232,11 +2218,11 @@
       margin-top: 295px;
       margin-left: 735px;
       z-index: -2;
-    }
+    }*/
 
 /*======================================= Phone Comments Image Shadow ===================================================== */
 
-    .phone-comment-shadow {
+    /*.phone-comment-shadow {
       width: 225px;
       height: 50px;
       margin: 10px 0 0 -10px;
@@ -2248,20 +2234,19 @@
       margin-top: 295px;
       margin-left: 350px;
       z-index: -2;
-    }
+    }*/
 /*======================================= Project 4 Description Background ===================================================== */
 
-  #project4-background {
+  /*#project4-background {
     position: absolute;
     top: 321px;
     z-index: -2;
     height: 680px;
-  }
+  }*/
 
   /* ===================================================================================================================== */
   /*============================================== Left Side of Page Cursor  ==============================================*/
-  .left-side-cursor {
-    /*background-color: black;*/
+  /*.left-side-cursor {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -2271,7 +2256,6 @@
   }
 
   .right-side-cursor {
-  /*background-color: black;*/
   position: absolute;
   top: 0px;
   right: 0px;
@@ -2280,4 +2264,137 @@
   cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
   }
 
+}*/
+
+@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) { /* Iphone 5 Query */
+
+/*============================================== Home Page ==============================================*/
+
+  .click-to-project1-mobile {
+    /*background-color: #ff3778;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+    width: 100%;
+    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+  }
+
+  /*============================================== Contact info ==============================================*/
+  .linkedin-link-mobile {
+    position: absolute;
+    margin-top: 24.7%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
+
+  #contact-link-mobile {
+    position: absolute;
+    margin-top: 27.5%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
+
+  .twitter-link-mobile {
+    position: absolute;
+    margin-top: 30.3%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
+
+  .github-link-mobile {
+    position: absolute;
+    margin-top: 33%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
+
+  .phone-link-mobile {
+    position: absolute;
+    margin-top: 35.7%;
+    margin-left: 0;
+    cursor: pointer;
+    float: left;
+    clear: left;
+  }
+
+  .contact-logos-mobile {
+    cursor: pointer;
+  }
+
+  /*============================================== Progile Photo ==============================================*/
+  #profile-photo-mobile {
+    margin-top: 1%;
+    margin-left: 47%;
+    height: 860px;
+    width: 860px;
+    /* margin-bottom: 5%; */
+    /* padding-bottom: 0%; */
+    padding-top: 0%;
+    overflow: hidden;
+    position: fixed;
+    display: block;
+    /*cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
+  }
+  /*============================================== Background photo ==============================================*/
+
+  #background-art-mobile {
+    position: fixed;
+    display: block;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    /*cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
+    height: 2217px;
+    width: 1800px;
+    right: -25%;
+    top: -7%;
+  }
+
+  /*============================================== Info about me ==============================================*/
+
+  .bio-mobile {
+    position: absolute;
+    margin-top: 7%;
+    margin-left: 9%;
+    margin-bottom: 0%;
+    font-size: 40px;
+    font-family: "HelveticaNeue-Light";
+    text-align: center;
+    /*cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
+    text-decoration: none;
+  }
+
+  .directions-mobile {
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 19%;
+    margin-bottom: 0%;
+    font-size: 20px;
+    font-family: "HelveticaNeue-Light";
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .space-bar-mobile {
+    background-color: #D15CEA;
+    width: 350px;
+    height: 3px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 20%;
+    text-decoration: none;
+  }
+
+  .something-mobile {
+    background-color: black;
+  }
 }
