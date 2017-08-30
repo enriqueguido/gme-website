@@ -1,7 +1,6 @@
 class ProjectsController < ApplicationController
   before_action :set_project, only: [:show, :edit, :update, :destroy]
-  before_filter :check_mobile
-  # before_filter :device_variant
+  # before_filter :check_mobile
 
   # GET /projects
   # GET /projects.json
@@ -22,6 +21,7 @@ class ProjectsController < ApplicationController
   # GET /projects/1/edit
   def edit
   end
+
 
   # POST /projects
   # POST /projects.json

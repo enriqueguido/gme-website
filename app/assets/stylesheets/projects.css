@@ -17,6 +17,16 @@
   }
 
   /*============================================== Contact info ==============================================*/
+
+  .contact-wrapper {
+    position: absolute;
+    margin-left: 0;
+    cursor: pointer;
+    margin-top: 23.5%;
+    width: 60px;
+    height: 230px;
+  }
+
   .linkedin-link {
     position: absolute;
     margin-top: 24.7%;
@@ -549,7 +559,7 @@
     left: 0px;
     height: 100%;
     width: 50%;
-    cursor:url("http://i68.tinypic.com/qoy78p.jpg"), auto;
+    cursor:url( <%= asset_path('/mouse-cursor-left.png')%> ), auto;
   }
 
   .right-side-cursor {
@@ -579,6 +589,15 @@
   }
 
   /*============================================== Contact info ==============================================*/
+
+  .contact-wrapper {
+    position: absolute;
+    margin-left: 0;
+    cursor: pointer;
+    margin-top: 23.5%;
+    width: 60px;
+    height: 230px;
+  }
 
   .linkedin-link {
     position: absolute;
@@ -2266,135 +2285,139 @@
 
 }*/
 
-@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) { /* Iphone 5 Query */
+/*@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) { /* Iphone 5 Query */
 
 /*============================================== Home Page ==============================================*/
 
   .click-to-project1-mobile {
     /*background-color: #ff3778;*/
-    position: absolute;
+    /*position: absolute;
     top: 0px;
     left: 0px;
     right: 0px;
     height: 100%;
     width: 100%;
-    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;
+    cursor:url("http://i63.tinypic.com/2lsznkm.jpg"), auto;*/
   }
 
   /*============================================== Contact info ==============================================*/
   .linkedin-link-mobile {
-    position: absolute;
+    /*position: absolute;
     margin-top: 24.7%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;
+    clear: left;*/
   }
 
   #contact-link-mobile {
-    position: absolute;
+    /*position: absolute;
     margin-top: 27.5%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;
+    clear: left;*/
   }
 
   .twitter-link-mobile {
-    position: absolute;
+    /*position: absolute;
     margin-top: 30.3%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;
+    clear: left;*/
   }
 
   .github-link-mobile {
-    position: absolute;
+    /*position: absolute;
     margin-top: 33%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;
+    clear: left;*/
   }
 
   .phone-link-mobile {
-    position: absolute;
+    /*position: absolute;
     margin-top: 35.7%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;
+    clear: left;*/
   }
 
   .contact-logos-mobile {
-    cursor: pointer;
+    /*cursor: pointer;*/
   }
 
   /*============================================== Progile Photo ==============================================*/
   #profile-photo-mobile {
-    margin-top: 1%;
+    /*margin-top: 1%;
     margin-left: 47%;
     height: 860px;
-    width: 860px;
+    width: 860px;*/
     /* margin-bottom: 5%; */
     /* padding-bottom: 0%; */
-    padding-top: 0%;
+    /*padding-top: 0%;
     overflow: hidden;
     position: fixed;
-    display: block;
+    display: block;*/
     /*cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
   }
   /*============================================== Background photo ==============================================*/
 
   #background-art-mobile {
-    position: fixed;
+    /*position: fixed;
     display: block;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: hidden;*/
     /*cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
-    height: 2217px;
+    /*height: 2217px;
     width: 1800px;
     right: -25%;
-    top: -7%;
+    top: -7%;*/
   }
 
   /*============================================== Info about me ==============================================*/
 
   .bio-mobile {
-    position: absolute;
+    /*position: absolute;
     margin-top: 7%;
     margin-left: 9%;
     margin-bottom: 0%;
     font-size: 40px;
     font-family: "HelveticaNeue-Light";
-    text-align: center;
+    text-align: center;*/
     /*cursor: url(http://i63.tinypic.com/2lsznkm.jpg), auto;*/
-    text-decoration: none;
+    /*text-decoration: none;*/
   }
 
   .directions-mobile {
-    position: absolute;
+    /*position: absolute;
     margin-top: 23%;
     margin-left: 19%;
     margin-bottom: 0%;
     font-size: 20px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;*/
   }
 
   .space-bar-mobile {
-    background-color: #D15CEA;
+    /*background-color: #D15CEA;
     width: 350px;
     height: 3px;
     position: absolute;
     margin-top: 20%;
     margin-left: 20%;
-    text-decoration: none;
+    text-decoration: none;*/
   }
 
   .something-mobile {
-    background-color: black;
+    /*background-color: black;*/
+  }
+
+  .mobile1 {
+    color: red;
   }
 }

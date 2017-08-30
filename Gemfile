@@ -56,4 +56,6 @@ gem 'jquery-turbolinks'
 
 gem 'mail_form'
 
-gem 'browser'
+# gem 'browser'
+
+gem 'mobylette'
