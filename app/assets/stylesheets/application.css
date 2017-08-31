@@ -12,7 +12,7 @@
  *
  *= require_tree .
  *= require_self
- *= require pace/blue/pace-theme-flash
+ *= require nprogress
  */
  /*============================================== Home Logo Button ==============================================*/
 

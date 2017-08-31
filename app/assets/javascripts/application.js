@@ -16,4 +16,5 @@
 //= require turbolinks
 //= require_tree .
 //=require turbolinks-compatibility
-//= require pace/pace
+//= require nprogress
+//= require nprogress-turbolinks
