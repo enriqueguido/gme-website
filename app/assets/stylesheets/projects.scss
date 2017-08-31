@@ -2422,3 +2422,42 @@
 .something-mobile {
   background-color: black;
 }
+
+/*============================================== Project1 ==============================================*/
+
+#project1-background-art-mobile {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: inline-block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#wobblee-bubble-pg-mobile {
+  position: absolute;
+  top: 60%;
+  margin-left: 55%;
+  height: 680px;
+  width: 395px;
+  opacity: 0.7;
+  overflow: hidden;
+  display: block;
+}
+
+#wobblee-signup-mobile {
+  position: absolute;
+  top: 30px;
+  margin-left: 5%;
+  height: 680px;
+  width: 395px;
+  opacity: 0.7;
+}
+
+#wobblee-home-pg-mobile {
+  position: absolute;
+  top: 26%;
+  left: 25%;
+  height: 910px;
+  width: 450px;
+}

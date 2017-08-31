@@ -23,3 +23,20 @@
   margin-top: -10px;
   font-family: "HelveticaNeue-Light";
 }
+
+#logo-img-prjt2-mobile {
+  position: absolute;
+  margin-left: 75%;
+  top: 2.5%;
+  height: 170px;
+  width: 170px;
+  /* cursor: pointer; */
+}
+
+#home-mobile {
+  position: absolute;
+  font-family: "HelveticaNeue-Light";
+  font-size: 27px;
+  top: 11.5%;
+  right: 12%;
+}
