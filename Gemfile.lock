@@ -88,6 +88,7 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
+    nprogress-rails (0.2.0.2)
     pg (0.21.0)
     puma (3.10.0)
     rack (2.0.3)
@@ -174,6 +175,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   mail_form
   mobylette
+  nprogress-rails
   pg
   puma (~> 3.0)
   rails (~> 5.0.2)
