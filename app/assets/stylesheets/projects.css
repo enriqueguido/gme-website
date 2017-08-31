@@ -13,7 +13,7 @@
     right: 0px;
     height: 100%;
     width: 100%;
-    cursor:url('/assets/mouse-cursor.png'), auto;
+    cursor:image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Contact info ==============================================*/
@@ -88,7 +88,7 @@
     overflow: hidden;
     position: fixed;
     display: block;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
   }
   /*============================================== Background photo ==============================================*/
 
@@ -97,7 +97,7 @@
     display: block;
     background-repeat: no-repeat;
     overflow: hidden;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
     height: 2217px;
     width: 1800px;
     right: -25%;
@@ -114,7 +114,7 @@
     font-size: 40px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
     text-decoration: none;
   }
 
@@ -152,7 +152,7 @@
     font-family: sans-serif;
     text-align: center;
     color: black;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   .project1-description {
@@ -165,7 +165,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Background Image ==============================================*/
@@ -180,7 +180,7 @@
     display: inline-block;
     background-repeat: no-repeat;
     overflow: hidden;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== App Photos ==============================================*/
@@ -265,7 +265,7 @@
     overflow: hidden;
     height: 735px;
     width: 600px;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Project Name & Description  ==============================================*/
@@ -278,7 +278,7 @@
     font-family: sans-serif;
     text-align: center;
     color: white;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   .project2-description {
@@ -290,7 +290,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: white;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Projec 2 Home Logo ==============================================*/
@@ -344,7 +344,7 @@
       margin-left: 59.4%;
       height: 439px;
       width: 236px;
-      cursor: url('/assets/mouse-cursor.png'), auto;
+      cursor: image-url('/assets/mouse-cursor.png'), auto;
     }*/
 
   /*============================================== Project 3 ==============================================*/
@@ -372,7 +372,7 @@
     font-family: sans-serif;
     text-align: center;
     color: black;
-    /*cursor:url("'/assets/mouse-cursor.png'"), auto;*/
+    /*cursor:image-url("'/assets/mouse-cursor.png'"), auto;*/
   }
 
   .project3-description {
@@ -384,7 +384,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
-    /* cursor: url('/assets/mouse-cursor.png'), auto; */
+    /* cursor: image-url('/assets/mouse-cursor.png'), auto; */
   }
 
 
@@ -559,7 +559,7 @@
     left: 0px;
     height: 100%;
     width: 50%;
-    cursor:url('/assets/mouse-cursor-left.png'), auto;
+    cursor:image-url('/assets/mouse-cursor-left.png'), auto;
   }
 
   .right-side-cursor {
@@ -569,7 +569,7 @@
     right: 0px;
     height: 100%;
     width: 50%;
-    cursor:url('/assets/mouse-cursor.png'), auto;
+    cursor:image-url('/assets/mouse-cursor.png'), auto;
   }
 }
 
@@ -585,7 +585,7 @@
     right: 0px;
     height: 100%;
     width: 100%;
-    cursor:url('/assets/mouse-cursor.png'), auto;
+    cursor:image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Contact info ==============================================*/
@@ -661,7 +661,7 @@
     overflow: hidden;
     position: fixed;
     display: block;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
   }
 
   /*============================================== Background photo ==============================================*/
@@ -675,7 +675,7 @@
     left: -143px;
     background-repeat: no-repeat;
     overflow: hidden;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
   }
 
   /*============================================== Info about me ==============================================*/
@@ -687,7 +687,7 @@
     font-size: 27px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
     text-decoration: none;
   }
 
@@ -725,7 +725,7 @@
     font-family: sans-serif;
     text-align: center;
     color: black;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   .project1-description {
@@ -738,7 +738,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Background Image ==============================================*/
@@ -751,7 +751,7 @@
     display: inline-block;
     background-repeat: no-repeat;
     overflow: hidden;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
   }
 
   /*============================================== App Photos ==============================================*/
@@ -846,7 +846,7 @@
     overflow: hidden;
     height: 550px;
     width: 390px;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Project Name & Description  ==============================================*/
@@ -859,7 +859,7 @@
     font-family: sans-serif;
     text-align: center;
     color: white;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   .project2-description {
@@ -871,7 +871,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: white;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Projec 2 Home Logo ==============================================*/
@@ -925,7 +925,7 @@
     margin-left: 59.4%;
     height: 439px;
     width: 236px;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Project 3 ==============================================*/
@@ -953,7 +953,7 @@
     font-family: sans-serif;
     text-align: center;
     color: black;
-    /* cursor: url('/assets/mouse-cursor.png'), auto; */
+    /* cursor: image-url('/assets/mouse-cursor.png'), auto; */
   }
 
   .project3-description {
@@ -965,7 +965,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
-    /* cursor: url('/assets/mouse-cursor.png'), auto; */
+    /* cursor: image-url('/assets/mouse-cursor.png'), auto; */
   }
 
   /*============================================== GitHub/See More Button ==============================================*/
@@ -1136,7 +1136,7 @@
     left: 0px;
     height: 100%;
     width: 50%;
-    cursor:url('/assets/mouse-cursor-left.png'), auto;
+    cursor:image-url('/assets/mouse-cursor-left.png'), auto;
   }
 
   .right-side-cursor {
@@ -1146,7 +1146,7 @@
     right: 0px;
     height: 100%;
     width: 50%;
-    cursor:url('/assets/mouse-cursor.png'), auto;
+    cursor:image-url('/assets/mouse-cursor.png'), auto;
   }
 }
 
@@ -1162,7 +1162,7 @@
     right: 0px;
     height: 100%;
     width: 100%;
-    cursor:url('/assets/mouse-cursor.png'), auto;
+    cursor:image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Contact info ==============================================*/
@@ -1228,7 +1228,7 @@
     overflow: hidden;
     position: fixed;
     display: block;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
   }
 
   /*============================================== Background photo ==============================================*/
@@ -1242,7 +1242,7 @@
     left: -158px;
     background-repeat: no-repeat;
     overflow: hidden;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
   }
 
   /*============================================== Info about me ==============================================*/
@@ -1254,7 +1254,7 @@
     font-size: 27px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
     text-decoration: none;
   }
 
@@ -1292,7 +1292,7 @@
     font-family: sans-serif;
     text-align: center;
     color: black;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   .project1-description {
@@ -1305,7 +1305,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Background Image ==============================================*/
@@ -1318,7 +1318,7 @@
     display: inline-block;
     background-repeat: no-repeat;
     overflow: hidden;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== App Photos ==============================================*/
@@ -1418,7 +1418,7 @@
     overflow: hidden;
     height: 750px;
     width: 530px;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Project Name & Description  ==============================================*/
@@ -1431,7 +1431,7 @@
     font-family: sans-serif;
     text-align: center;
     color: white;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   .project2-description {
@@ -1443,7 +1443,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: white;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   /*============================================== Projec 2 Home Logo ==============================================*/
@@ -1497,7 +1497,7 @@
     margin-left: 59.4%;
     height: 439px;
     width: 236px;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Project 3 ==============================================*/
@@ -1525,7 +1525,7 @@
     font-family: sans-serif;
     text-align: center;
     color: black;
-    /*cursor:url('/assets/mouse-cursor.png'), auto;*/
+    /*cursor:image-url('/assets/mouse-cursor.png'), auto;*/
   }
 
   .project3-description {
@@ -1537,7 +1537,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
-    /* cursor: url('/assets/mouse-cursor.png'), auto; */
+    /* cursor: image-url('/assets/mouse-cursor.png'), auto; */
   }
 
 
@@ -1710,7 +1710,7 @@
     left: 0px;
     height: 100%;
     width: 50%;
-    cursor:url('/assets/mouse-cursor-left.png'), auto;
+    cursor:image-url('/assets/mouse-cursor-left.png'), auto;
   }
 
   .right-side-cursor {
@@ -1720,7 +1720,7 @@
     right: 0px;
     height: 100%;
     width: 50%;
-    cursor:url('/assets/mouse-cursor.png'), auto;
+    cursor:image-url('/assets/mouse-cursor.png'), auto;
   }
 }
 
@@ -1736,7 +1736,7 @@
     right: 0px;
     height: 100%;
     width: 100%;
-    cursor:url('/assets/mouse-cursor.png'), auto;
+    cursor:image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Contact info ==============================================*/
@@ -1803,7 +1803,7 @@
     overflow: hidden;
     position: fixed;
     display: block;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Background photo ==============================================*/
@@ -1817,7 +1817,7 @@
     left: -69px;
     background-repeat: no-repeat;
     overflow: hidden;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Info about me ==============================================*/
@@ -1830,7 +1830,7 @@
     font-size: 20px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
     text-decoration: none;
   }
 
@@ -1868,7 +1868,7 @@
     font-family: sans-serif;
     text-align: center;
     color: black;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   .project1-description {
@@ -1880,7 +1880,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: black;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Background Image ==============================================*/
@@ -1893,7 +1893,7 @@
     display: inline-block;
     background-repeat: no-repeat;
     overflow: hidden;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== App Photos ==============================================*/
@@ -1985,7 +1985,7 @@
     overflow: hidden;
     height: 435px;
     width: 300px;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Project Name & Description  ==============================================*/
@@ -1998,7 +1998,7 @@
     font-family: sans-serif;
     text-align: center;
     color: white;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }
 
   .project2-description {
@@ -2010,7 +2010,7 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     color: white;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Projec 2 Home Logo ==============================================*/
@@ -2062,7 +2062,7 @@
     margin-left: 59.4%;
     height: 439px;
     width: 236px;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Project 3 ==============================================*/
@@ -2274,7 +2274,7 @@
     left: 0px;
     height: 100%;
     width: 50%;
-    cursor:url('/assets/mouse-cursor-left.png'), auto;
+    cursor:image-url('/assets/mouse-cursor-left.png'), auto;
   }
 
   .right-side-cursor {
@@ -2283,7 +2283,7 @@
   right: 0px;
   height: 100%;
   width: 50%;
-  cursor:url('/assets/mouse-cursor.png'), auto;
+  cursor:image-url('/assets/mouse-cursor.png'), auto;
   }
 
 }*/
@@ -2300,7 +2300,7 @@
     right: 0px;
     height: 100%;
     width: 100%;
-    cursor:url('/assets/mouse-cursor.png'), auto;
+    cursor:image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Contact info ==============================================*/
@@ -2367,7 +2367,7 @@
     overflow: hidden;
     position: fixed;
     display: block;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Background photo ==============================================*/
@@ -2377,7 +2377,7 @@
     display: block;
     background-repeat: no-repeat;
     overflow: hidden;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
     height: 2217px;
     width: 1800px;
     right: -25%;
@@ -2394,7 +2394,7 @@
     font-size: 40px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
-    cursor: url('/assets/mouse-cursor.png'), auto;
+    cursor: image-url('/assets/mouse-cursor.png'), auto;
     text-decoration: none;
   }
 
