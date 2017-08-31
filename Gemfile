@@ -53,11 +53,15 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'jquery-turbolinks'
-# Email contact form 
+# Email contact form
 gem 'mail_form'
 # Mobile browser detection
 # gem 'browser'
 # Mobile browser detection
 gem 'mobylette'
 # Progress bar for rails
-gem "nprogress-rails"
+# gem "nprogress-rails"
+
+gem 'pace-rails'
+# configure application to serve static images 
+gem 'rails_12factor', group: :production
