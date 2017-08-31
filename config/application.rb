@@ -1,6 +1,7 @@
 require_relative 'boot'
 require "action_view"
 require "action_view/template/resolver"
+
 require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems

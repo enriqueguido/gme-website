@@ -1525,7 +1525,7 @@
     font-family: sans-serif;
     text-align: center;
     color: black;
-    /*cursor:url("'/assets/mouse-cursor.png'"), auto;*/
+    /*cursor:url('/assets/mouse-cursor.png'), auto;*/
   }
 
   .project3-description {
@@ -1736,7 +1736,7 @@
     right: 0px;
     height: 100%;
     width: 100%;
-    cursor:url("'/assets/mouse-cursor.png'"), auto;
+    cursor:url('/assets/mouse-cursor.png'), auto;
   }*/
 
   /*============================================== Contact info ==============================================*/
@@ -1766,8 +1766,8 @@
     cursor: pointer;
     float: left;
     clear: left;
-  }*/
-/*
+  }
+
   .github-link {
     position: absolute;
     margin-top: 33%;
@@ -1775,8 +1775,8 @@
     cursor: pointer;
     float: left;
     clear: left;
-  }*/
-/*
+  }
+
   .phone-link {
     position: absolute;
     margin-top: 35.7%;
@@ -1784,8 +1784,8 @@
     cursor: pointer;
     float: left;
     clear: left;
-  }*/
-/*
+  }
+
   .contact-logos {
     cursor: pointer;
   }*/
@@ -1832,9 +1832,9 @@
     text-align: center;
     cursor: url('/assets/mouse-cursor.png'), auto;
     text-decoration: none;
-  }*/
+  }
 
-  /*.directions {
+  .directions {
     position: absolute;
     margin-top: 45%;
     margin-left: 16%;
@@ -1843,9 +1843,9 @@
     font-family: "HelveticaNeue-Light";
     text-align: center;
     text-decoration: none;
-  }*/
+  }
 
-  /*.space-bar {
+  .space-bar {
     background-color: #D15CEA;
     width: 150px;
     height: 3px;
@@ -2209,6 +2209,7 @@
   }*/
 
 /*======================================= Main Phone Photo/Sign Up Shadow =====================================================*/
+
   /*.phone-signup-shadow {
     width: 280px;
     height: 65px;
@@ -2254,6 +2255,7 @@
       margin-left: 350px;
       z-index: -2;
     }*/
+
 /*======================================= Project 4 Description Background ===================================================== */
 
   /*#project4-background {
@@ -2265,13 +2267,14 @@
 
   /* ===================================================================================================================== */
   /*============================================== Left Side of Page Cursor  ==============================================*/
+
   /*.left-side-cursor {
     position: absolute;
     top: 0px;
     left: 0px;
     height: 100%;
     width: 50%;
-    cursor:url(" '/assets/mouse-cursor-left.png'"), auto;
+    cursor:url('/assets/mouse-cursor-left.png'), auto;
   }
 
   .right-side-cursor {
@@ -2280,144 +2283,143 @@
   right: 0px;
   height: 100%;
   width: 50%;
-  cursor:url("'/assets/mouse-cursor.png'"), auto;
+  cursor:url('/assets/mouse-cursor.png'), auto;
   }
 
 }*/
 
-/*@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) { /* Iphone 5 Query */
+/*@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) { Iphone 5 Query */
 
 /*============================================== Home Page ==============================================*/
 
-  .click-to-project1-mobile {
-    /*background-color: #ff3778;*/
-    /*position: absolute;
+  /*.click-to-project1-mobile {
+    background-color: #ff3778;
+    position: absolute;
     top: 0px;
     left: 0px;
     right: 0px;
     height: 100%;
     width: 100%;
-    cursor:url("'/assets/mouse-cursor.png'"), auto;*/
-  }
+    cursor:url('/assets/mouse-cursor.png'), auto;
+  }*/
 
   /*============================================== Contact info ==============================================*/
-  .linkedin-link-mobile {
-    /*position: absolute;
+
+  /*.linkedin-link-mobile {
+    position: absolute;
     margin-top: 24.7%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;*/
+    clear: left;
   }
 
   #contact-link-mobile {
-    /*position: absolute;
+    position: absolute;
     margin-top: 27.5%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;*/
+    clear: left;
   }
 
   .twitter-link-mobile {
-    /*position: absolute;
+    position: absolute;
     margin-top: 30.3%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;*/
+    clear: left;
   }
 
   .github-link-mobile {
-    /*position: absolute;
+    position: absolute;
     margin-top: 33%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;*/
+    clear: left;
   }
 
   .phone-link-mobile {
-    /*position: absolute;
+    position: absolute;
     margin-top: 35.7%;
     margin-left: 0;
     cursor: pointer;
     float: left;
-    clear: left;*/
+    clear: left;
   }
 
   .contact-logos-mobile {
-    /*cursor: pointer;*/
-  }
+    cursor: pointer;
+  }*/
 
   /*============================================== Progile Photo ==============================================*/
-  #profile-photo-mobile {
-    /*margin-top: 1%;
+
+  /*#profile-photo-mobile {
+    margin-top: 1%;
     margin-left: 47%;
     height: 860px;
-    width: 860px;*/
-    /* margin-bottom: 5%; */
-    /* padding-bottom: 0%; */
-    /*padding-top: 0%;
+    width: 860px;
+     margin-bottom: 5%;
+     padding-bottom: 0%;
+    padding-top: 0%;
     overflow: hidden;
     position: fixed;
-    display: block;*/
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
-  }
+    display: block;
+    cursor: url('/assets/mouse-cursor.png'), auto;
+  }*/
+
   /*============================================== Background photo ==============================================*/
 
-  #background-art-mobile {
-    /*position: fixed;
+  /*#background-art-mobile {
+    position: fixed;
     display: block;
     background-repeat: no-repeat;
-    overflow: hidden;*/
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
-    /*height: 2217px;
+    overflow: hidden;
+    cursor: url('/assets/mouse-cursor.png'), auto;
+    height: 2217px;
     width: 1800px;
     right: -25%;
-    top: -7%;*/
-  }
+    top: -7%;
+  }*/
 
   /*============================================== Info about me ==============================================*/
-
+/*
   .bio-mobile {
-    /*position: absolute;
+    position: absolute;
     margin-top: 7%;
     margin-left: 9%;
     margin-bottom: 0%;
     font-size: 40px;
     font-family: "HelveticaNeue-Light";
-    text-align: center;*/
-    /*cursor: url('/assets/mouse-cursor.png'), auto;*/
-    /*text-decoration: none;*/
+    text-align: center;
+    cursor: url('/assets/mouse-cursor.png'), auto;
+    text-decoration: none;
   }
 
   .directions-mobile {
-    /*position: absolute;
+    position: absolute;
     margin-top: 23%;
     margin-left: 19%;
     margin-bottom: 0%;
     font-size: 20px;
     font-family: "HelveticaNeue-Light";
     text-align: center;
-    text-decoration: none;*/
+    text-decoration: none;
   }
 
   .space-bar-mobile {
-    /*background-color: #D15CEA;
+    background-color: #D15CEA;
     width: 350px;
     height: 3px;
     position: absolute;
     margin-top: 20%;
     margin-left: 20%;
-    text-decoration: none;*/
+    text-decoration: none;
   }
 
   .something-mobile {
-    /*background-color: black;*/
+    background-color: black;
   }
-
-  .mobile1 {
-    color: red;
-  }
-}
+}*/
