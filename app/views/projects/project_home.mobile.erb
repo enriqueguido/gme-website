@@ -1,1 +1,109 @@
-<p class="mobile1">Hello mobile user!</p>
+
+<!-- =========================== Background photo ================================-->
+
+<img id="background-art-mobile" src="/assets/background.png" alt="Background Art Image">
+
+<!--============================ Info about me ====================================-->
+
+<div class="bio-mobile">
+  I'm Max, a <strong>Full Stack</strong> web developer <br>
+  commited to excellence <br> &amp; inspired by challenges.
+</div>
+
+<div class="space-bar-mobile">
+</div>
+
+<!-- ===================== Directions to see my work ======================== -->
+<div class="directions-mobile">
+  Click anywhere on the page to see my work.
+</div>
+
+<!--=================================== Profile photo =============================-->
+
+<img id="profile-photo-mobile" src="/assets/website_cover_page.png" alt="Profile Photo">
+
+<!-- ======================================= Make Entire Page Clickable ===================================================== -->
+
+<%= link_to project1_description_path do %>
+  <div class="click-to-project1-mobile"></div>
+<% end %>
+
+<!--============================== Contact info ==================================-->
+
+<div class="contact-wrapper-mobile"></div>
+
+<div class="contact-logos-mobile">
+  <!-- ============================== linkedin logo link ================================= -->
+
+  <%= link_to (image_tag '/assets/linkedin-logo.png'), 'https://www.linkedin.com/in/guido-maximiliano-enrique/', class: 'linkedin-link-mobile' %>
+
+  <!--==================================== Google logo link ===================================-->
+
+  <%= link_to (image_tag '/assets/google.png'), new_contact_path, id: 'contact-link-mobile', :popup => true %>
+
+  <!--===================================== Twitter logo link ===============================-->
+
+  <%= link_to (image_tag '/assets/tweeter-logo.png'), 'https://twitter.com/maxstang21', class: 'twitter-link-mobile' %>
+
+  <!--============================================ GitHub logo link ============================-->
+
+  <%= link_to (image_tag '/assets/github-logo.png'), 'https://github.com/enriqueguido', class: 'github-link-mobile' %>
+
+  <!--========================================= Phone logo link ===================================-->
+
+  <%= link_to (image_tag '/assets/contact-me.png'), new_contact_path, id: 'phone-link-mobile', :popup => true %>
+</div>
+
+<!--=================================== Contact Form =============================-->
+<!-- <script>
+// $(function phoneLink(){
+  $("#contact-link").click(function(){
+    $('#contact-form').fadeToggle();
+  });
+// })
+  $(document).mouseup(function (e) {
+    var container = $("#contactForm");
+
+    if (!container.is(e.target) // if the target of the click isn't the container...
+        && container.has(e.target).length === 0) // ... nor a descendant of the container
+    {
+        container.fadeOut();
+    }
+  });
+</script> -->
+
+
+<!-- <div id="contact-form">
+  <%#= form_for Contact.new do |f| %>
+    <%#= f.label :name %> <br>
+    <%#= f.text_field :name, require: true %>
+
+    <br>
+
+    <%#= f.label :email %> <br>
+    <%#= f.email_field :email, require: true %>
+
+    <br>
+
+    <%#= f.label :message %> <br>
+    <%#= f.text_area :message, as: :text %>
+
+    <div class="hidden">
+      <%#= f.label :nickname %> <br>
+      <%#= f.text_field :nickname, hint: 'Leave this field blank' %>
+    </div>
+
+    <%#= f.submit 'Send', class: 'formBtn' %>
+  <%# end %>
+</div> -->
+  <!-- <form action="https://formspree.io/guido.m.enrique@gmail.com"
+      method="POST">
+    <input placeholder="Name" type="text" Name="Name" required />
+    <input placeholder="Email" type="email" Name="_replyto" required />
+    <input placeholder="Subject" type="text" required />
+    <textarea placeholder="Comment"></textarea>
+    <input class="formBtn" type="submit" />
+    <input class="formBtn" type="reset" />
+  </form>
+</div> -->
+<!-- </p> -->

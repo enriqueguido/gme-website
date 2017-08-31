@@ -1,7 +1,7 @@
 
 /*============================================== Home Page Media Queries ==============================================*/
 /*=====================================================================================================================*/
-@media screen and (max-width: 1824px) and (min-width: 1024px) {
+// @media screen and (max-width: 1824px) and (min-width: 1024px) {
 
 /*============================================== Contact info ==============================================*/
 
@@ -571,351 +571,351 @@
     width: 50%;
     cursor:image-url('/assets/mouse-cursor.png'), auto;
   }
-}
+// }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+// @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
 /*============================================== Contact info ==============================================*/
 
-  .click-to-project1 {
-    /*background-color: #ff3778;*/
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 100%;
-    width: 100%;
-    cursor:image-url('/assets/mouse-cursor.png'), auto;
-  }
+  // .click-to-project1 {
+  //   background-color: #ff3778;
+  //   position: absolute;
+  //   top: 0px;
+  //   left: 0px;
+  //   right: 0px;
+  //   height: 100%;
+  //   width: 100%;
+  //   cursor:image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Contact info ==============================================*/
 
-  .contact-wrapper {
-    position: absolute;
-    margin-left: 0;
-    cursor: pointer;
-    margin-top: 23.5%;
-    width: 60px;
-    height: 230px;
-  }
-
-  .linkedin-link {
-    position: absolute;
-    margin-top: 24.7%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  #contact-link {
-    position: absolute;
-    margin-top: 28.5%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  .twitter-link {
-    position: absolute;
-    margin-top: 32.4%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  .github-link {
-    position: absolute;
-    margin-top: 36.2%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  .phone-link {
-    position: absolute;
-    margin-top: 40.1%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  .contact-logos {
-    cursor: pointer;
-  }
+  // .contact-wrapper {
+  //   position: absolute;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   margin-top: 23.5%;
+  //   width: 60px;
+  //   height: 230px;
+  // }
+  //
+  // .linkedin-link {
+  //   position: absolute;
+  //   margin-top: 24.7%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // #contact-link {
+  //   position: absolute;
+  //   margin-top: 28.5%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // .twitter-link {
+  //   position: absolute;
+  //   margin-top: 32.4%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // .github-link {
+  //   position: absolute;
+  //   margin-top: 36.2%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // .phone-link {
+  //   position: absolute;
+  //   margin-top: 40.1%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // .contact-logos {
+  //   cursor: pointer;
+  // }
 
   /*============================================== Progile Photo ==============================================*/
-
-  #profile-photo {
-    margin-top: 5%;
-    margin-left: 34%;
-    height: 660px;
-    width: 780px;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    padding-top: 0%;
-    overflow: hidden;
-    position: fixed;
-    display: block;
-    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
-  }
+  //
+  // #profile-photo {
+  //   margin-top: 5%;
+  //   margin-left: 34%;
+  //   height: 660px;
+  //   width: 780px;
+  //   margin-bottom: 0%;
+  //   padding-bottom: 0%;
+  //   padding-top: 0%;
+  //   overflow: hidden;
+  //   position: fixed;
+  //   display: block;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Background photo ==============================================*/
 
-  #background-art {
-    position: fixed;
-    display: block;
-    height: 2029px;
-    width: 1500px;
-    top: -38px;
-    left: -143px;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
-  }
+  // #background-art {
+  //   position: fixed;
+  //   display: block;
+  //   height: 2029px;
+  //   width: 1500px;
+  //   top: -38px;
+  //   left: -143px;
+  //   background-repeat: no-repeat;
+  //   overflow: hidden;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Info about me ==============================================*/
-  .bio {
-    position: absolute;
-    margin-top: 9%;
-    margin-left: 12%;
-    margin-bottom: 0%;
-    font-size: 27px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
-    text-decoration: none;
-  }
-
-  .directions {
-    position: absolute;
-    margin-top: 30%;
-    margin-left: 17%;
-    margin-bottom: 0%;
-    font-size: 18px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .space-bar {
-    background-color: #D15CEA;
-    width: 250px;
-    height: 3px;
-    position: absolute;
-    margin-top: 25%;
-    margin-left: 22%;
-    text-decoration: none;
-  }
+  // .bio {
+  //   position: absolute;
+  //   margin-top: 9%;
+  //   margin-left: 12%;
+  //   margin-bottom: 0%;
+  //   font-size: 27px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  //   text-decoration: none;
+  // }
+  //
+  // .directions {
+  //   position: absolute;
+  //   margin-top: 30%;
+  //   margin-left: 17%;
+  //   margin-bottom: 0%;
+  //   font-size: 18px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   text-decoration: none;
+  // }
+  //
+  // .space-bar {
+  //   background-color: #D15CEA;
+  //   width: 250px;
+  //   height: 3px;
+  //   position: absolute;
+  //   margin-top: 25%;
+  //   margin-left: 22%;
+  //   text-decoration: none;
+  // }
 
   /*============================================== Project 1 ==============================================*/
   /*=======================================================================================================*/
 
   /*============================================== Project Name & Description ==============================================*/
 
-  .project1-name {
-    position: absolute;
-    top: 165px;
-    margin-left: 67%;
-    font-size: 60px;
-    font-family: sans-serif;
-    text-align: center;
-    color: black;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
-
-  .project1-description {
-    position: absolute;
-    top: 275px;
-    margin-left: 62%;
-    margin-right: 4%;
-    /* margin-bottom: 0%; */
-    font-size: 16px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    color: black;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
+  // .project1-name {
+  //   position: absolute;
+  //   top: 165px;
+  //   margin-left: 67%;
+  //   font-size: 60px;
+  //   font-family: sans-serif;
+  //   text-align: center;
+  //   color: black;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
+  //
+  // .project1-description {
+  //   position: absolute;
+  //   top: 275px;
+  //   margin-left: 62%;
+  //   margin-right: 4%;
+  //   margin-bottom: 0%;
+  //   font-size: 16px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   color: black;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Background Image ==============================================*/
 
-  #project1-background-art {
-    height: 116%;
-    width: 75%;
-    margin-right: 20%;
-    position: fixed;
-    display: inline-block;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
-  }
+  // #project1-background-art {
+  //   height: 116%;
+  //   width: 75%;
+  //   margin-right: 20%;
+  //   position: fixed;
+  //   display: inline-block;
+  //   background-repeat: no-repeat;
+  //   overflow: hidden;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== App Photos ==============================================*/
 
-  #wobblee-home-pg {
-    position: absolute;
-    top: 150px;
-    margin-left: 20%;
-    height: 450px;
-    width: 230px;
-  }
-
-  #wobblee-signup {
-    position: absolute;
-    top: 30px;
-    margin-left: 5%;
-    height: 430px;
-    width: 240px;
-    opacity: 0.7;
-  }
-
-  #wobblee-bubble-pg {
-    position: fixed;
-    top: 330px;
-    margin-left: 36%;
-    height: 430px;
-    width: 240px;
-    opacity: 0.7;
-    overflow: hidden;
-    display: block;
-  }
+  // #wobblee-home-pg {
+  //   position: absolute;
+  //   top: 150px;
+  //   margin-left: 20%;
+  //   height: 450px;
+  //   width: 230px;
+  // }
+  //
+  // #wobblee-signup {
+  //   position: absolute;
+  //   top: 30px;
+  //   margin-left: 5%;
+  //   height: 430px;
+  //   width: 240px;
+  //   opacity: 0.7;
+  // }
+  //
+  // #wobblee-bubble-pg {
+  //   position: fixed;
+  //   top: 330px;
+  //   margin-left: 36%;
+  //   height: 430px;
+  //   width: 240px;
+  //   opacity: 0.7;
+  //   overflow: hidden;
+  //   display: block;
+  // }
   /*============================================== GitHub Button ==============================================*/
 
-  .git-button {
-    position: absolute;
-    top: 555px;
-    margin-left: 64%;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "HelveticaNeue-Light";
-    font-size: 20px;
-    /* border: 2px solid blue; */
-    padding: 10px 90px 10px 90px;
-    background-color: #325eea;
-    border-radius: 5px;
-  }
-
-  .git-button-link {
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-  }
+  // .git-button {
+  //   position: absolute;
+  //   top: 555px;
+  //   margin-left: 64%;
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   font-family: "HelveticaNeue-Light";
+  //   font-size: 20px;
+  //   border: 2px solid blue;
+  //   padding: 10px 90px 10px 90px;
+  //   background-color: #325eea;
+  //   border-radius: 5px;
+  // }
+  //
+  // .git-button-link {
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   color: white;
+  // }
 
   /*============================================== Home Logo Button ==============================================*/
 
-  #logo-img {
-    position: relative;
-    margin-left: 90%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
-
-  .logo-link-to {
-    cursor: pointer;
-  }
+  // #logo-img {
+  //   position: relative;
+  //   margin-left: 90%;
+  //   height: 80px;
+  //   width: 80px;
+  //   cursor: pointer;
+  // }
+  //
+  // .logo-link-to {
+  //   cursor: pointer;
+  // }
 
   /*=================================================== Project 2 ======================================================*/
   /*===================================================================================================================*/
 
   /*============================================== Project 2 Background  ==============================================*/
 
-  #project2-background-art {
-    height: 95%;
-    width: 77%;
-    position: fixed;
-    display: inline-block;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    margin-left: -90px;
-    margin-top: 41px;
-    margin-right: none;
-    margin-top: none;
-  }
+  // #project2-background-art {
+  //   height: 95%;
+  //   width: 77%;
+  //   position: fixed;
+  //   display: inline-block;
+  //   background-repeat: no-repeat;
+  //   overflow: hidden;
+  //   margin-left: -90px;
+  //   margin-top: 41px;
+  //   margin-right: none;
+  //   margin-top: none;
+  // }
 
   /*============================================== Phone With Hand  ==============================================*/
 
-  #phone-image {
-    margin-top: 135px;
-    position: fixed;
-    right: -32px;
-    overflow: hidden;
-    height: 550px;
-    width: 390px;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
+  // #phone-image {
+  //   margin-top: 135px;
+  //   position: fixed;
+  //   right: -32px;
+  //   overflow: hidden;
+  //   height: 550px;
+  //   width: 390px;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Project Name & Description  ==============================================*/
 
-  .project2-name {
-    position: absolute;
-    top: 200px;
-    margin-left: 18%;
-    font-size: 55px;
-    font-family: sans-serif;
-    text-align: center;
-    color: white;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
+  // .project2-name {
+  //   position: absolute;
+  //   top: 200px;
+  //   margin-left: 18%;
+  //   font-size: 55px;
+  //   font-family: sans-serif;
+  //   text-align: center;
+  //   color: white;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
-  .project2-description {
-    position: absolute;
-    top: 290px;
-    margin-left: 12%;
-    margin-right: 49%;
-    font-size: 16px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    color: white;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
+  // .project2-description {
+  //   position: absolute;
+  //   top: 290px;
+  //   margin-left: 12%;
+  //   margin-right: 49%;
+  //   font-size: 16px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   color: white;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Projec 2 Home Logo ==============================================*/
 
-  #logo-img-prjt2 {
-    position: relative;
-    margin-left: 90%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
-
-  .logo-empty {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    /*background-color: red;*/
-    right: 60px;
-    top: 0px;
-    cursor: pointer;
-  }
+  // #logo-img-prjt2 {
+  //   position: relative;
+  //   margin-left: 90%;
+  //   height: 80px;
+  //   width: 80px;
+  //   cursor: pointer;
+  // }
+  //
+  // .logo-empty {
+  //   position: absolute;
+  //   height: 100px;
+  //   width: 100px;
+  //   background-color: red;
+  //   right: 60px;
+  //   top: 0px;
+  //   cursor: pointer;
+  // }
 
   /*============================================== GitHub/See More Button ==============================================*/
 
-  .git-button-prjt2 {
-    position: absolute;
-    top: 520px;
-    margin-left: -13%;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "HelveticaNeue-Light";
-    font-size: 25px;
-    /* border: 2px solid blue; */
-    padding: 10px 400px 10px 400px;
-    background-color: white;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .git-button-link-prjt2 {
-    cursor: pointer;
-    text-decoration: none;
-    color: #f88924;
-  }
+  // .git-button-prjt2 {
+  //   position: absolute;
+  //   top: 520px;
+  //   margin-left: -13%;
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   font-family: "HelveticaNeue-Light";
+  //   font-size: 25px;
+  //   border: 2px solid blue;
+  //   padding: 10px 400px 10px 400px;
+  //   background-color: white;
+  //   border-radius: 5px;
+  //   cursor: pointer;
+  // }
+  //
+  // .git-button-link-prjt2 {
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   color: #f88924;
+  // }
 
   /*============================================== GitHub/See More Button ==============================================*/
 
@@ -933,561 +933,561 @@
 
   /*============================================== Project 3 Background  ==============================================*/
 
-  .project3-background-art3 #project3-background-art3 {
-    position: fixed;
-    display: block;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
-    margin-left: -8px;
-  }
+  // .project3-background-art3 #project3-background-art3 {
+  //   position: fixed;
+  //   display: block;
+  //   background-repeat: no-repeat;
+  //   overflow: hidden;
+  //   height: 100vh;
+  //   width: 100vw;
+  //   margin-left: -8px;
+  // }
 
   /*============================================== Project Name & Description  ==============================================*/
 
-  .project3-name {
-    position: absolute;
-    top: 120px;
-    margin-left: 38%;
-    font-size: 55px;
-    font-family: sans-serif;
-    text-align: center;
-    color: black;
-    /* cursor: image-url('/assets/mouse-cursor.png'), auto; */
-  }
-
-  .project3-description {
-    position: absolute;
-    top: 230px;
-    margin-left: 31%;
-    margin-right: 27%;
-    font-size: 18px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    color: black;
-    /* cursor: image-url('/assets/mouse-cursor.png'), auto; */
-  }
+  // .project3-name {
+  //   position: absolute;
+  //   top: 120px;
+  //   margin-left: 38%;
+  //   font-size: 55px;
+  //   font-family: sans-serif;
+  //   text-align: center;
+  //   color: black;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
+  //
+  // .project3-description {
+  //   position: absolute;
+  //   top: 230px;
+  //   margin-left: 31%;
+  //   margin-right: 27%;
+  //   font-size: 18px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   color: black;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== GitHub/See More Button ==============================================*/
 
-  .git-button-prjt3 {
-    position: absolute;
-    top: 450px;
-    margin-left: 31%;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "HelveticaNeue-Light";
-    font-size: 25px;
-    border: 3px solid #ff3778;
-    padding: 10px 150px 10px 150px;
-    background-color: #ff3778;
-    border-radius: 50px;
-  }
-
-  .git-button-link-prjt3 {
-    cursor: pointer;
-    text-decoration: none;
-    /*color: #ff3778;*/
-    color: white;
-  }
+  // .git-button-prjt3 {
+  //   position: absolute;
+  //   top: 450px;
+  //   margin-left: 31%;
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   font-family: "HelveticaNeue-Light";
+  //   font-size: 25px;
+  //   border: 3px solid #ff3778;
+  //   padding: 10px 150px 10px 150px;
+  //   background-color: #ff3778;
+  //   border-radius: 50px;
+  // }
+  //
+  // .git-button-link-prjt3 {
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   color: #ff3778;
+  //   color: white;
+  // }
 
   /*============================================== Projec 3 Home Logo ==============================================*/
 
-  #logo-img-prjt3 {
-    position: relative;
-    margin-left: 90%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
-
-  .logo-link-to-prjt3 {
-    cursor: pointer;
-  }
-
-  .logo-prjt3 {
-    cursor: pointer;
-  }
+  // #logo-img-prjt3 {
+  //   position: relative;
+  //   margin-left: 90%;
+  //   height: 80px;
+  //   width: 80px;
+  //   cursor: pointer;
+  // }
+  //
+  // .logo-link-to-prjt3 {
+  //   cursor: pointer;
+  // }
+  //
+  // .logo-prjt3 {
+  //   cursor: pointer;
+  // }
 
   /*============================================== Project 4 ==============================================*/
   /*=======================================================================================================*/
 
   /*======================================= Home Logo Button =====================================================*/
 
-  #logo-img-prjt4 {
-    position: relative;
-    margin-left: 90%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
+  // #logo-img-prjt4 {
+  //   position: relative;
+  //   margin-left: 90%;
+  //   height: 80px;
+  //   width: 80px;
+  //   cursor: pointer;
+  // }
 
 /*======================================= Main Phone Photo/Sign Up =====================================================*/
 
-  #phone-signup-image {
-    height: 550px;
-    width: 250px;
-    float: right;
-    margin-right: 180px;
-    z-index: 100;
-  }
+  // #phone-signup-image {
+  //   height: 550px;
+  //   width: 250px;
+  //   float: right;
+  //   margin-right: 180px;
+  //   z-index: 100;
+  // }
 
   /*======================================= Phone Message Image =====================================================*/
 
-  #phone-message-image {
-    height: 415px;
-    width: 195px;
-    position: absolute;
-    right: 20px;
-    top: 160px;
-    z-index: -1;
-  }
+  // #phone-message-image {
+  //   height: 415px;
+  //   width: 195px;
+  //   position: absolute;
+  //   right: 20px;
+  //   top: 160px;
+  //   z-index: -1;
+  // }
 
   /*======================================= Phone Comments Image =====================================================*/
 
-  #phone-comment-image {
-    height: 415px;
-    width: 195px;
-    position: absolute;
-    right: 412px;
-    top: 160px;
-    z-index: -1;
-  }
+  // #phone-comment-image {
+  //   height: 415px;
+  //   width: 195px;
+  //   position: absolute;
+  //   right: 412px;
+  //   top: 160px;
+  //   z-index: -1;
+  // }
 
 /*======================================= Project 4 Description & name ===================================================== */
 
-  .project4_description {
-    color: white;
-    font-size: 15px;
-    margin-top: 222px;
-    margin-left: 125px;
-    margin-right: 665px;
-  }
-
-  .project4_name {
-    color: white;
-    font-size: 50px;
-    margin-top: -355px;
-    margin-left: 180px;
-    z-index: 100;
-  }
+  // .project4_description {
+  //   color: white;
+  //   font-size: 15px;
+  //   margin-top: 222px;
+  //   margin-left: 125px;
+  //   margin-right: 665px;
+  // }
+  //
+  // .project4_name {
+  //   color: white;
+  //   font-size: 50px;
+  //   margin-top: -355px;
+  //   margin-left: 180px;
+  //   z-index: 100;
+  // }
 
 /*======================================= Main Phone Photo/Sign Up Shadow =====================================================*/
-  .phone-signup-shadow {
-    width: 290px;
-    height: 65px;
-    margin: 10px 0 0 -10px;
-    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
-    -moz-border-radius: 100px / 50px;
-    -webkit-border-radius: 100px / 50px;
-    border-radius: 100px / 50px;
-    position: absolute;
-    margin-top: 265px;
-    margin-left: 535px;
-    z-index: -1;
-  }
+  // .phone-signup-shadow {
+  //   width: 290px;
+  //   height: 65px;
+  //   margin: 10px 0 0 -10px;
+  //   background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
+  //   -moz-border-radius: 100px / 50px;
+  //   -webkit-border-radius: 100px / 50px;
+  //   border-radius: 100px / 50px;
+  //   position: absolute;
+  //   margin-top: 265px;
+  //   margin-left: 535px;
+  //   z-index: -1;
+  // }
 
 /*======================================= Phone Message Image Shadow =====================================================*/
-
-    .phone-message-shadow {
-      width: 225px;
-      height: 50px;
-      margin: 10px 0 0 -10px;
-      background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
-      -moz-border-radius: 100px / 50px;
-      -webkit-border-radius: 100px / 50px;
-      border-radius: 100px / 50px;
-      position: absolute;
-      margin-top: 200px;
-      margin-left: 760px;
-      z-index: -2;
-    }
+    //
+    // .phone-message-shadow {
+    //   width: 225px;
+    //   height: 50px;
+    //   margin: 10px 0 0 -10px;
+    //   background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
+    //   -moz-border-radius: 100px / 50px;
+    //   -webkit-border-radius: 100px / 50px;
+    //   border-radius: 100px / 50px;
+    //   position: absolute;
+    //   margin-top: 200px;
+    //   margin-left: 760px;
+    //   z-index: -2;
+    // }
 
 /*======================================= Phone Comments Image Shadow ===================================================== */
 
-    .phone-comment-shadow {
-      width: 225px;
-      height: 50px;
-      margin: 10px 0 0 -10px;
-      background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
-      -moz-border-radius: 100px / 50px;
-      -webkit-border-radius: 100px / 50px;
-      border-radius: 100px / 50px;
-      position: absolute;
-      margin-top: 200px;
-      margin-left: 375px;
-      z-index: -2;
-    }
+    // .phone-comment-shadow {
+    //   width: 225px;
+    //   height: 50px;
+    //   margin: 10px 0 0 -10px;
+    //   background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
+    //   -moz-border-radius: 100px / 50px;
+    //   -webkit-border-radius: 100px / 50px;
+    //   border-radius: 100px / 50px;
+    //   position: absolute;
+    //   margin-top: 200px;
+    //   margin-left: 375px;
+    //   z-index: -2;
+    // }
 /*======================================= Project 4 Description Background ===================================================== */
 
-  #project4-background {
-    position: absolute;
-    top: 110px;
-    z-index: -2;
-    height: 580px;
-  }
+  // #project4-background {
+  //   position: absolute;
+  //   top: 110px;
+  //   z-index: -2;
+  //   height: 580px;
+  // }
 
   /* ===================================================================================================================== */
   /*============================================== Left Side of Page Cursor  ==============================================*/
-  .left-side-cursor {
-    /*background-color: black;*/
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 50%;
-    cursor:image-url('/assets/mouse-cursor-left.png'), auto;
-  }
+//   .left-side-cursor {
+//     background-color: black;
+//     position: absolute;
+//     top: 0px;
+//     left: 0px;
+//     height: 100%;
+//     width: 50%;
+//     cursor:image-url('/assets/mouse-cursor-left.png'), auto;
+//   }
+//
+//   .right-side-cursor {
+//     background-color: black;
+//     position: absolute;
+//     top: 0px;
+//     right: 0px;
+//     height: 100%;
+//     width: 50%;
+//     cursor:image-url('/assets/mouse-cursor.png'), auto;
+//   }
+// }
 
-  .right-side-cursor {
-    /*background-color: black;*/
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 100%;
-    width: 50%;
-    cursor:image-url('/assets/mouse-cursor.png'), auto;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+// @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
 /*============================================== Contact info ==============================================*/
 
-  .click-to-project1 {
-    /*background-color: #ff3778;*/
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 100%;
-    width: 100%;
-    cursor:image-url('/assets/mouse-cursor.png'), auto;
-  }
+  // .click-to-project1 {
+  //   background-color: #ff3778;
+  //   position: absolute;
+  //   top: 0px;
+  //   left: 0px;
+  //   right: 0px;
+  //   height: 100%;
+  //   width: 100%;
+  //   cursor:image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Contact info ==============================================*/
-  .linkedin-link {
-    position: absolute;
-    margin-top: 24.7%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  #contact-link {
-    position: absolute;
-    margin-top: 28.5%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  .twitter-link {
-    position: absolute;
-    margin-top: 32.6%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  .github-link {
-    position: absolute;
-    margin-top: 36.5%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  .phone-link {
-    position: absolute;
-    margin-top: 40.6%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
-
-  .contact-logos {
-    cursor: pointer;
-  }
+  // .linkedin-link {
+  //   position: absolute;
+  //   margin-top: 24.7%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // #contact-link {
+  //   position: absolute;
+  //   margin-top: 28.5%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // .twitter-link {
+  //   position: absolute;
+  //   margin-top: 32.6%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // .github-link {
+  //   position: absolute;
+  //   margin-top: 36.5%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // .phone-link {
+  //   position: absolute;
+  //   margin-top: 40.6%;
+  //   margin-left: 0;
+  //   cursor: pointer;
+  //   float: left;
+  //   clear: left;
+  // }
+  //
+  // .contact-logos {
+  //   cursor: pointer;
+  // }
 
   /*============================================== Progile Photo ==============================================*/
 
-  #profile-photo {
-    margin-top: 31%;
-    margin-left: 26%;
-    height: 900px;
-    width: 800px;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    padding-top: 0%;
-    overflow: hidden;
-    position: fixed;
-    display: block;
-    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
-  }
+  // #profile-photo {
+  //   margin-top: 31%;
+  //   margin-left: 26%;
+  //   height: 900px;
+  //   width: 800px;
+  //   margin-bottom: 0%;
+  //   padding-bottom: 0%;
+  //   padding-top: 0%;
+  //   overflow: hidden;
+  //   position: fixed;
+  //   display: block;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Background photo ==============================================*/
 
-  #background-art {
-    position: fixed;
-    display: block;
-    height: 2811px;
-    width: 1400px;
-    top: -15px;
-    left: -158px;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
-  }
+  // #background-art {
+  //   position: fixed;
+  //   display: block;
+  //   height: 2811px;
+  //   width: 1400px;
+  //   top: -15px;
+  //   left: -158px;
+  //   background-repeat: no-repeat;
+  //   overflow: hidden;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Info about me ==============================================*/
-  .bio {
-    position: absolute;
-    margin-top: 8%;
-    margin-left: 22%;
-    margin-bottom: 0%;
-    font-size: 27px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    /*cursor: image-url('/assets/mouse-cursor.png'), auto;*/
-    text-decoration: none;
-  }
-
-  .directions {
-    position: absolute;
-    margin-top: 28%;
-    margin-left: 28%;
-    margin-bottom: 0%;
-    font-size: 18px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    text-decoration: none;
-  }
-
-  .space-bar {
-    background-color: #D15CEA;
-    width: 250px;
-    height: 3px;
-    position: absolute;
-    margin-top: 24%;
-    margin-left: 33%;
-    text-decoration: none;
-  }
+  // .bio {
+  //   position: absolute;
+  //   margin-top: 8%;
+  //   margin-left: 22%;
+  //   margin-bottom: 0%;
+  //   font-size: 27px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  //   text-decoration: none;
+  // }
+  //
+  // .directions {
+  //   position: absolute;
+  //   margin-top: 28%;
+  //   margin-left: 28%;
+  //   margin-bottom: 0%;
+  //   font-size: 18px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   text-decoration: none;
+  // }
+  //
+  // .space-bar {
+  //   background-color: #D15CEA;
+  //   width: 250px;
+  //   height: 3px;
+  //   position: absolute;
+  //   margin-top: 24%;
+  //   margin-left: 33%;
+  //   text-decoration: none;
+  // }
 
   /*============================================== Project 1 ==============================================*/
   /*=======================================================================================================*/
 
   /*============================================== Project Name & Description ==============================================*/
 
-  .project1-name {
-    position: absolute;
-    top: 255px;
-    margin-left: 68%;
-    font-size: 60px;
-    font-family: sans-serif;
-    text-align: center;
-    color: black;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
-
-  .project1-description {
-    position: absolute;
-    top: 380px;
-    margin-left: 65%;
-    margin-right: 5%;
-    /* margin-bottom: 0%; */
-    font-size: 16px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    color: black;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
+  // .project1-name {
+  //   position: absolute;
+  //   top: 255px;
+  //   margin-left: 68%;
+  //   font-size: 60px;
+  //   font-family: sans-serif;
+  //   text-align: center;
+  //   color: black;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
+  //
+  // .project1-description {
+  //   position: absolute;
+  //   top: 380px;
+  //   margin-left: 65%;
+  //   margin-right: 5%;
+  //   /* margin-bottom: 0%; */
+  //   font-size: 16px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   color: black;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Background Image ==============================================*/
 
-  #project1-background-art {
-    height: 116%;
-    width: 75%;
-    margin-right: 20%;
-    position: fixed;
-    display: inline-block;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
+  // #project1-background-art {
+  //   height: 116%;
+  //   width: 75%;
+  //   margin-right: 20%;
+  //   position: fixed;
+  //   display: inline-block;
+  //   background-repeat: no-repeat;
+  //   overflow: hidden;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== App Photos ==============================================*/
 
-  #wobblee-home-pg {
-    position: absolute;
-    top: 290px;
-    margin-left: 19%;
-    height: 500px;
-    width: 280px;
-  }
-
-  #wobblee-signup {
-    position: absolute;
-    top: 42px;
-    margin-left: 3%;
-    height: 450px;
-    width: 240px;
-    opacity: 0.7;
-  }
-
-  #wobblee-bubble-pg {
-    position: fixed;
-    top: 615px;
-    margin-left: 38%;
-    height: 450px;
-    width: 240px;
-    opacity: 0.6;
-    overflow: hidden;
-    display: block;
-  }
+  // #wobblee-home-pg {
+  //   position: absolute;
+  //   top: 290px;
+  //   margin-left: 19%;
+  //   height: 500px;
+  //   width: 280px;
+  // }
+  //
+  // #wobblee-signup {
+  //   position: absolute;
+  //   top: 42px;
+  //   margin-left: 3%;
+  //   height: 450px;
+  //   width: 240px;
+  //   opacity: 0.7;
+  // }
+  //
+  // #wobblee-bubble-pg {
+  //   position: fixed;
+  //   top: 615px;
+  //   margin-left: 38%;
+  //   height: 450px;
+  //   width: 240px;
+  //   opacity: 0.6;
+  //   overflow: hidden;
+  //   display: block;
+  // }
 
   /*============================================== GitHub Button ==============================================*/
 
-  .git-button {
-    position: absolute;
-    top: 770px;
-    margin-left: 65%;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "HelveticaNeue-Light";
-    font-size: 20px;
-    /* border: 2px solid blue; */
-    padding: 10px 90px 10px 90px;
-    background-color: #325eea;
-    border-radius: 5px;
-  }
-
-  .git-button-link {
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
-  }
+  // .git-button {
+  //   position: absolute;
+  //   top: 770px;
+  //   margin-left: 65%;
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   font-family: "HelveticaNeue-Light";
+  //   font-size: 20px;
+  //   border: 2px solid blue;
+  //   padding: 10px 90px 10px 90px;
+  //   background-color: #325eea;
+  //   border-radius: 5px;
+  // }
+  //
+  // .git-button-link {
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   color: white;
+  // }
 
   /*============================================== Home Logo Button ==============================================*/
 
-  #logo-img {
-    position: relative;
-    margin-left: 90%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
-
-  .logo-link-to {
-    cursor: pointer;
-  }
+  // #logo-img {
+  //   position: relative;
+  //   margin-left: 90%;
+  //   height: 80px;
+  //   width: 80px;
+  //   cursor: pointer;
+  // }
+  //
+  // .logo-link-to {
+  //   cursor: pointer;
+  // }
 
   /*=================================================== Project 2 ======================================================*/
   /*===================================================================================================================*/
 
   /*============================================== Project 2 Background  ==============================================*/
 
-  #project2-background-art {
-    height: 93%;
-    width: 75%;
-    position: fixed;
-    display: inline-block;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    margin-left: -71px;
-    margin-top: 55px;
-    margin-right: none;
-    margin-top: none;
-  }
+  // #project2-background-art {
+  //   height: 93%;
+  //   width: 75%;
+  //   position: fixed;
+  //   display: inline-block;
+  //   background-repeat: no-repeat;
+  //   overflow: hidden;
+  //   margin-left: -71px;
+  //   margin-top: 55px;
+  //   margin-right: none;
+  //   margin-top: none;
+  // }
 
   /*============================================== Phone With Hand  ==============================================*/
 
-  #phone-image {
-    /* margin-left: 400px; */
-    margin-top: 440px;
-    position: fixed;
-    /* top: 253px; */
-    right: -57px;
-    /* display: inline-block; */
-    /* background-repeat: no-repeat; */
-    overflow: hidden;
-    height: 750px;
-    width: 530px;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
+  // #phone-image {
+  //   margin-left: 400px;
+  //   margin-top: 440px;
+  //   position: fixed;
+  //   top: 253px;
+  //   right: -57px;
+  //   display: inline-block;
+  //   background-repeat: no-repeat;
+  //   overflow: hidden;
+  //   height: 750px;
+  //   width: 530px;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Project Name & Description  ==============================================*/
-
-  .project2-name {
-    position: absolute;
-    top: 295px;
-    margin-left: 15%;
-    font-size: 55px;
-    font-family: sans-serif;
-    text-align: center;
-    color: white;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
-
-  .project2-description {
-    position: absolute;
-    top: 400px;
-    margin-left: 13%;
-    margin-right: 53%;
-    font-size: 16px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    color: white;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }
+  //
+  // .project2-name {
+  //   position: absolute;
+  //   top: 295px;
+  //   margin-left: 15%;
+  //   font-size: 55px;
+  //   font-family: sans-serif;
+  //   text-align: center;
+  //   color: white;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
+  //
+  // .project2-description {
+  //   position: absolute;
+  //   top: 400px;
+  //   margin-left: 13%;
+  //   margin-right: 53%;
+  //   font-size: 16px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   color: white;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
   /*============================================== Projec 2 Home Logo ==============================================*/
 
-  #logo-img-prjt2 {
-    position: relative;
-    margin-left: 90%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
-
-  .logo-empty {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    /*background-color: red;*/
-    right: 60px;
-    top: 0px;
-    cursor: pointer;
-  }
+  // #logo-img-prjt2 {
+  //   position: relative;
+  //   margin-left: 90%;
+  //   height: 80px;
+  //   width: 80px;
+  //   cursor: pointer;
+  // }
+  //
+  // .logo-empty {
+  //   position: absolute;
+  //   height: 100px;
+  //   width: 100px;
+  //   background-color: red;
+  //   right: 60px;
+  //   top: 0px;
+  //   cursor: pointer;
+  // }
 
   /*============================================== GitHub/See More Button ==============================================*/
 
-  .git-button-prjt2 {
-    position: absolute;
-    top: 716px;
-    margin-left: -17%;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "HelveticaNeue-Light";
-    font-size: 25px;
-    /* border: 2px solid blue; */
-    padding: 10px 400px 10px 400px;
-    background-color: white;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .git-button-link-prjt2 {
-    cursor: pointer;
-    text-decoration: none;
-    color: #f88924;
-  }
+  // .git-button-prjt2 {
+  //   position: absolute;
+  //   top: 716px;
+  //   margin-left: -17%;
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   font-family: "HelveticaNeue-Light";
+  //   font-size: 25px;
+  //   border: 2px solid blue;
+  //   padding: 10px 400px 10px 400px;
+  //   background-color: white;
+  //   border-radius: 5px;
+  //   cursor: pointer;
+  // }
+  //
+  // .git-button-link-prjt2 {
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   color: #f88924;
+  // }
 
   /*============================================== GitHub/See More Button ==============================================*/
 
@@ -1505,224 +1505,224 @@
 
   /*============================================== Project 3 Background  ==============================================*/
 
-  .project3-background-art3 #project3-background-art3 {
-    position: fixed;
-    display: block;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    height: 100vh;
-    width: 100vw;
-    margin-left: -8px;
-  }
+  // .project3-background-art3 #project3-background-art3 {
+  //   position: fixed;
+  //   display: block;
+  //   background-repeat: no-repeat;
+  //   overflow: hidden;
+  //   height: 100vh;
+  //   width: 100vw;
+  //   margin-left: -8px;
+  // }
 
   /*============================================== Project Name & Description  ==============================================*/
 
-  .project3-name {
-    position: absolute;
-    top: 190px;
-    margin-left: 34%;
-    font-size: 55px;
-    font-family: sans-serif;
-    text-align: center;
-    color: black;
-    /*cursor:image-url('/assets/mouse-cursor.png'), auto;*/
-  }
-
-  .project3-description {
-    position: absolute;
-    top: 325px;
-    margin-left: 27%;
-    margin-right: 30%;
-    font-size: 18px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    color: black;
-    /* cursor: image-url('/assets/mouse-cursor.png'), auto; */
-  }
+  // .project3-name {
+  //   position: absolute;
+  //   top: 190px;
+  //   margin-left: 34%;
+  //   font-size: 55px;
+  //   font-family: sans-serif;
+  //   text-align: center;
+  //   color: black;
+  //   cursor:image-url('/assets/mouse-cursor.png'), auto;
+  // }
+  //
+  // .project3-description {
+  //   position: absolute;
+  //   top: 325px;
+  //   margin-left: 27%;
+  //   margin-right: 30%;
+  //   font-size: 18px;
+  //   font-family: "HelveticaNeue-Light";
+  //   text-align: center;
+  //   color: black;
+  //   cursor: image-url('/assets/mouse-cursor.png'), auto;
+  // }
 
 
   /*============================================== GitHub/See More Button ==============================================*/
 
-  .git-button-prjt3 {
-    position: absolute;
-    top: 595px;
-    margin-left: 28%;
-    cursor: pointer;
-    text-decoration: none;
-    font-family: "HelveticaNeue-Light";
-    font-size: 25px;
-    border: 3px solid #ff3778;
-    padding: 10px 150px 10px 150px;
-    background-color: #ff3778;
-    border-radius: 50px;
-  }
-
-  .git-button-link-prjt3 {
-    cursor: pointer;
-    text-decoration: none;
-    /*color: #ff3778;*/
-    color: white;
-  }
+  // .git-button-prjt3 {
+  //   position: absolute;
+  //   top: 595px;
+  //   margin-left: 28%;
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   font-family: "HelveticaNeue-Light";
+  //   font-size: 25px;
+  //   border: 3px solid #ff3778;
+  //   padding: 10px 150px 10px 150px;
+  //   background-color: #ff3778;
+  //   border-radius: 50px;
+  // }
+  //
+  // .git-button-link-prjt3 {
+  //   cursor: pointer;
+  //   text-decoration: none;
+  //   color: #ff3778;
+  //   color: white;
+  // }
 
   /*============================================== Projec 3 Home Logo ==============================================*/
 
-  #logo-img-prjt3 {
-    position: relative;
-    margin-left: 90%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
-
-  .logo-link-to-prjt3 {
-    cursor: pointer;
-  }
-
-  .logo-prjt3 {
-    cursor: pointer;
-  }
+  // #logo-img-prjt3 {
+  //   position: relative;
+  //   margin-left: 90%;
+  //   height: 80px;
+  //   width: 80px;
+  //   cursor: pointer;
+  // }
+  //
+  // .logo-link-to-prjt3 {
+  //   cursor: pointer;
+  // }
+  //
+  // .logo-prjt3 {
+  //   cursor: pointer;
+  // }
 
   /*============================================== Project 4 ==============================================*/
   /*=======================================================================================================*/
 
   /*======================================= Home Logo Button =====================================================*/
 
-  #logo-img-prjt4 {
-    position: relative;
-    margin-left: 90%;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
-  }
+  // #logo-img-prjt4 {
+  //   position: relative;
+  //   margin-left: 90%;
+  //   height: 80px;
+  //   width: 80px;
+  //   cursor: pointer;
+  // }
 
 /*======================================= Main Phone Photo/Sign Up =====================================================*/
 
-  #phone-signup-image {
-    height: 550px;
-    width: 250px;
-    float: right;
-    margin-right: 180px;
-    z-index: 100;
-    margin-top: 300px;
-  }
+  // #phone-signup-image {
+  //   height: 550px;
+  //   width: 250px;
+  //   float: right;
+  //   margin-right: 180px;
+  //   z-index: 100;
+  //   margin-top: 300px;
+  // }
 
   /*======================================= Phone Message Image =====================================================*/
 
-  #phone-message-image {
-    height: 415px;
-    width: 195px;
-    position: absolute;
-    right: 20px;
-    top: 460px;
-    z-index: -1;
-  }
+  // #phone-message-image {
+  //   height: 415px;
+  //   width: 195px;
+  //   position: absolute;
+  //   right: 20px;
+  //   top: 460px;
+  //   z-index: -1;
+  // }
 
   /*======================================= Phone Comments Image =====================================================*/
 
-  #phone-comment-image {
-    height: 415px;
-    width: 195px;
-    position: absolute;
-    right: 412px;
-    top: 460px;
-    z-index: -1;
-  }
+  // #phone-comment-image {
+  //   height: 415px;
+  //   width: 195px;
+  //   position: absolute;
+  //   right: 412px;
+  //   top: 460px;
+  //   z-index: -1;
+  // }
 
 /*======================================= Project 4 Description & name ===================================================== */
 
-  .project4_description {
-    color: white;
-    font-size: 14px;
-    margin-top: 470px;
-    margin-left: 145px;
-    margin-right: 610px;
-  }
-
-  .project4_name {
-    color: white;
-    font-size: 50px;
-    margin-top: -326px;
-    margin-left: 215px;
-    z-index: 100;
-  }
+  // .project4_description {
+  //   color: white;
+  //   font-size: 14px;
+  //   margin-top: 470px;
+  //   margin-left: 145px;
+  //   margin-right: 610px;
+  // }
+  //
+  // .project4_name {
+  //   color: white;
+  //   font-size: 50px;
+  //   margin-top: -326px;
+  //   margin-left: 215px;
+  //   z-index: 100;
+  // }
 
 /*======================================= Main Phone Photo/Sign Up Shadow =====================================================*/
-  .phone-signup-shadow {
-    width: 280px;
-    height: 65px;
-    margin: 10px 0 0 -10px;
-    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
-    -moz-border-radius: 100px / 50px;
-    -webkit-border-radius: 100px / 50px;
-    border-radius: 100px / 50px;
-    position: absolute;
-    margin-top: 365px;
-    margin-left: 515px;
-    z-index: -1;
-  }
+  // .phone-signup-shadow {
+  //   width: 280px;
+  //   height: 65px;
+  //   margin: 10px 0 0 -10px;
+  //   background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
+  //   -moz-border-radius: 100px / 50px;
+  //   -webkit-border-radius: 100px / 50px;
+  //   border-radius: 100px / 50px;
+  //   position: absolute;
+  //   margin-top: 365px;
+  //   margin-left: 515px;
+  //   z-index: -1;
+  // }
 
 /*======================================= Phone Message Image Shadow =====================================================*/
 
-    .phone-message-shadow {
-      width: 225px;
-      height: 50px;
-      margin: 10px 0 0 -10px;
-      background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
-      -moz-border-radius: 100px / 50px;
-      -webkit-border-radius: 100px / 50px;
-      border-radius: 100px / 50px;
-      position: absolute;
-      margin-top: 310px;
-      margin-left: 735px;
-      z-index: -2;
-    }
+    // .phone-message-shadow {
+    //   width: 225px;
+    //   height: 50px;
+    //   margin: 10px 0 0 -10px;
+    //   background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
+    //   -moz-border-radius: 100px / 50px;
+    //   -webkit-border-radius: 100px / 50px;
+    //   border-radius: 100px / 50px;
+    //   position: absolute;
+    //   margin-top: 310px;
+    //   margin-left: 735px;
+    //   z-index: -2;
+    // }
 
 /*======================================= Phone Comments Image Shadow ===================================================== */
-
-    .phone-comment-shadow {
-      width: 225px;
-      height: 50px;
-      margin: 10px 0 0 -10px;
-      background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
-      -moz-border-radius: 100px / 50px;
-      -webkit-border-radius: 100px / 50px;
-      border-radius: 100px / 50px;
-      position: absolute;
-      margin-top: 310px;
-      margin-left: 350px;
-      z-index: -2;
-    }
+    //
+    // .phone-comment-shadow {
+    //   width: 225px;
+    //   height: 50px;
+    //   margin: 10px 0 0 -10px;
+    //   background: -webkit-radial-gradient(center, ellipse cover, #ffffff 25%,#cccccc 100%);
+    //   -moz-border-radius: 100px / 50px;
+    //   -webkit-border-radius: 100px / 50px;
+    //   border-radius: 100px / 50px;
+    //   position: absolute;
+    //   margin-top: 310px;
+    //   margin-left: 350px;
+    //   z-index: -2;
+    // }
 /*======================================= Project 4 Description Background ===================================================== */
 
-  #project4-background {
-    position: absolute;
-    top: 321px;
-    z-index: -2;
-    height: 680px;
-  }
+  // #project4-background {
+  //   position: absolute;
+  //   top: 321px;
+  //   z-index: -2;
+  //   height: 680px;
+  // }
 
   /* ===================================================================================================================== */
   /*============================================== Left Side of Page Cursor  ==============================================*/
-  .left-side-cursor {
-    /*background-color: black;*/
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 50%;
-    cursor:image-url('/assets/mouse-cursor-left.png'), auto;
-  }
-
-  .right-side-cursor {
-    /*background-color: black;*/
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    height: 100%;
-    width: 50%;
-    cursor:image-url('/assets/mouse-cursor.png'), auto;
-  }
-}
+//   .left-side-cursor {
+//     background-color: black;
+//     position: absolute;
+//     top: 0px;
+//     left: 0px;
+//     height: 100%;
+//     width: 50%;
+//     cursor:image-url('/assets/mouse-cursor-left.png'), auto;
+//   }
+//
+//   .right-side-cursor {
+//     background-color: black;
+//     position: absolute;
+//     top: 0px;
+//     right: 0px;
+//     height: 100%;
+//     width: 50%;
+//     cursor:image-url('/assets/mouse-cursor.png'), auto;
+//   }
+// }
 
 /*@media screen and (min-width: 320px) and (max-width: 736px) and (orientation: portrait) {*/
 
@@ -2288,138 +2288,137 @@
 
 }*/
 
-/*@media screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) { Iphone 5 Query */
+//============================================= Mobile Sites ============================================
+// ======================================================================================================
 
+//============================================= project_home =============================================
 /*============================================== Home Page ==============================================*/
 
-  /*.click-to-project1-mobile {
-    background-color: #ff3778;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 100%;
-    width: 100%;
-    cursor:image-url('/assets/mouse-cursor.png'), auto;
-  }*/
+.click-to-project1-mobile {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  width: 100%;
+  cursor:image-url('/assets/mouse-cursor.png'), auto;
+}
 
-  /*============================================== Contact info ==============================================*/
+/*============================================== Contact info ==============================================*/
 
-  /*.linkedin-link-mobile {
-    position: absolute;
-    margin-top: 24.7%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
+.linkedin-link-mobile {
+  position: absolute;
+  margin-top: 64%;
+  margin-left: 0;
+  cursor: pointer;
+  float: left;
+  clear: left;
+}
 
-  #contact-link-mobile {
-    position: absolute;
-    margin-top: 27.5%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
+#contact-link-mobile {
+  position: absolute;
+  margin-top: 68%;
+  margin-left: 0;
+  cursor: pointer;
+  float: left;
+  clear: left;
+}
 
-  .twitter-link-mobile {
-    position: absolute;
-    margin-top: 30.3%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
+.twitter-link-mobile {
+  position: absolute;
+  margin-top: 72%;
+  margin-left: 0;
+  cursor: pointer;
+  float: left;
+  clear: left;
+}
 
-  .github-link-mobile {
-    position: absolute;
-    margin-top: 33%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
+.github-link-mobile {
+  position: absolute;
+  margin-top: 76%;
+  margin-left: 0;
+  cursor: pointer;
+  float: left;
+  clear: left;
+}
 
-  .phone-link-mobile {
-    position: absolute;
-    margin-top: 35.7%;
-    margin-left: 0;
-    cursor: pointer;
-    float: left;
-    clear: left;
-  }
+#phone-link-mobile {
+  position: absolute;
+  margin-top: 80%;
+  margin-left: 0;
+  cursor: pointer;
+  float: left;
+  clear: left;
+}
 
-  .contact-logos-mobile {
-    cursor: pointer;
-  }*/
+.contact-logos-mobile {
+  cursor: pointer;
+}
 
-  /*============================================== Progile Photo ==============================================*/
+/*============================================== Progile Photo ==============================================*/
 
-  /*#profile-photo-mobile {
-    margin-top: 1%;
-    margin-left: 47%;
-    height: 860px;
-    width: 860px;
-     margin-bottom: 5%;
-     padding-bottom: 0%;
-    padding-top: 0%;
-    overflow: hidden;
-    position: fixed;
-    display: block;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-  }*/
+#profile-photo-mobile {
+  margin-top: 55%;
+  margin-left: 5%;
+  height: 1275px;
+  width: 1060px;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  overflow: hidden;
+  position: fixed;
+  display: block;
+  cursor: url(/assets/mouse-cursor.png), auto;
+}
 
-  /*============================================== Background photo ==============================================*/
+/*============================================== Background photo ==============================================*/
 
-  /*#background-art-mobile {
-    position: fixed;
-    display: block;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-    height: 2217px;
-    width: 1800px;
-    right: -25%;
-    top: -7%;
-  }*/
+#background-art-mobile {
+  position: fixed;
+  display: block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  cursor: url(/assets/mouse-cursor.png), auto;
+  height: 3100px;
+  width: 1593px;
+  right: -40%;
+  top: 24%;
+}
 
-  /*============================================== Info about me ==============================================*/
-/*
-  .bio-mobile {
-    position: absolute;
-    margin-top: 7%;
-    margin-left: 9%;
-    margin-bottom: 0%;
-    font-size: 40px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    cursor: image-url('/assets/mouse-cursor.png'), auto;
-    text-decoration: none;
-  }
+/*============================================== Info about me ==============================================*/
 
-  .directions-mobile {
-    position: absolute;
-    margin-top: 23%;
-    margin-left: 19%;
-    margin-bottom: 0%;
-    font-size: 20px;
-    font-family: "HelveticaNeue-Light";
-    text-align: center;
-    text-decoration: none;
-  }
+.bio-mobile {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  font-size: 40px;
+  font-family: "HelveticaNeue-Light";
+  text-align: center;
+  cursor: url(/assets/mouse-cursor.png), auto;
+  text-decoration: none;
+}
 
-  .space-bar-mobile {
-    background-color: #D15CEA;
-    width: 350px;
-    height: 3px;
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 20%;
-    text-decoration: none;
-  }
+.directions-mobile {
+  position: absolute;
+  top: 23%;
+  left: 10%;
+  right: 10%;
+  font-size: 20px;
+  font-family: "HelveticaNeue-Light";
+  text-align: center;
+  text-decoration: none;
+}
 
-  .something-mobile {
-    background-color: black;
-  }
-}*/
+.space-bar-mobile {
+  background-color: #D15CEA;
+  width: 350px;
+  height: 3px;
+  position: absolute;
+  top: 21%;
+  left: 32%;
+  text-decoration: none;
+}
+
+.something-mobile {
+  background-color: black;
+}
