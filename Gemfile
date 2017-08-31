@@ -63,5 +63,5 @@ gem 'mobylette'
 # gem "nprogress-rails"
 
 gem 'pace-rails'
-# configure application to serve static images 
-gem 'rails_12factor', group: :production
+# configure application to serve static images
+# gem 'rails_12factor', group: :production
