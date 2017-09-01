@@ -2534,3 +2534,35 @@
 }
 
 /*============================================== Project2 ==============================================*/
+
+#phone-image-mobile {
+  position: absolute;
+  height: 1300px;
+  width: 900px;
+  top: 8%;
+  left: 8%;
+}
+
+#project2-background-art-mobile {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 100%;
+}
+
+// .orange-background-mobile {
+//   background-color: #744d95;
+//   height: 1405px;
+//   width: 100%
+// }
+
+.project2-name-mobile {
+  position: absolute;
+  z-index: 99;
+  top: 122%;
+  font-size: 90px;
+  text-align: center;
+  color: white;
+  left: 28%;
+  font-family: sans-serif;
+}
