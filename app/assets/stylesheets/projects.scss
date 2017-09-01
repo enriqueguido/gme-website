@@ -2358,9 +2358,9 @@
 /*============================================== Progile Photo ==============================================*/
 
 #profile-photo-mobile {
-  margin-top: 55%;
-  margin-left: 5%;
-  height: 1275px;
+  margin-top: 30%;
+  margin-left: 4%;
+  height: 1200px;
   width: 1060px;
   padding-bottom: 0%;
   padding-top: 0%;
@@ -2381,14 +2381,14 @@
   height: 3100px;
   width: 1593px;
   right: -40%;
-  top: 24%;
+  top: 15%;
 }
 
 /*============================================== Info about me ==============================================*/
 
 .bio-mobile {
   position: absolute;
-  top: 10%;
+  top: 3%;
   left: 10%;
   right: 10%;
   font-size: 40px;
@@ -2400,7 +2400,7 @@
 
 .directions-mobile {
   position: absolute;
-  top: 23%;
+  top: 18%;
   left: 10%;
   right: 10%;
   font-size: 20px;
@@ -2414,7 +2414,7 @@
   width: 350px;
   height: 3px;
   position: absolute;
-  top: 21%;
+  top: 15%;
   left: 32%;
   text-decoration: none;
 }
@@ -2428,7 +2428,7 @@
 #project1-background-art-mobile {
   height: 100%;
   width: 100%;
-  position: fixed;
+  position: absolute;
   display: inline-block;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -2461,3 +2461,76 @@
   height: 910px;
   width: 450px;
 }
+
+.project1-name-mobile {
+  top: 113%;
+  left: 30%;
+  z-index: 99;
+  position: absolute;
+  font-size: 100px;
+  vertical-align: middle;
+}
+
+.project1-description-mobile {
+  top: 125%;
+  z-index: 99;
+  position: absolute;
+  font-size: 47px;
+  vertical-align: middle;
+  right: 16%;
+  left: 16%;
+}
+
+.git-button-mobile {
+  top: 205%;
+  z-index: 99;
+  position: absolute;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light";
+  font-size: 55px;
+  padding: 25px 235px 25px 235px;
+  background-color: #325eea;
+  border-radius: 5px;
+  left: 14%;
+  text-decoration: none;
+  margin-bottom: 15%;
+}
+
+.git-button-link-mobile {
+  text-decoration: none;
+  color: white;
+}
+
+.back-arrow-mobile {
+  height: 80px;
+  width: 80px;
+  border-style: solid;
+  position: absolute;
+  z-index: 99;
+  top: 150%;
+  border-bottom-color: #325eea;
+  border-right-color: #325eea;
+  border-top: none;
+  border-left: none;
+  transform: rotate(135deg);
+  border-width: 10px;
+  left: 5%;
+}
+
+#foward-arrow-mobile {
+  height: 80px;
+  width: 80px;
+  border-style: solid;
+  position: absolute;
+  z-index: 99;
+  top: 150%;
+  border-bottom-color: #325eea;
+  border-right-color: #325eea;
+  border-top: none;
+  border-left: none;
+  transform: rotate(-45deg);
+  border-width: 10px;
+  right: 5%;
+}
+
+/*============================================== Project2 ==============================================*/
