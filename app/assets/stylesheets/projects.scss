@@ -2547,22 +2547,88 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 100%;
+  top: 105%;
+  margin-top: 15%;
 }
 
-// .orange-background-mobile {
-//   background-color: #744d95;
-//   height: 1405px;
-//   width: 100%
-// }
+.orange-background-mobile {
+  background-color: #ccaad0;
+  height: 1405px;
+  width: 100%;
+  border: none;
+  // opacity: 0.7;
+  // z-index: -99;
+  margin-right: 0%;
+}
 
 .project2-name-mobile {
   position: absolute;
   z-index: 99;
-  top: 122%;
+  top: 134%;
   font-size: 90px;
   text-align: center;
   color: white;
   left: 28%;
   font-family: sans-serif;
+}
+
+.project2-description-mobile {
+  position: absolute;
+  font-family: "HelveticaNeue-Light";
+  text-align: center;
+  top: 144%;
+  left: 22%;
+  right: 21%;
+  font-size: 33px;
+  color: white;
+}
+
+.git-button-link-prjt2-mobile {
+  text-decoration: none;
+  color: #f88924;
+}
+
+.git-button-prjt2-mobile {
+  position: absolute;
+  top: 188%;
+  margin-left: 2%;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light";
+  font-size: 32px;
+  padding: 15px 400px 15px 400px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#foward-arrow-mobile-poject2 {
+  height: 80px;
+  width: 80px;
+  border-style: solid;
+  position: absolute;
+  z-index: 99;
+  top: 187%;
+  border-bottom-color: #734a94;
+  border-right-color: #734a94;
+  border-top: none;
+  border-left: none;
+  transform: rotate(-45deg);
+  border-width: 10px;
+  right: 5%;
+}
+
+.back-arrow-mobile-project2 {
+  height: 80px;
+  width: 80px;
+  border-style: solid;
+  position: absolute;
+  z-index: 99;
+  top: 187%;
+  border-bottom-color: #734a94;
+  border-right-color: #734a94;
+  border-top: none;
+  border-left: none;
+  transform: rotate(135deg);
+  border-width: 10px;
+  left: 5%;
 }
