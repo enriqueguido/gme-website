@@ -2539,7 +2539,7 @@
   position: absolute;
   height: 1300px;
   width: 900px;
-  top: 8%;
+  top: 23.5%;
   left: 8%;
 }
 
@@ -2547,13 +2547,13 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  top: 105%;
+  top: 115%;
   margin-top: 15%;
 }
 
-.orange-background-mobile {
+.purple-background-mobile {
   background-color: #ccaad0;
-  height: 1405px;
+  height: 1620px;
   width: 100%;
   border: none;
   // opacity: 0.7;
@@ -2564,7 +2564,7 @@
 .project2-name-mobile {
   position: absolute;
   z-index: 99;
-  top: 134%;
+  top: 145%;
   font-size: 90px;
   text-align: center;
   color: white;
@@ -2576,7 +2576,7 @@
   position: absolute;
   font-family: "HelveticaNeue-Light";
   text-align: center;
-  top: 144%;
+  top: 155%;
   left: 22%;
   right: 21%;
   font-size: 33px;
@@ -2590,7 +2590,7 @@
 
 .git-button-prjt2-mobile {
   position: absolute;
-  top: 188%;
+  top: 198%;
   margin-left: 2%;
   text-decoration: none;
   font-family: "HelveticaNeue-Light";
@@ -2607,7 +2607,7 @@
   border-style: solid;
   position: absolute;
   z-index: 99;
-  top: 187%;
+  top: 197%;
   border-bottom-color: #734a94;
   border-right-color: #734a94;
   border-top: none;
@@ -2623,7 +2623,7 @@
   border-style: solid;
   position: absolute;
   z-index: 99;
-  top: 187%;
+  top: 197%;
   border-bottom-color: #734a94;
   border-right-color: #734a94;
   border-top: none;
@@ -2631,4 +2631,161 @@
   transform: rotate(135deg);
   border-width: 10px;
   left: 5%;
+}
+
+/*============================================== Project2 ==============================================*/
+
+#phone-signup-image-mobile {
+  height: 800px;
+  width: 400px;
+  margin-top: 38%;
+  margin-left: 29.5%;
+}
+
+#phone-message-image-mobile {
+  height: 600px;
+  width: 300px;
+  position: absolute;
+  right: 2%;
+  top: 34%;
+  z-index: -1;
+}
+
+#phone-comment-image-mobile {
+  height: 600px;
+  width: 300px;
+  position: absolute;
+  right: 67%;
+  top: 34%;
+  z-index: -1;
+}
+
+.blue-background-mobile {
+  background-color: #0f7393;
+  height: 1630px;
+  width: 100%;
+  border: none;
+  margin-right: 0%;
+  margin-left: 0%;
+  z-index: -99;
+  position: absolute;
+  top: 0%;
+}
+
+/*======================================= Main Phone Photo/Sign Up Shadow =====================================================*/
+
+.phone-signup-shadow-mobile {
+  width: 410px;
+  height: 70px;
+  margin: 10px 0 0 -10px;
+  background: -webkit-radial-gradient(center, ellipse cover, #d2d6db 25%, #adb4bc 100%);
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  position: absolute;
+  margin-left: 275px;
+  z-index: -2;
+  top: 80%;
+}
+
+/*======================================= Phone Message Image Shadow =====================================================*/
+
+.phone-message-shadow-mobile {
+  width: 315px;
+  height: 70px;
+  margin: 10px 0 0 -10px;
+  background: -webkit-radial-gradient(center, ellipse cover, #d2d6db 25%, #adb4bc 100%);
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  position: absolute;
+  margin-left: 640px;
+  z-index: -2;
+  top: 73%;
+}
+
+/*======================================= Phone Comments Image Shadow ===================================================== */
+
+.phone-comment-shadow-mobile {
+  width: 315px;
+  height: 70px;
+  margin: 10px 0 0 -10px;
+  background: -webkit-radial-gradient(center, ellipse cover, #d2d6db 25%, #adb4bc 100%);
+  -moz-border-radius: 100px / 50px;
+  -webkit-border-radius: 100px / 50px;
+  border-radius: 100px / 50px;
+  position: absolute;
+  // margin-top: -110px;
+  margin-left: 10px;
+  z-index: -2;
+  top: 73%;
+}
+
+.project4-description-mobile {
+  color: white;
+  font-size: 47px;
+  margin-top: 1000px;
+  z-index: 1;
+  margin-left: 14%;
+  margin-right: 11%;
+}
+
+.project4-name-mobile {
+  color: white;
+  font-size: 140px;
+  margin-top: -930px;
+  z-index: 1;
+  margin-left: 38%;
+}
+
+#project4-background-mobile {
+  overflow-x: hidden;
+  overflow-y: visible;
+  position: absolute;
+  left: -25%;
+  height: 106%;
+  width: 149%;
+}
+
+.text-background-mobile-div {
+  position: absolute;
+  height: 120%;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  direction: rtl;
+  top: 110%;
+  z-index: -1
+}
+
+.back-arrow-mobile-project4 {
+  height: 80px;
+  width: 80px;
+  border-style: solid;
+  position: absolute;
+  z-index: 99;
+  top: 180%;
+  border-bottom-color: white;
+  border-right-color: white;
+  border-top: none;
+  border-left: none;
+  transform: rotate(135deg);
+  border-width: 10px;
+  left: 5%;
+}
+
+#foward-arrow-mobile-poject4 {
+  height: 80px;
+  width: 80px;
+  border-style: solid;
+  position: absolute;
+  z-index: 99;
+  top: 180%;
+  border-bottom-color: white;
+  border-right-color: white;
+  border-top: none;
+  border-left: none;
+  transform: rotate(-45deg);
+  border-width: 10px;
+  right: 5%;
 }
