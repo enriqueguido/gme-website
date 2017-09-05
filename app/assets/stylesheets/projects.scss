@@ -2789,3 +2789,56 @@
   border-width: 10px;
   right: 5%;
 }
+
+/*============================================== Project3 ==============================================*/
+
+#project3-background-art3-mobile {
+  position: fixed;
+  display: block;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  margin-left: 0px;
+}
+
+.project3-name-mobile {
+  position: absolute;
+  top: 18%;
+  left: 35%;
+  font-size: 80px;
+  font-family: sans-serif;
+  text-align: center;
+  color: black;
+}
+.project3-description-mobile {
+  position: absolute;
+  top: 28%;
+  left: 15%;
+  right: 15%;
+  font-size: 35px;
+  font-family: "HelveticaNeue-Light";
+  text-align: center;
+  color: black;
+}
+
+.git-button-prjt3-mobile {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  // cursor: pointer;
+  text-decoration: none;
+  font-family: "HelveticaNeue-Light";
+  font-size: 25px;
+  border: 3px solid #ff3778;
+  padding: 10px 150px 10px 150px;
+  background-color: #ff3778;
+  border-radius: 50px;
+}
+
+.git-button-link-prjt3-mobile {
+  cursor: pointer;
+  text-decoration: none;
+  /*color: #ff3778;*/
+  color: white;
+}
